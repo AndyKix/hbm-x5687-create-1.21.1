@@ -1,0 +1,12 @@
+{
+  "itemGroup.hbm.materials": "HBM — Port Prototype",
+  "item.hbm.ingot_steel": "Steel Ingot",
+  "item.hbm.plate_steel": "Steel Plate",
+  "block.hbm.block_steel": "Steel Block",
+  "item.hbm.ingot_titanium": "Titanium Ingot",
+  "item.hbm.plate_titanium": "Titanium Plate",
+  "block.hbm.block_titanium": "Titanium Block",
+  "item.hbm.ingot_lead": "Lead Ingot",
+  "item.hbm.plate_lead": "Lead Plate",
+  "block.hbm.block_lead": "Lead Block"
+}

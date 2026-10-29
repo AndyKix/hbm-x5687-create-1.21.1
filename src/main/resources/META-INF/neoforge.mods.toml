@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="LGPL-3.0-or-later"
+[[mods]]
+modId="hbm"
+version="${version}"
+displayName="HBM 1.21.1 — Port Prototype"
+authors="Original HBM team; independent port contributors"
+description='Stage 1 of the independent X5687 port. Materials and initial Create recipes only; not the full HBM mod.'
+[[dependencies.hbm]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.265,21.2)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.hbm]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1]"
+ordering="NONE"
+side="BOTH"
+[[dependencies.hbm]]
+modId="create"
+type="required"
+versionRange="[6.0.10,6.1)"
+ordering="AFTER"
+side="BOTH"

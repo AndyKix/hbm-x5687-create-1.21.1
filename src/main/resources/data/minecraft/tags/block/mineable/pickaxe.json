@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "hbm:block_steel",
+    "hbm:block_titanium",
+    "hbm:block_lead"
+  ]
+}

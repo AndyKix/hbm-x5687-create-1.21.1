@@ -1,0 +1,12 @@
+{
+  "itemGroup.hbm.materials": "HBM — Прототип переноса",
+  "item.hbm.ingot_steel": "Стальной слиток",
+  "item.hbm.plate_steel": "Стальная пластина",
+  "block.hbm.block_steel": "Стальной блок",
+  "item.hbm.ingot_titanium": "Титановый слиток",
+  "item.hbm.plate_titanium": "Титановая пластина",
+  "block.hbm.block_titanium": "Титановый блок",
+  "item.hbm.ingot_lead": "Свинцовый слиток",
+  "item.hbm.plate_lead": "Свинцовая пластина",
+  "block.hbm.block_lead": "Свинцовый блок"
+}

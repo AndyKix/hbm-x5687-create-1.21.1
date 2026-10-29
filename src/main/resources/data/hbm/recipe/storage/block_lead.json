@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "III",
+    "III",
+    "III"
+  ],
+  "key": {
+    "I": {
+      "item": "hbm:ingot_lead"
+    }
+  },
+  "result": {
+    "id": "hbm:block_lead"
+  }
+}

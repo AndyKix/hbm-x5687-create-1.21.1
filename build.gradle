@@ -1,0 +1,42 @@
+plugins {
+    id 'java-library'
+    id 'net.neoforged.moddev' version '2.0.148'
+}
+version = mod_version
+group = 'com.hbm.port'
+base { archivesName = 'hbm-1.21.1' }
+java.toolchain.languageVersion = JavaLanguageVersion.of(21)
+neoForge {
+    version = project.neo_version
+    runs {
+        client { client() }
+        server { server(); programArgument '--nogui' }
+        gameTestServer {
+            type = 'gameTestServer'
+            systemProperty 'neoforge.enabledGameTestNamespaces', 'hbm'
+        }
+        configureEach { logLevel = org.slf4j.event.Level.INFO }
+    }
+    mods { hbm { sourceSet(sourceSets.main) } }
+}
+repositories {
+    maven { url = 'https://maven.createmod.net' }
+    maven { url = 'https://maven.ithundxr.dev/snapshots' }
+}
+dependencies {
+    // Create's published POM also lists its optional development integrations.
+    // The full Create JAR already embeds its required runtime libraries.
+    implementation("com.simibubi.create:create-1.21.1:${create_version}") { transitive = false }
+}
+tasks.named('processResources', ProcessResources).configure {
+    inputs.property 'version', project.version
+    filesMatching('META-INF/neoforge.mods.toml') { expand version: project.version }
+}
+tasks.named('jar', Jar).configure {
+    from('LICENSE', 'LICENSE.LESSER', 'NOTICE.md')
+    // GameTests run from development sources, not from the player-facing JAR.
+    exclude 'com/hbm/port/test/**'
+    exclude 'data/hbm/structure/empty.nbt'
+    manifest.attributes('Implementation-Version': project.version)
+}
+tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8' }

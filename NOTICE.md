@@ -1,0 +1,18 @@
+# Attribution
+
+This is an independent, incomplete port of Hbm's Nuclear Tech Mod.
+Original authors: HbMinecraft / The Bobcat and the HBM contributors credited in
+the upstream repository and original mod metadata.
+
+Source: https://github.com/HbmMods/Hbm-s-Nuclear-Tech-GIT
+Tag: `1.0.27_X5687`
+Commit: `23ef33447280d83d44c1f7bcd3853fe59c0ec1fc`
+
+The material textures are copied without modification from that source.
+See `provenance.json` for checksums and `LICENSE` / `LICENSE.LESSER` for the
+upstream license. This derivative is distributed under LGPL-3.0-or-later.
+The original HBM mod and its developers do not endorse this port.
+
+Create is a separate dependency. Its code and binaries are not redistributed in
+this project's mod JAR. Reference version: Create 6.0.10 for Minecraft 1.21.1.
+Source: https://github.com/Creators-of-Create/Create/tree/mc1.21.1-6.0.10
