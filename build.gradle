@@ -30,7 +30,10 @@ dependencies {
 }
 tasks.named('processResources', ProcessResources).configure {
     inputs.property 'version', project.version
-    filesMatching('META-INF/neoforge.mods.toml') { expand version: project.version }
+    inputs.property 'neo_min_version', project.neo_min_version
+    filesMatching('META-INF/neoforge.mods.toml') {
+        expand version: project.version, neo_min_version: project.neo_min_version
+    }
 }
 tasks.named('jar', Jar).configure {
     from('LICENSE', 'LICENSE.LESSER', 'NOTICE.md')

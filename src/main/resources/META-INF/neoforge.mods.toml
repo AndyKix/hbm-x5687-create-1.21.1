@@ -10,7 +10,7 @@ description='Stage 1 of the independent X5687 port. Materials and initial Create
 [[dependencies.hbm]]
 modId="neoforge"
 type="required"
-versionRange="[21.1.265,21.2)"
+versionRange="[${neo_min_version},21.2)"
 ordering="NONE"
 side="BOTH"
 [[dependencies.hbm]]

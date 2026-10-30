@@ -5,9 +5,9 @@
 
 ## Скачать первый этап
 
-[Тестовый JAR и исходники — GitHub Release 0.1.0-stage1](https://github.com/AndyKix/hbm-x5687-create-1.21.1/releases/tag/v0.1.0-stage1)
+[Тестовый JAR и исходники — GitHub Release 0.1.1-stage1](https://github.com/AndyKix/hbm-x5687-create-1.21.1/releases/tag/v0.1.1-stage1)
 
-Для теста нужны Minecraft **1.21.1**, NeoForge **21.1.265**, Create **6.0.10**
+Для теста нужны Minecraft **1.21.1**, NeoForge **21.1.264**, Create **6.0.10**
 и JDK / Java **21**. Использовать отдельный тестовый мир. Полный перенос
 ещё не завершён; состав прототипа перечислен ниже.
 
