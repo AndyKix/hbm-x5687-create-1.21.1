@@ -235,5 +235,5 @@
     "different": 0,
     "not_in_source": 0
   },
-  "target_status": "Confirmed: Minecraft 1.21.1 NeoForge + existing Create. Stage 1 in progress."
+  "target_status": "Independent X5687 port, Minecraft 1.21.1 / NeoForge 21.1.264 / Create 6.0.10. Stage 1 client evidence received; initial stage 2 ore and processing slice passed 13 server GameTests."
 }

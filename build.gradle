@@ -27,6 +27,8 @@ dependencies {
     // Create's published POM also lists its optional development integrations.
     // The full Create JAR already embeds its required runtime libraries.
     implementation("com.simibubi.create:create-1.21.1:${create_version}") { transitive = false }
+    // Create bundles Ponder at runtime; its block-entity interfaces are also needed by javac.
+    compileOnly("net.createmod.ponder:ponder-neoforge:1.0.82+mc1.21.1") { transitive = false }
 }
 tasks.named('processResources', ProcessResources).configure {
     inputs.property 'version', project.version
@@ -40,6 +42,7 @@ tasks.named('jar', Jar).configure {
     // GameTests run from development sources, not from the player-facing JAR.
     exclude 'com/hbm/port/test/**'
     exclude 'data/hbm/structure/empty.nbt'
+    exclude 'data/hbm/structure/ore_test.nbt'
     manifest.attributes('Implementation-Version': project.version)
 }
 tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8' }

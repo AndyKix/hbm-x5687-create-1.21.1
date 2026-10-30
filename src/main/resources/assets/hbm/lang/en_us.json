@@ -8,5 +8,7 @@
   "block.hbm.block_titanium": "Titanium Block",
   "item.hbm.ingot_lead": "Lead Ingot",
   "item.hbm.plate_lead": "Lead Plate",
-  "block.hbm.block_lead": "Lead Block"
+  "block.hbm.block_lead": "Lead Block",
+  "block.hbm.ore_titanium": "Titanium Ore",
+  "block.hbm.ore_lead": "Lead Ore"
 }

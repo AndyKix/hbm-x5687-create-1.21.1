@@ -3,6 +3,8 @@
   "values": [
     "hbm:block_steel",
     "hbm:block_titanium",
-    "hbm:block_lead"
+    "hbm:block_lead",
+    "hbm:ore_titanium",
+    "hbm:ore_lead"
   ]
 }

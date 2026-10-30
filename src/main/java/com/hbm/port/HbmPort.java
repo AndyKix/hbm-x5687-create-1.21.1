@@ -25,6 +25,7 @@ public final class HbmPort {
     public static final DeferredRegister<CreativeModeTab> TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, MOD_ID);
     public static final Map<String, DeferredHolder<Item, Item>> MATERIAL_ITEMS = new LinkedHashMap<>();
     public static final Map<String, DeferredHolder<Block, Block>> MATERIAL_BLOCKS = new LinkedHashMap<>();
+    public static final Map<String, DeferredHolder<Block, Block>> ORES = new LinkedHashMap<>();
 
     static {
         for (String metal : new String[] {"steel", "titanium", "lead"}) {
@@ -35,6 +36,13 @@ public final class HbmPort {
                     .strength(5.0F, 50.0F).sound(SoundType.METAL).requiresCorrectToolForDrops()));
             MATERIAL_BLOCKS.put(id, block);
             MATERIAL_ITEMS.put(id, ITEMS.register(id, () -> new BlockItem(block.get(), new Item.Properties())));
+        }
+        for (String metal : new String[] {"titanium", "lead"}) {
+            String id = "ore_" + metal;
+            DeferredHolder<Block, Block> ore = BLOCKS.register(id, () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(5.0F, 10.0F).sound(SoundType.STONE).requiresCorrectToolForDrops()));
+            ORES.put(id, ore);
+            MATERIAL_ITEMS.put(id, ITEMS.register(id, () -> new BlockItem(ore.get(), new Item.Properties())));
         }
         TABS.register("materials", () -> CreativeModeTab.builder()
                 .title(Component.translatable("itemGroup.hbm.materials"))

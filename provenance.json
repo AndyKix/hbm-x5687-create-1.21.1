@@ -9,6 +9,8 @@
     "src/main/resources/assets/hbm/textures/block/block_titanium.png": "8f59cc0b910943bcc38b8c7d91c6278e9e4b657cbea39049386219cbc82c1bac",
     "src/main/resources/assets/hbm/textures/item/ingot_lead.png": "f60fd73fc9f7343d7e14ebfd302da3f2c0bd8164b543d90ef7bf61cf0330784b",
     "src/main/resources/assets/hbm/textures/item/plate_lead.png": "f87e6fe6d038030a8e184a04c42c2fc56cedc5ff8b7798ac21a7e4b91a27b880",
-    "src/main/resources/assets/hbm/textures/block/block_lead.png": "8fb4cfa5224e8ad5f418a43b14ca8adaa89d1d8bd4249325b92dee453226e91a"
+    "src/main/resources/assets/hbm/textures/block/block_lead.png": "8fb4cfa5224e8ad5f418a43b14ca8adaa89d1d8bd4249325b92dee453226e91a",
+    "src/main/resources/assets/hbm/textures/block/ore_titanium.png": "eb6c9ca9efeb3849cc1cbaece42a5d3d0271e45d95dbd165be9185dccffcbb4c",
+    "src/main/resources/assets/hbm/textures/block/ore_lead.png": "067e42823430c74ac268a20dac20365ad3349e27e0793eaf94c62c64a3b6f7ed"
   }
 }

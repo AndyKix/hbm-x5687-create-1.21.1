@@ -8,5 +8,7 @@
   "block.hbm.block_titanium": "Титановый блок",
   "item.hbm.ingot_lead": "Свинцовый слиток",
   "item.hbm.plate_lead": "Свинцовая пластина",
-  "block.hbm.block_lead": "Свинцовый блок"
+  "block.hbm.block_lead": "Свинцовый блок",
+  "block.hbm.ore_titanium": "Титановая руда",
+  "block.hbm.ore_lead": "Свинцовая руда"
 }

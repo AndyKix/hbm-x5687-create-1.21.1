@@ -1,0 +1,77 @@
+[30окт.2026 20:52:33.958] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserverdev, --gameDir, ., --fml.fmlVersion, 4.0.45, --fml.mcVersion, 1.21.1, --fml.neoForgeVersion, 21.1.264, --fml.neoFormVersion, 20240808.144430]
+[30окт.2026 20:52:33.959] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.13+9-LTS
+[30окт.2026 20:52:33.961] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.13 by Eclipse Adoptium; OS Mac OS X arch aarch64 version 15.6.1
+[30окт.2026 20:52:34.015] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserverdev
+[30окт.2026 20:52:34.044] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:<workspace>/work/gradle-cache/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.16.4+mixin.0.8.7/26d01f0567ab46e9ca0d2ed89d0ecc11aadbd433/sponge-mixin-0.16.4+mixin.0.8.7.jar%2394!/ Service=ModLauncher Env=SERVER
+[30окт.2026 20:52:34.283] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 5 dependencies adding them to mods collection
+[30окт.2026 20:52:34.284] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
+     Mod List:
+		Name Version (Mod Id)
+
+		Create 6.0.10 (create)
+		Flywheel 1.0.6 (flywheel)
+		HBM 1.21.1 — Port Prototype 0.2.0-stage2 (hbm)
+		Minecraft 1.21.1 (minecraft)
+		NeoForge 21.1.264 (neoforge)
+		Ponder 1.0.82+mc1.21.1 (ponder)
+[30окт.2026 20:52:34.652] [main/INFO] [mixin/]: Compatibility level set to JAVA_21
+[30окт.2026 20:52:34.659] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserverdev' with arguments [--gameDir, .]
+[30окт.2026 20:52:34.698] [main/WARN] [mixin/]: Reference map 'ponder.refmap.json' for ponder-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[30окт.2026 20:52:34.887] [main/WARN] [mixin/]: Error loading class: org/jetbrains/annotations/ApiStatus$ScheduledForRemoval (java.lang.ClassNotFoundException: org.jetbrains.annotations.ApiStatus$ScheduledForRemoval)
+[30окт.2026 20:52:34.956] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.5).
+[30окт.2026 20:52:39.731] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[30окт.2026 20:52:39.732] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[30окт.2026 20:52:39.734] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[30окт.2026 20:52:39.735] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[30окт.2026 20:52:39.736] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[30окт.2026 20:52:39.776] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.264, for MC 1.21.1
+[30окт.2026 20:52:39.787] [modloading-worker-0/INFO] [com.simibubi.create.Create/]: Create 6.0.10 initializing! Commit hash: c308d004788fce2998bf41653f6d39412b6fc8ed
+[30окт.2026 20:52:41.654] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[30окт.2026 20:52:41.762] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [create] Starting version check at https://api.modrinth.com/updates/create/forge_updates.json?neoforge=only
+[30окт.2026 20:52:41.795] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:<workspace>/work/stage1-build/moddev/artifacts/neoforge-21.1.264.jar%23125!/assets/.mcassetsroot' uses unexpected schema
+[30окт.2026 20:52:41.796] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:<workspace>/work/stage1-build/moddev/artifacts/neoforge-21.1.264.jar%23125!/data/.mcassetsroot' uses unexpected schema
+[30окт.2026 20:52:41.852] [main/INFO] [com.simibubi.create.Create/]: Created 157 recipes which will be injected into the game
+[30окт.2026 20:52:41.858] [main/INFO] [com.simibubi.create.Create/]: Created 0 tags which will be injected into the game
+[30окт.2026 20:52:41.862] [main/INFO] [net.neoforged.neoforge.gametest.GameTestHooks/]: Enabled Gametest Namespaces: [hbm]
+[30окт.2026 20:52:42.543] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [create] Found status: OUTDATED Current: 6.0.10 Target: 6.0.10+mc1.21.1
+[30окт.2026 20:52:42.809] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 2832 recipes
+[30окт.2026 20:52:43.044] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 2507 advancements
+[30окт.2026 20:52:44.090] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[30окт.2026 20:52:44.123] [worldgen/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[30окт.2026 20:52:44.196] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 105 ms
+[30окт.2026 20:52:44.202] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: Started game test server
+[30окт.2026 20:52:44.222] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[30окт.2026 20:52:44.291] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: 13 tests are now running at position -14606893, -59, 12124505!
+[30окт.2026 20:52:44.608] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestRunner/]: Running test batch 'defaultBatch:0' (12 tests)...
+[30окт.2026 20:52:44.681] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [             ]
+[30окт.2026 20:52:44.776] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+_++_        ]
+[30окт.2026 20:52:44.818] [Server thread/INFO] [com.simibubi.create.Create/]: RecipeTrie of depth 5 with 495 nodes built with 455 variants, 317 ingredients, and 402 recipes
+[30окт.2026 20:52:44.866] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+_++__+____+ ]
+[30окт.2026 20:52:44.873] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+_++__+____+ ]
+[30окт.2026 20:52:44.881] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+_++__+____+ ]
+[30окт.2026 20:52:44.891] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [++++__++___+ ]
+[30окт.2026 20:52:44.898] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [++++__++_+++ ]
+[30окт.2026 20:52:44.902] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [++++__++_+++ ]
+[30окт.2026 20:52:44.907] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [++++__++_+++ ]
+[30окт.2026 20:52:44.912] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [++++__++_+++ ]
+[30окт.2026 20:52:44.918] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [++++__++_+++ ]
+[30окт.2026 20:52:44.973] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestRunner/]: Running test batch 'worldgen:0' (1 tests)...
+[30окт.2026 20:52:45.040] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [++++++++++++ ]
+[30окт.2026 20:52:45.049] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [++++++++++++ ]
+[30окт.2026 20:52:45.056] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [++++++++++++ ]
+[30окт.2026 20:52:45.066] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [++++++++++++ ]
+[30окт.2026 20:52:45.108] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++++++++++++]
+[30окт.2026 20:52:45.116] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: ========= 13 GAME TESTS COMPLETE IN 816.8 ms ======================
+[30окт.2026 20:52:45.119] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: All 13 required tests passed :)
+[30окт.2026 20:52:45.120] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: ====================================================
+[30окт.2026 20:52:45.131] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[30окт.2026 20:52:45.132] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[30окт.2026 20:52:45.132] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[30окт.2026 20:52:45.666] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Test Level]'/minecraft:overworld
+[30окт.2026 20:52:45.779] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Test Level]'/minecraft:the_nether
+[30окт.2026 20:52:45.788] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Test Level]'/minecraft:the_end
+[30окт.2026 20:52:45.806] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[30окт.2026 20:52:45.807] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[30окт.2026 20:52:45.807] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[30окт.2026 20:52:45.807] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[30окт.2026 20:52:45.939] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: Game test server shutting down

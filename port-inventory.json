@@ -2922,7 +2922,7 @@
     },
     {
       "source": "com/hbm/crafting/SmeltingRecipes.java",
-      "status": "not_ported"
+      "status": "partial_titanium_lead_only"
     },
     {
       "source": "com/hbm/crafting/ToolRecipes.java",
@@ -13527,9 +13527,32 @@
       "implemented_ids": [
         "block_steel",
         "block_titanium",
-        "block_lead"
+        "block_lead",
+        "ore_titanium",
+        "ore_lead"
       ],
       "modern_source": "src/main/java/com/hbm/port/HbmPort.java"
+    },
+    {
+      "legacy_source": "com/hbm/crafting/SmeltingRecipes.java",
+      "implemented_ids": [
+        "ore_titanium -> ingot_titanium",
+        "ore_lead -> ingot_lead"
+      ],
+      "modern_source": "src/main/resources/data/hbm/recipe/smelting/"
     }
-  ]
+  ],
+  "worldgen_mapping": {
+    "sources": [
+      "com/hbm/lib/HbmWorldGen.java",
+      "com/hbm/config/WorldConfig.java",
+      "com/hbm/world/generator/DungeonToolbox.java"
+    ],
+    "scope": "Titanium and lead defaults only; modern engine vein geometry; no other ores or legacy structures ported.",
+    "modern_source": "src/main/resources/data/hbm/worldgen/"
+  },
+  "create_integration_mapping": {
+    "source": "com/hbm/inventory/recipes/BlastFurnaceRecipes.java",
+    "scope": "Heated Create mixing integration of the iron ingot + coal -> steel ratio only; HBM blast furnace not implemented."
+  }
 }
