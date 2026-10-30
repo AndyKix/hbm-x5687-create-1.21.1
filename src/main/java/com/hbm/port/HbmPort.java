@@ -8,6 +8,14 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import com.hbm.port.machine.IronFurnaceBlock;
+import com.hbm.port.machine.IronFurnaceBlockEntity;
+import com.hbm.port.machine.IronFurnaceMenu;
+import net.minecraft.world.level.block.entity.BlockEntityType;
+import net.minecraft.world.inventory.MenuType;
+import net.minecraft.world.flag.FeatureFlags;
+import net.neoforged.neoforge.capabilities.Capabilities;
+import net.neoforged.neoforge.capabilities.RegisterCapabilitiesEvent;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.common.Mod;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -26,6 +34,17 @@ public final class HbmPort {
     public static final Map<String, DeferredHolder<Item, Item>> MATERIAL_ITEMS = new LinkedHashMap<>();
     public static final Map<String, DeferredHolder<Block, Block>> MATERIAL_BLOCKS = new LinkedHashMap<>();
     public static final Map<String, DeferredHolder<Block, Block>> ORES = new LinkedHashMap<>();
+    public static final DeferredRegister<BlockEntityType<?>> BLOCK_ENTITIES = DeferredRegister.create(Registries.BLOCK_ENTITY_TYPE, MOD_ID);
+    public static final DeferredRegister<MenuType<?>> MENUS = DeferredRegister.create(Registries.MENU, MOD_ID);
+    public static final DeferredHolder<Block, IronFurnaceBlock> IRON_FURNACE = BLOCKS.register("furnace_iron",
+            () -> new IronFurnaceBlock(BlockBehaviour.Properties.of().strength(5, 10)
+                    .sound(SoundType.METAL).requiresCorrectToolForDrops().noOcclusion()));
+    public static final DeferredHolder<Item, BlockItem> IRON_FURNACE_ITEM = ITEMS.register("furnace_iron",
+            () -> new BlockItem(IRON_FURNACE.get(), new Item.Properties()));
+    public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<IronFurnaceBlockEntity>> IRON_FURNACE_ENTITY =
+            BLOCK_ENTITIES.register("furnace_iron", () -> BlockEntityType.Builder.of(IronFurnaceBlockEntity::new, IRON_FURNACE.get()).build(null));
+    public static final DeferredHolder<MenuType<?>, MenuType<IronFurnaceMenu>> IRON_FURNACE_MENU = MENUS.register("furnace_iron",
+            () -> new MenuType<>(IronFurnaceMenu::new, FeatureFlags.DEFAULT_FLAGS));
 
     static {
         for (String metal : new String[] {"steel", "titanium", "lead"}) {
@@ -47,7 +66,10 @@ public final class HbmPort {
         TABS.register("materials", () -> CreativeModeTab.builder()
                 .title(Component.translatable("itemGroup.hbm.materials"))
                 .icon(() -> MATERIAL_ITEMS.get("ingot_steel").get().getDefaultInstance())
-                .displayItems((parameters, output) -> MATERIAL_ITEMS.values().forEach(item -> output.accept(item.get())))
+                .displayItems((parameters, output) -> {
+                    MATERIAL_ITEMS.values().forEach(item -> output.accept(item.get()));
+                    output.accept(IRON_FURNACE_ITEM.get());
+                })
                 .build());
     }
 
@@ -59,5 +81,15 @@ public final class HbmPort {
         ITEMS.register(bus);
         BLOCKS.register(bus);
         TABS.register(bus);
+        BLOCK_ENTITIES.register(bus);
+        MENUS.register(bus);
+        bus.addListener(HbmPort::capabilities);
+    }
+
+    private static void capabilities(RegisterCapabilitiesEvent event) {
+        event.registerBlock(Capabilities.ItemHandler.BLOCK, (level, pos, state, be, side) -> {
+            IronFurnaceBlockEntity furnace = IronFurnaceBlock.controller(level, pos, state);
+            return furnace == null ? null : furnace.itemHandler(side);
+        }, IRON_FURNACE.get());
     }
 }

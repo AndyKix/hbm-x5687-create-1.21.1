@@ -1,0 +1,108 @@
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/9.2.1/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build
+> Task :createMinecraftArtifacts UP-TO-DATE
+> Task :compileJava
+> Task :processResources UP-TO-DATE
+> Task :classes
+> Task :jarJar NO-SOURCE
+> Task :jar UP-TO-DATE
+> Task :assemble UP-TO-DATE
+> Task :compileTestJava NO-SOURCE
+> Task :processTestResources NO-SOURCE
+> Task :testClasses UP-TO-DATE
+> Task :test NO-SOURCE
+> Task :check UP-TO-DATE
+> Task :build UP-TO-DATE
+> Task :downloadAssets UP-TO-DATE
+> Task :writeGameTestServerLegacyClasspath UP-TO-DATE
+> Task :prepareGameTestServerRun UP-TO-DATE
+
+> Task :runGameTestServer
+WARN StatusConsoleListener Advanced terminal features are not available in this environment
+[23:27:39] [main/INFO] [cp.mo.mo.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserverdev, --gameDir, ., --fml.fmlVersion, 4.0.45, --fml.mcVersion, 1.21.1, --fml.neoForgeVersion, 21.1.264, --fml.neoFormVersion, 20240808.144430]
+[23:27:39] [main/INFO] [cp.mo.mo.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.13+9-LTS
+[23:27:39] [main/INFO] [cp.mo.mo.Launcher/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.13 by Eclipse Adoptium; OS Mac OS X arch aarch64 version 15.6.1
+[23:27:39] [main/INFO] [ne.ne.fm.lo.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserverdev
+[23:27:39] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:<workspace>/work/gradle-cache/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.16.4+mixin.0.8.7/26d01f0567ab46e9ca0d2ed89d0ecc11aadbd433/sponge-mixin-0.16.4+mixin.0.8.7.jar%2394!/ Service=ModLauncher Env=SERVER
+[23:27:39] [main/INFO] [ne.ne.fm.lo.mo.lo.JarInJarDependencyLocator/]: Found 5 dependencies adding them to mods collection
+[23:27:39] [main/INFO] [ne.ne.fm.lo.mo.ModDiscoverer/]:
+     Mod List:
+		Name Version (Mod Id)
+
+		Create 6.0.10 (create)
+		Flywheel 1.0.6 (flywheel)
+		HBM 1.21.1 — Port Prototype 0.3.0-stage3 (hbm)
+		Minecraft 1.21.1 (minecraft)
+		NeoForge 21.1.264 (neoforge)
+		Ponder 1.0.82+mc1.21.1 (ponder)
+[23:27:39] [main/INFO] [mixin/]: Compatibility level set to JAVA_21
+[23:27:39] [main/INFO] [cp.mo.mo.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserverdev' with arguments [--gameDir, .]
+[23:27:39] [main/WARN] [mixin/]: Reference map 'ponder.refmap.json' for ponder-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[23:27:40] [main/WARN] [mixin/]: Error loading class: org/jetbrains/annotations/ApiStatus$ScheduledForRemoval (java.lang.ClassNotFoundException: org.jetbrains.annotations.ApiStatus$ScheduledForRemoval)
+[23:27:40] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.5).
+[23:27:45] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[23:27:45] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[23:27:45] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[23:27:45] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[23:27:45] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[23:27:45] [modloading-worker-0/INFO] [ne.ne.ne.co.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.264, for MC 1.21.1
+[23:27:45] [modloading-worker-0/INFO] [co.si.cr.Create/]: Create 6.0.10 initializing! Commit hash: c308d004788fce2998bf41653f6d39412b6fc8ed
+[23:27:47] [main/INFO] [mojang/YggdrasilAuthenticationService]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[23:27:47] [NeoForge Version Check/INFO] [ne.ne.fm.VersionChecker/]: [create] Starting version check at https://api.modrinth.com/updates/create/forge_updates.json?neoforge=only
+[23:27:47] [main/WARN] [minecraft/VanillaPackResourcesBuilder]: Assets URL 'union:<workspace>/work/stage1-build/moddev/artifacts/neoforge-21.1.264.jar%23125!/assets/.mcassetsroot' uses unexpected schema
+[23:27:47] [main/WARN] [minecraft/VanillaPackResourcesBuilder]: Assets URL 'union:<workspace>/work/stage1-build/moddev/artifacts/neoforge-21.1.264.jar%23125!/data/.mcassetsroot' uses unexpected schema
+[23:27:48] [main/INFO] [co.si.cr.Create/]: Created 157 recipes which will be injected into the game
+[23:27:48] [main/INFO] [co.si.cr.Create/]: Created 0 tags which will be injected into the game
+[23:27:48] [main/INFO] [ne.ne.ne.ga.GameTestHooks/]: Enabled Gametest Namespaces: [hbm]
+[23:27:48] [NeoForge Version Check/INFO] [ne.ne.fm.VersionChecker/]: [create] Found status: OUTDATED Current: 6.0.10 Target: 6.0.10+mc1.21.1
+[23:27:48] [main/INFO] [minecraft/RecipeManager]: Loaded 2833 recipes
+[23:27:49] [main/INFO] [minecraft/AdvancementTree]: Loaded 2507 advancements
+[23:27:50] [Server thread/INFO] [minecraft/MinecraftServer]: Preparing start region for dimension minecraft:overworld
+[23:27:50] [worldgen/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 2%
+[23:27:50] [Server thread/INFO] [minecraft/LoggerChunkProgressListener]: Time elapsed: 124 ms
+[23:27:50] [Server thread/INFO] [minecraft/GameTestServer]: Started game test server
+[23:27:50] [Server thread/INFO] [ne.ne.ne.se.pe.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[23:27:50] [Server thread/INFO] [minecraft/GameTestServer]: 24 tests are now running at position -4121942, -59, 3584757!
+[23:27:50] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'defaultBatch:0' (23 tests)...
+[23:27:50] [Server thread/INFO] [minecraft/GameTestServer]: [                        ]
+[23:27:50] [Server thread/INFO] [minecraft/GameTestServer]: [                        ]
+[23:27:51] [Server thread/INFO] [co.si.cr.Create/]: RecipeTrie of depth 5 with 495 nodes built with 455 variants, 317 ingredients, and 402 recipes
+[23:27:51] [Server thread/INFO] [minecraft/GameTestServer]: [+_++_+_+_+__+++++++___+ ]
+[23:27:51] [Server thread/INFO] [minecraft/GameTestServer]: [+_++_+_+_+__+++++++___+ ]
+[23:27:51] [Server thread/INFO] [minecraft/GameTestServer]: [+_++_+_+_+__+++++++___+ ]
+[23:27:51] [Server thread/INFO] [minecraft/GameTestServer]: [++++_+_+_+__+++++++___+ ]
+[23:27:51] [Server thread/INFO] [minecraft/GameTestServer]: [++++_+_+++_++++++++__++ ]
+[23:27:51] [Server thread/INFO] [minecraft/GameTestServer]: [++++_+_+++_++++++++__++ ]
+[23:27:51] [Server thread/INFO] [minecraft/GameTestServer]: [++++_+_+++_++++++++__++ ]
+[23:27:51] [Server thread/INFO] [minecraft/GameTestServer]: [++++_+_+++_++++++++__++ ]
+[23:27:51] [Server thread/INFO] [minecraft/GameTestServer]: [++++_+_+++_+++++++++_++ ]
+[23:27:51] [Server thread/INFO] [minecraft/GameTestServer]: [++++_+++++_++++++++++++ ]
+[23:27:51] [Server thread/INFO] [minecraft/GameTestServer]: [++++++++++_++++++++++++ ]
+[23:27:51] [Server thread/INFO] [minecraft/GameTestServer]: [++++++++++_++++++++++++ ]
+[23:27:51] [Server thread/INFO] [minecraft/GameTestServer]: [++++++++++_++++++++++++ ]
+[23:27:51] [Server thread/INFO] [minecraft/GameTestServer]: [++++++++++_++++++++++++ ]
+[23:27:51] [Server thread/INFO] [minecraft/GameTestServer]: [++++++++++_++++++++++++ ]
+[23:27:51] [Server thread/INFO] [minecraft/GameTestServer]: [++++++++++_++++++++++++ ]
+[23:27:51] [Server thread/INFO] [minecraft/GameTestServer]: [++++++++++_++++++++++++ ]
+[23:27:51] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'worldgen:0' (1 tests)...
+[23:27:51] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++ ]
+[23:27:51] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++ ]
+[23:27:51] [Server thread/INFO] [minecraft/GameTestServer]: [++++++++++++++++++++++++]
+[23:27:51] [Server thread/INFO] [minecraft/GameTestServer]: ========= 24 GAME TESTS COMPLETE IN 849.1 ms ======================
+[23:27:51] [Server thread/INFO] [minecraft/GameTestServer]: All 24 required tests passed :)
+[23:27:51] [Server thread/INFO] [minecraft/GameTestServer]: ====================================================
+[23:27:51] [Server thread/INFO] [minecraft/MinecraftServer]: Stopping server
+[23:27:51] [Server thread/INFO] [minecraft/MinecraftServer]: Saving players
+[23:27:51] [Server thread/INFO] [minecraft/MinecraftServer]: Saving worlds
+[23:27:51] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[Test Level]'/minecraft:overworld
+[23:27:51] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[Test Level]'/minecraft:the_nether
+[23:27:51] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[Test Level]'/minecraft:the_end
+[23:27:51] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[23:27:51] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[23:27:51] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[23:27:51] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage: All dimensions are saved
+[23:27:51] [Server thread/INFO] [minecraft/GameTestServer]: Game test server shutting down
+
+BUILD SUCCESSFUL in 18s
+8 actionable tasks: 2 executed, 6 up-to-date
+Consider enabling configuration cache to speed up this build: https://docs.gradle.org/9.2.1/userguide/configuration_cache_enabling.html

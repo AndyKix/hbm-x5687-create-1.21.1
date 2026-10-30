@@ -1,0 +1,57 @@
+{
+  "variants": {
+    "part=0,facing=south,lit=false": {
+      "model": "hbm:block/furnace_iron_off",
+      "y": 0
+    },
+    "part=0,facing=south,lit=true": {
+      "model": "hbm:block/furnace_iron_on",
+      "y": 0
+    },
+    "part=0,facing=east,lit=false": {
+      "model": "hbm:block/furnace_iron_off",
+      "y": 270
+    },
+    "part=0,facing=east,lit=true": {
+      "model": "hbm:block/furnace_iron_on",
+      "y": 270
+    },
+    "part=0,facing=north,lit=false": {
+      "model": "hbm:block/furnace_iron_off",
+      "y": 180
+    },
+    "part=0,facing=north,lit=true": {
+      "model": "hbm:block/furnace_iron_on",
+      "y": 180
+    },
+    "part=0,facing=west,lit=false": {
+      "model": "hbm:block/furnace_iron_off",
+      "y": 90
+    },
+    "part=0,facing=west,lit=true": {
+      "model": "hbm:block/furnace_iron_on",
+      "y": 90
+    },
+    "part=1": {
+      "model": "hbm:block/furnace_iron_empty"
+    },
+    "part=2": {
+      "model": "hbm:block/furnace_iron_empty"
+    },
+    "part=3": {
+      "model": "hbm:block/furnace_iron_empty"
+    },
+    "part=4": {
+      "model": "hbm:block/furnace_iron_empty"
+    },
+    "part=5": {
+      "model": "hbm:block/furnace_iron_empty"
+    },
+    "part=6": {
+      "model": "hbm:block/furnace_iron_empty"
+    },
+    "part=7": {
+      "model": "hbm:block/furnace_iron_empty"
+    }
+  }
+}

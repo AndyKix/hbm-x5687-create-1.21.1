@@ -1,0 +1,9 @@
+newmtl main
+Ka 0 0 0
+Kd 1 1 1
+map_Kd hbm:block/furnace_iron
+
+newmtl fire
+Ka 1 1 1
+Kd 1 1 1
+map_Kd hbm:block/furnace_iron

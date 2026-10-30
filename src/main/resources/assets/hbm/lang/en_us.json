@@ -10,5 +10,8 @@
   "item.hbm.plate_lead": "Lead Plate",
   "block.hbm.block_lead": "Lead Block",
   "block.hbm.ore_titanium": "Titanium Ore",
-  "block.hbm.ore_lead": "Lead Ore"
+  "block.hbm.ore_lead": "Lead Ore",
+  "block.hbm.furnace_iron": "Iron Furnace",
+  "container.hbm.furnace_iron": "Iron Furnace",
+  "tooltip.hbm.upgrades_pending": "Upgrades are planned for a later stage"
 }

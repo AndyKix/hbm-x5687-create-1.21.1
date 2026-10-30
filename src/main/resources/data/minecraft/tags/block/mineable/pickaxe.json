@@ -1,10 +1,11 @@
 {
   "replace": false,
   "values": [
+    "hbm:block_lead",
     "hbm:block_steel",
     "hbm:block_titanium",
-    "hbm:block_lead",
-    "hbm:ore_titanium",
-    "hbm:ore_lead"
+    "hbm:furnace_iron",
+    "hbm:ore_lead",
+    "hbm:ore_titanium"
   ]
 }

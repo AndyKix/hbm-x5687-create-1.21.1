@@ -8,7 +8,10 @@ Source: https://github.com/HbmMods/Hbm-s-Nuclear-Tech-GIT
 Tag: `1.0.27_X5687`
 Commit: `23ef33447280d83d44c1f7bcd3853fe59c0ec1fc`
 
-The material textures are copied without modification from that source.
+The material textures, iron-furnace texture and GUI are copied without modification
+from that source. Iron-furnace OBJ vertex/UV/normal data are preserved; group
+selection and material bindings are adapted to the NeoForge OBJ loader.
+See `iron-furnace-provenance.json` and `tools/import_iron_furnace.py`.
 See `provenance.json` for checksums and `LICENSE` / `LICENSE.LESSER` for the
 upstream license. This derivative is distributed under LGPL-3.0-or-later.
 The original HBM mod and its developers do not endorse this port.

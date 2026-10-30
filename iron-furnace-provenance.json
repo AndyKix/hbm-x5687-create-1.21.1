@@ -1,0 +1,9 @@
+{
+  "upstream_commit": "23ef33447280d83d44c1f7bcd3853fe59c0ec1fc",
+  "source_assets_sha256": {
+    "textures/gui/processing/gui_furnace_iron.png": "36f991c6b65eb68462cc896603a56080acda684a604d0bb6f8ba12b6355a6061",
+    "textures/models/machines/furnace_iron.png": "2a5384f33e14425a1a8d98fdce98767ac2d731df1abf268ecf982d80dff4c465",
+    "models/machines/furnace_iron.obj": "eb3e94f2981d9d4b624a9d230ce300c7a045127072b83a0507ee09e0f0b42d3b"
+  },
+  "obj_changes": "Preserve all vertex/UV/normal lines; select Main+On or Main+Off faces; add material bindings."
+}

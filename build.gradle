@@ -9,7 +9,10 @@ java.toolchain.languageVersion = JavaLanguageVersion.of(21)
 neoForge {
     version = project.neo_version
     runs {
-        client { client() }
+        client {
+            client()
+            if (project.hasProperty('clientSmoke')) systemProperty 'hbm.clientSmoke', 'true'
+        }
         server { server(); programArgument '--nogui' }
         gameTestServer {
             type = 'gameTestServer'

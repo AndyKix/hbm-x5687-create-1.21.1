@@ -2,7 +2,7 @@
   "upstream_tag": "1.0.27_X5687",
   "upstream_commit": "23ef33447280d83d44c1f7bcd3853fe59c0ec1fc",
   "target": "Minecraft 1.21.1 / NeoForge",
-  "note": "Materials are re-registered in the new core. Legacy Java files have not been mechanically copied or claimed as ported. Completion requires subsystem-specific validation.",
+  "note": "Independent partial port from official X5687. Materials, two ores, and base iron furnace only; completion requires subsystem-specific validation.",
   "java_sources": [
     {
       "source": "api/hbm/block/IBlowable.java",
@@ -1546,7 +1546,7 @@
     },
     {
       "source": "com/hbm/blocks/machine/FurnaceIron.java",
-      "status": "not_ported"
+      "status": "partial_base_multiblock_no_upgrades_pollution_or_movement"
     },
     {
       "source": "com/hbm/blocks/machine/FurnaceSteel.java",
@@ -4882,7 +4882,7 @@
     },
     {
       "source": "com/hbm/inventory/container/ContainerFurnaceIron.java",
-      "status": "not_ported"
+      "status": "partial_menu_upgrade_slot_disabled"
     },
     {
       "source": "com/hbm/inventory/container/ContainerFurnaceSteel.java",
@@ -5630,7 +5630,7 @@
     },
     {
       "source": "com/hbm/inventory/gui/GUIFurnaceIron.java",
-      "status": "not_ported"
+      "status": "partial_gui_upgrade_slot_disabled"
     },
     {
       "source": "com/hbm/inventory/gui/GUIFurnaceSteel.java",
@@ -10434,7 +10434,7 @@
     },
     {
       "source": "com/hbm/render/tileentity/RenderFurnaceIron.java",
-      "status": "not_ported"
+      "status": "partial_static_obj_on_off_models"
     },
     {
       "source": "com/hbm/render/tileentity/RenderFurnaceSteel.java",
@@ -11706,7 +11706,7 @@
     },
     {
       "source": "com/hbm/tileentity/machine/TileEntityFurnaceIron.java",
-      "status": "not_ported"
+      "status": "partial_base_smelting_inventory_nbt"
     },
     {
       "source": "com/hbm/tileentity/machine/TileEntityFurnaceSteel.java",
@@ -13529,7 +13529,8 @@
         "block_titanium",
         "block_lead",
         "ore_titanium",
-        "ore_lead"
+        "ore_lead",
+        "furnace_iron"
       ],
       "modern_source": "src/main/java/com/hbm/port/HbmPort.java"
     },
@@ -13540,6 +13541,31 @@
         "ore_lead -> ingot_lead"
       ],
       "modern_source": "src/main/resources/data/hbm/recipe/smelting/"
+    },
+    {
+      "legacy_source": "com/hbm/blocks/machine/FurnaceIron.java",
+      "modern_source": "src/main/java/com/hbm/port/machine/IronFurnaceBlock.java",
+      "scope": "partial_base_multiblock_no_upgrades_pollution_or_movement"
+    },
+    {
+      "legacy_source": "com/hbm/inventory/container/ContainerFurnaceIron.java",
+      "modern_source": "src/main/java/com/hbm/port/machine/IronFurnaceMenu.java",
+      "scope": "partial_menu_upgrade_slot_disabled"
+    },
+    {
+      "legacy_source": "com/hbm/inventory/gui/GUIFurnaceIron.java",
+      "modern_source": "src/main/java/com/hbm/port/client/IronFurnaceScreen.java",
+      "scope": "partial_gui_upgrade_slot_disabled"
+    },
+    {
+      "legacy_source": "com/hbm/render/tileentity/RenderFurnaceIron.java",
+      "modern_source": "src/main/resources/assets/hbm/models/block/furnace_iron_on.json",
+      "scope": "partial_static_obj_on_off_models"
+    },
+    {
+      "legacy_source": "com/hbm/tileentity/machine/TileEntityFurnaceIron.java",
+      "modern_source": "src/main/java/com/hbm/port/machine/IronFurnaceBlockEntity.java",
+      "scope": "partial_base_smelting_inventory_nbt"
     }
   ],
   "worldgen_mapping": {

@@ -10,5 +10,8 @@
   "item.hbm.plate_lead": "Свинцовая пластина",
   "block.hbm.block_lead": "Свинцовый блок",
   "block.hbm.ore_titanium": "Титановая руда",
-  "block.hbm.ore_lead": "Свинцовая руда"
+  "block.hbm.ore_lead": "Свинцовая руда",
+  "block.hbm.furnace_iron": "Железная печь",
+  "container.hbm.furnace_iron": "Железная печь",
+  "tooltip.hbm.upgrades_pending": "Улучшения будут добавлены на следующем этапе"
 }
