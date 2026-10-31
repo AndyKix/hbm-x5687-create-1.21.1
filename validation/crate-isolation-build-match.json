@@ -1,0 +1,8 @@
+{
+  "release": "0.4.0-stage4",
+  "jar_sha256": "f7c169aee8f8a4bd53886306deeee638c4b0e9b6752a9db9e390a5e971b85890",
+  "runtime_classes_compared": 22,
+  "resources_compared": 119,
+  "mismatches": [],
+  "note": "New diagnostic tests and run property only. No runtime fix or new mod JAR."
+}
