@@ -1,0 +1,95 @@
+{
+  "parent": "hbm:item/gem_alexandrite_light_0",
+  "overrides": [
+    {
+      "predicate": {
+        "hbm:block_light": 0.06666666666666667
+      },
+      "model": "hbm:item/gem_alexandrite_light_1"
+    },
+    {
+      "predicate": {
+        "hbm:block_light": 0.13333333333333333
+      },
+      "model": "hbm:item/gem_alexandrite_light_2"
+    },
+    {
+      "predicate": {
+        "hbm:block_light": 0.2
+      },
+      "model": "hbm:item/gem_alexandrite_light_3"
+    },
+    {
+      "predicate": {
+        "hbm:block_light": 0.26666666666666666
+      },
+      "model": "hbm:item/gem_alexandrite_light_4"
+    },
+    {
+      "predicate": {
+        "hbm:block_light": 0.3333333333333333
+      },
+      "model": "hbm:item/gem_alexandrite_light_5"
+    },
+    {
+      "predicate": {
+        "hbm:block_light": 0.4
+      },
+      "model": "hbm:item/gem_alexandrite_light_6"
+    },
+    {
+      "predicate": {
+        "hbm:block_light": 0.4666666666666667
+      },
+      "model": "hbm:item/gem_alexandrite_light_7"
+    },
+    {
+      "predicate": {
+        "hbm:block_light": 0.5333333333333333
+      },
+      "model": "hbm:item/gem_alexandrite_light_8"
+    },
+    {
+      "predicate": {
+        "hbm:block_light": 0.6
+      },
+      "model": "hbm:item/gem_alexandrite_light_9"
+    },
+    {
+      "predicate": {
+        "hbm:block_light": 0.6666666666666666
+      },
+      "model": "hbm:item/gem_alexandrite_light_10"
+    },
+    {
+      "predicate": {
+        "hbm:block_light": 0.7333333333333333
+      },
+      "model": "hbm:item/gem_alexandrite_light_11"
+    },
+    {
+      "predicate": {
+        "hbm:block_light": 0.8
+      },
+      "model": "hbm:item/gem_alexandrite_light_12"
+    },
+    {
+      "predicate": {
+        "hbm:block_light": 0.8666666666666667
+      },
+      "model": "hbm:item/gem_alexandrite_light_13"
+    },
+    {
+      "predicate": {
+        "hbm:block_light": 0.9333333333333333
+      },
+      "model": "hbm:item/gem_alexandrite_light_14"
+    },
+    {
+      "predicate": {
+        "hbm:block_light": 1.0
+      },
+      "model": "hbm:item/gem_alexandrite_light_15"
+    }
+  ]
+}

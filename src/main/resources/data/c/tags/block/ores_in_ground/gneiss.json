@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "hbm:ore_gneiss_uranium",
+    "hbm:ore_gneiss_copper",
+    "hbm:ore_gneiss_asbestos",
+    "hbm:ore_gneiss_rare",
+    "hbm:ore_gneiss_lithium",
+    "hbm:ore_gneiss_iron",
+    "hbm:ore_gneiss_gold"
+  ]
+}

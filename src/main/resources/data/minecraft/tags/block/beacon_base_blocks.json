@@ -3,6 +3,22 @@
   "values": [
     "hbm:block_steel",
     "hbm:block_titanium",
-    "hbm:block_lead"
+    "hbm:block_lead",
+    "hbm:block_aluminium",
+    "hbm:block_australium",
+    "hbm:block_beryllium",
+    "hbm:block_cobalt",
+    "hbm:block_coltan",
+    "hbm:block_copper",
+    "hbm:block_fluorite",
+    "hbm:block_lithium",
+    "hbm:block_niter",
+    "hbm:block_red_phosphorus",
+    "hbm:block_sulfur",
+    "hbm:block_thorium",
+    "hbm:block_tungsten",
+    "hbm:block_uranium",
+    "hbm:block_white_phosphorus",
+    "hbm:block_zirconium"
   ]
 }

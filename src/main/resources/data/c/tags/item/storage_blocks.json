@@ -3,6 +3,23 @@
   "values": [
     "#c:storage_blocks/steel",
     "#c:storage_blocks/titanium",
-    "#c:storage_blocks/lead"
+    "#c:storage_blocks/lead",
+    "#c:storage_blocks/aluminium",
+    "#c:storage_blocks/asbestos",
+    "#c:storage_blocks/australium",
+    "#c:storage_blocks/beryllium",
+    "#c:storage_blocks/cobalt",
+    "#c:storage_blocks/coltan",
+    "#c:storage_blocks/copper",
+    "#c:storage_blocks/fluorite",
+    "#c:storage_blocks/lithium",
+    "#c:storage_blocks/saltpeter",
+    "#c:storage_blocks/red_phosphorus",
+    "#c:storage_blocks/sulfur",
+    "#c:storage_blocks/thorium",
+    "#c:storage_blocks/tungsten",
+    "#c:storage_blocks/uranium",
+    "#c:storage_blocks/white_phosphorus",
+    "#c:storage_blocks/zirconium"
   ]
 }

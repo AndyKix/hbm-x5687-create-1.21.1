@@ -3,6 +3,21 @@
   "values": [
     "#c:ingots/steel",
     "#c:ingots/titanium",
-    "#c:ingots/lead"
+    "#c:ingots/lead",
+    "#c:ingots/white_phosphorus",
+    "#c:ingots/asbestos",
+    "#c:ingots/aluminium",
+    "#c:ingots/australium",
+    "#c:ingots/beryllium",
+    "#c:ingots/cobalt",
+    "#c:ingots/copper",
+    "#c:ingots/thorium",
+    "#c:ingots/tungsten",
+    "#c:ingots/uranium",
+    "#c:ingots/zirconium",
+    "#c:ingots/lithium",
+    "#c:ingots/coltan",
+    "#c:ingots/rare_earth",
+    "#c:ingots/malachite"
   ]
 }

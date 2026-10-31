@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "hbm:ore_copper",
+    "hbm:ore_gneiss_copper"
+  ]
+}

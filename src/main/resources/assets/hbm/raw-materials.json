@@ -1,0 +1,1470 @@
+{
+  "upstream_commit": "23ef33447280d83d44c1f7bcd3853fe59c0ec1fc",
+  "blocks": {
+    "ore_uranium": {
+      "hardness": 5,
+      "resistance": 10
+    },
+    "ore_thorium": {
+      "hardness": 5,
+      "resistance": 10
+    },
+    "ore_titanium": {
+      "hardness": 5,
+      "resistance": 10
+    },
+    "ore_sulfur": {
+      "hardness": 5,
+      "resistance": 10,
+      "drop": "sulfur",
+      "min_drop": 2,
+      "max_drop": 4,
+      "fortune": true
+    },
+    "ore_aluminium": {
+      "hardness": 5,
+      "resistance": 10
+    },
+    "ore_copper": {
+      "hardness": 5,
+      "resistance": 10
+    },
+    "ore_fluorite": {
+      "hardness": 5,
+      "resistance": 10,
+      "drop": "fluorite",
+      "min_drop": 2,
+      "max_drop": 4,
+      "fortune": true
+    },
+    "ore_niter": {
+      "hardness": 5,
+      "resistance": 10,
+      "drop": "niter",
+      "min_drop": 2,
+      "max_drop": 4,
+      "fortune": true
+    },
+    "ore_tungsten": {
+      "hardness": 5,
+      "resistance": 10
+    },
+    "ore_lead": {
+      "hardness": 5,
+      "resistance": 10
+    },
+    "ore_beryllium": {
+      "hardness": 5,
+      "resistance": 15
+    },
+    "ore_rare": {
+      "hardness": 5,
+      "resistance": 10,
+      "drop": "chunk_ore_rare",
+      "fortune": true
+    },
+    "ore_lignite": {
+      "hardness": 5,
+      "resistance": 15,
+      "drop": "lignite",
+      "fortune": true
+    },
+    "ore_asbestos": {
+      "hardness": 5,
+      "resistance": 15,
+      "drop": "ingot_asbestos",
+      "fortune": true
+    },
+    "ore_cinnebar": {
+      "hardness": 5,
+      "resistance": 10,
+      "drop": "cinnebar",
+      "fortune": true
+    },
+    "ore_cobalt": {
+      "hardness": 5,
+      "resistance": 10,
+      "drop": "fragment_cobalt",
+      "min_drop": 4,
+      "max_drop": 9,
+      "fortune": true
+    },
+    "cluster_iron": {
+      "hardness": 5,
+      "resistance": 15,
+      "drop": "crystal_iron"
+    },
+    "cluster_titanium": {
+      "hardness": 5,
+      "resistance": 15,
+      "drop": "crystal_titanium"
+    },
+    "cluster_aluminium": {
+      "hardness": 5,
+      "resistance": 15,
+      "drop": "crystal_aluminium"
+    },
+    "cluster_copper": {
+      "hardness": 5,
+      "resistance": 15,
+      "drop": "crystal_copper"
+    },
+    "ore_gneiss_iron": {
+      "hardness": 1.5,
+      "resistance": 10
+    },
+    "ore_gneiss_gold": {
+      "hardness": 1.5,
+      "resistance": 10
+    },
+    "ore_gneiss_uranium": {
+      "hardness": 1.5,
+      "resistance": 10
+    },
+    "ore_gneiss_copper": {
+      "hardness": 1.5,
+      "resistance": 10
+    },
+    "ore_gneiss_asbestos": {
+      "hardness": 1.5,
+      "resistance": 10,
+      "drop": "ingot_asbestos",
+      "fortune": true
+    },
+    "ore_gneiss_lithium": {
+      "hardness": 1.5,
+      "resistance": 10
+    },
+    "ore_gneiss_rare": {
+      "hardness": 1.5,
+      "resistance": 10,
+      "drop": "chunk_ore_rare",
+      "fortune": true
+    },
+    "ore_nether_uranium": {
+      "hardness": 0.4,
+      "resistance": 10,
+      "light": 0,
+      "burning": false
+    },
+    "ore_nether_tungsten": {
+      "hardness": 0.4,
+      "resistance": 10,
+      "light": 0,
+      "burning": false
+    },
+    "ore_nether_sulfur": {
+      "hardness": 0.4,
+      "resistance": 10,
+      "light": 0,
+      "burning": false,
+      "drop": "sulfur",
+      "min_drop": 2,
+      "max_drop": 4,
+      "fortune": true
+    },
+    "ore_nether_fire": {
+      "hardness": 0.4,
+      "resistance": 10,
+      "light": 0,
+      "burning": false,
+      "drop": "powder_fire",
+      "phosphorus_chance": 0.1,
+      "fortune": true
+    },
+    "ore_nether_coal": {
+      "hardness": 0.4,
+      "resistance": 10,
+      "light": 10,
+      "burning": true,
+      "drop": "coal_infernal"
+    },
+    "ore_nether_cobalt": {
+      "hardness": 0.4,
+      "resistance": 10,
+      "light": 0,
+      "burning": false,
+      "drop": "fragment_cobalt",
+      "min_drop": 5,
+      "max_drop": 12,
+      "fortune": true
+    },
+    "ore_tikite": {
+      "hardness": 5,
+      "resistance": 10,
+      "dragon_proof": true
+    },
+    "ore_coltan": {
+      "hardness": 15,
+      "resistance": 10,
+      "drop": "fragment_coltan",
+      "fortune": true
+    },
+    "ore_australium": {
+      "hardness": 5,
+      "resistance": 10
+    },
+    "ore_alexandrite": {
+      "hardness": -1,
+      "resistance": 10,
+      "depth": true,
+      "drop": "gem_alexandrite",
+      "fortune": true
+    },
+    "cluster_depth_iron": {
+      "hardness": -1,
+      "resistance": 10,
+      "depth": true,
+      "drop": "crystal_iron",
+      "fortune": true
+    },
+    "cluster_depth_titanium": {
+      "hardness": -1,
+      "resistance": 10,
+      "depth": true,
+      "drop": "crystal_titanium",
+      "fortune": true
+    },
+    "cluster_depth_tungsten": {
+      "hardness": -1,
+      "resistance": 10,
+      "depth": true,
+      "drop": "crystal_tungsten",
+      "fortune": true
+    },
+    "ore_depth_cinnebar": {
+      "hardness": -1,
+      "resistance": 10,
+      "depth": true,
+      "drop": "cinnebar",
+      "fortune": true,
+      "min_drop": 2,
+      "max_drop": 4
+    },
+    "ore_depth_zirconium": {
+      "hardness": -1,
+      "resistance": 10,
+      "depth": true,
+      "drop": "nugget_zirconium",
+      "fortune": true,
+      "min_drop": 2,
+      "max_drop": 3
+    },
+    "ore_depth_borax": {
+      "hardness": -1,
+      "resistance": 10,
+      "depth": true,
+      "drop": "powder_borax",
+      "fortune": true
+    },
+    "ore_depth_nether_neodymium": {
+      "hardness": -1,
+      "resistance": 10,
+      "depth": true,
+      "drop": "fragment_neodymium",
+      "fortune": true,
+      "min_drop": 2,
+      "max_drop": 3
+    },
+    "stone_gneiss": {
+      "hardness": 1.5,
+      "resistance": 10,
+      "texture": "stone_gneiss_var",
+      "resource": true
+    },
+    "stone_depth": {
+      "hardness": -1,
+      "resistance": 10,
+      "depth": true,
+      "resource": true
+    },
+    "stone_depth_nether": {
+      "hardness": -1,
+      "resistance": 10,
+      "depth": true,
+      "resource": true
+    },
+    "stone_resource_sulfur": {
+      "hardness": 5,
+      "resistance": 10,
+      "resource": true,
+      "legacy": "stone_resource",
+      "variant": "sulfur"
+    },
+    "stone_resource_asbestos": {
+      "hardness": 5,
+      "resistance": 10,
+      "resource": true,
+      "legacy": "stone_resource",
+      "variant": "asbestos"
+    },
+    "stone_resource_hematite": {
+      "hardness": 5,
+      "resistance": 10,
+      "resource": true,
+      "legacy": "stone_resource",
+      "variant": "hematite"
+    },
+    "stone_resource_malachite": {
+      "hardness": 5,
+      "resistance": 10,
+      "resource": true,
+      "legacy": "stone_resource",
+      "variant": "malachite",
+      "drop": "chunk_ore_malachite",
+      "malachite": true
+    },
+    "stone_resource_limestone": {
+      "hardness": 5,
+      "resistance": 10,
+      "resource": true,
+      "legacy": "stone_resource",
+      "variant": "limestone"
+    },
+    "stone_resource_bauxite": {
+      "hardness": 5,
+      "resistance": 10,
+      "resource": true,
+      "legacy": "stone_resource",
+      "variant": "bauxite"
+    },
+    "stalagmite_asbestos": {
+      "hardness": 0.5,
+      "resistance": 2,
+      "resource": true,
+      "decoration": true,
+      "legacy": "stalagmite",
+      "variant": "asbestos",
+      "drop": "powder_asbestos"
+    },
+    "stalactite_asbestos": {
+      "hardness": 0.5,
+      "resistance": 2,
+      "resource": true,
+      "decoration": true,
+      "legacy": "stalactite",
+      "variant": "asbestos",
+      "drop": "powder_asbestos"
+    },
+    "block_aluminium": {
+      "hardness": 5.0,
+      "resistance": 20.0,
+      "resource": true,
+      "storage": true,
+      "beacon": true
+    },
+    "block_asbestos": {
+      "hardness": 5.0,
+      "resistance": 15.0,
+      "resource": true,
+      "storage": true,
+      "beacon": false
+    },
+    "block_australium": {
+      "hardness": 5.0,
+      "resistance": 10.0,
+      "resource": true,
+      "storage": true,
+      "beacon": true
+    },
+    "block_beryllium": {
+      "hardness": 5.0,
+      "resistance": 20.0,
+      "resource": true,
+      "storage": true,
+      "beacon": true
+    },
+    "block_cobalt": {
+      "hardness": 5.0,
+      "resistance": 50.0,
+      "resource": true,
+      "storage": true,
+      "beacon": true
+    },
+    "block_coltan": {
+      "hardness": 5.0,
+      "resistance": 50.0,
+      "resource": true,
+      "storage": true,
+      "beacon": true
+    },
+    "block_copper": {
+      "hardness": 5.0,
+      "resistance": 20.0,
+      "resource": true,
+      "storage": true,
+      "beacon": true
+    },
+    "block_fluorite": {
+      "hardness": 5.0,
+      "resistance": 10.0,
+      "resource": true,
+      "storage": true,
+      "beacon": true
+    },
+    "block_lead": {
+      "hardness": 5,
+      "resistance": 10,
+      "resource": true,
+      "storage": true
+    },
+    "block_lithium": {
+      "hardness": 5.0,
+      "resistance": 10.0,
+      "resource": true,
+      "storage": true,
+      "beacon": true
+    },
+    "block_niter": {
+      "hardness": 5.0,
+      "resistance": 10.0,
+      "resource": true,
+      "storage": true,
+      "beacon": true
+    },
+    "block_red_phosphorus": {
+      "hardness": 5.0,
+      "resistance": 10.0,
+      "resource": true,
+      "storage": true,
+      "beacon": true
+    },
+    "block_steel": {
+      "hardness": 5,
+      "resistance": 10,
+      "resource": true,
+      "storage": true
+    },
+    "block_sulfur": {
+      "hardness": 5.0,
+      "resistance": 10.0,
+      "resource": true,
+      "storage": true,
+      "beacon": true
+    },
+    "block_thorium": {
+      "hardness": 5.0,
+      "resistance": 50.0,
+      "resource": true,
+      "storage": true,
+      "beacon": true
+    },
+    "block_titanium": {
+      "hardness": 5,
+      "resistance": 10,
+      "resource": true,
+      "storage": true
+    },
+    "block_tungsten": {
+      "hardness": 5.0,
+      "resistance": 20.0,
+      "resource": true,
+      "storage": true,
+      "beacon": true
+    },
+    "block_uranium": {
+      "hardness": 5.0,
+      "resistance": 50.0,
+      "resource": true,
+      "storage": true,
+      "beacon": true
+    },
+    "block_white_phosphorus": {
+      "hardness": 5.0,
+      "resistance": 10.0,
+      "resource": true,
+      "storage": true,
+      "beacon": true
+    },
+    "block_zirconium": {
+      "hardness": 5.0,
+      "resistance": 30.0,
+      "resource": true,
+      "storage": true,
+      "beacon": true
+    }
+  },
+  "items": {
+    "ingot_phosphorus": {},
+    "sulfur": {},
+    "fluorite": {},
+    "niter": {},
+    "chunk_ore_rare": {},
+    "lignite": {},
+    "ingot_asbestos": {},
+    "cinnebar": {},
+    "fragment_cobalt": {},
+    "crystal_iron": {},
+    "crystal_titanium": {},
+    "crystal_aluminium": {},
+    "crystal_copper": {},
+    "powder_fire": {},
+    "coal_infernal": {},
+    "fragment_coltan": {},
+    "gem_alexandrite": {},
+    "crystal_tungsten": {},
+    "nugget_zirconium": {},
+    "powder_borax": {},
+    "fragment_neodymium": {},
+    "chunk_ore_malachite": {},
+    "powder_asbestos": {},
+    "billet_australium": {},
+    "billet_beryllium": {},
+    "billet_cobalt": {},
+    "billet_th232": {},
+    "billet_uranium": {},
+    "billet_zirconium": {},
+    "chunk_ore_cryolite": {},
+    "ingot_aluminium": {},
+    "ingot_australium": {},
+    "ingot_beryllium": {},
+    "ingot_cobalt": {},
+    "ingot_copper": {},
+    "ingot_lead": {},
+    "ingot_steel": {},
+    "ingot_th232": {},
+    "ingot_titanium": {},
+    "ingot_tungsten": {},
+    "ingot_uranium": {},
+    "ingot_zirconium": {},
+    "lithium": {},
+    "nugget_australium": {},
+    "nugget_beryllium": {},
+    "nugget_cobalt": {},
+    "nugget_lead": {},
+    "nugget_th232": {},
+    "nugget_uranium": {},
+    "plate_aluminium": {}
+  },
+  "veins": [
+    {
+      "id": "ore_uranium",
+      "count": 6,
+      "size": 5,
+      "min_y": 5,
+      "max_y": 24,
+      "target": "minecraft:stone",
+      "dimension": "overworld",
+      "rarity": null
+    },
+    {
+      "id": "ore_thorium",
+      "count": 7,
+      "size": 5,
+      "min_y": 5,
+      "max_y": 29,
+      "target": "minecraft:stone",
+      "dimension": "overworld",
+      "rarity": null
+    },
+    {
+      "id": "ore_titanium",
+      "count": 8,
+      "size": 6,
+      "min_y": 5,
+      "max_y": 34,
+      "target": "minecraft:stone",
+      "dimension": "overworld",
+      "rarity": null
+    },
+    {
+      "id": "ore_sulfur",
+      "count": 5,
+      "size": 8,
+      "min_y": 5,
+      "max_y": 34,
+      "target": "minecraft:stone",
+      "dimension": "overworld",
+      "rarity": null
+    },
+    {
+      "id": "ore_aluminium",
+      "count": 7,
+      "size": 6,
+      "min_y": 5,
+      "max_y": 44,
+      "target": "minecraft:stone",
+      "dimension": "overworld",
+      "rarity": null
+    },
+    {
+      "id": "ore_copper",
+      "count": 12,
+      "size": 6,
+      "min_y": 5,
+      "max_y": 49,
+      "target": "minecraft:stone",
+      "dimension": "overworld",
+      "rarity": null
+    },
+    {
+      "id": "ore_fluorite",
+      "count": 6,
+      "size": 4,
+      "min_y": 5,
+      "max_y": 49,
+      "target": "minecraft:stone",
+      "dimension": "overworld",
+      "rarity": null
+    },
+    {
+      "id": "ore_niter",
+      "count": 6,
+      "size": 6,
+      "min_y": 5,
+      "max_y": 34,
+      "target": "minecraft:stone",
+      "dimension": "overworld",
+      "rarity": null
+    },
+    {
+      "id": "ore_tungsten",
+      "count": 10,
+      "size": 8,
+      "min_y": 5,
+      "max_y": 34,
+      "target": "minecraft:stone",
+      "dimension": "overworld",
+      "rarity": null
+    },
+    {
+      "id": "ore_lead",
+      "count": 6,
+      "size": 9,
+      "min_y": 5,
+      "max_y": 34,
+      "target": "minecraft:stone",
+      "dimension": "overworld",
+      "rarity": null
+    },
+    {
+      "id": "ore_beryllium",
+      "count": 6,
+      "size": 4,
+      "min_y": 5,
+      "max_y": 34,
+      "target": "minecraft:stone",
+      "dimension": "overworld",
+      "rarity": null
+    },
+    {
+      "id": "ore_rare",
+      "count": 6,
+      "size": 5,
+      "min_y": 5,
+      "max_y": 24,
+      "target": "minecraft:stone",
+      "dimension": "overworld",
+      "rarity": null
+    },
+    {
+      "id": "ore_lignite",
+      "count": 2,
+      "size": 24,
+      "min_y": 35,
+      "max_y": 59,
+      "target": "minecraft:stone",
+      "dimension": "overworld",
+      "rarity": null
+    },
+    {
+      "id": "ore_asbestos",
+      "count": 2,
+      "size": 4,
+      "min_y": 16,
+      "max_y": 31,
+      "target": "minecraft:stone",
+      "dimension": "overworld",
+      "rarity": null
+    },
+    {
+      "id": "ore_cinnebar",
+      "count": 1,
+      "size": 4,
+      "min_y": 8,
+      "max_y": 23,
+      "target": "minecraft:stone",
+      "dimension": "overworld",
+      "rarity": null
+    },
+    {
+      "id": "ore_cobalt",
+      "count": 2,
+      "size": 4,
+      "min_y": 4,
+      "max_y": 11,
+      "target": "minecraft:stone",
+      "dimension": "overworld",
+      "rarity": null
+    },
+    {
+      "id": "cluster_iron",
+      "count": 4,
+      "size": 6,
+      "min_y": 15,
+      "max_y": 59,
+      "target": "minecraft:stone",
+      "dimension": "overworld",
+      "rarity": null
+    },
+    {
+      "id": "cluster_titanium",
+      "count": 2,
+      "size": 6,
+      "min_y": 15,
+      "max_y": 44,
+      "target": "minecraft:stone",
+      "dimension": "overworld",
+      "rarity": null
+    },
+    {
+      "id": "cluster_aluminium",
+      "count": 3,
+      "size": 6,
+      "min_y": 15,
+      "max_y": 49,
+      "target": "minecraft:stone",
+      "dimension": "overworld",
+      "rarity": null
+    },
+    {
+      "id": "cluster_copper",
+      "count": 4,
+      "size": 6,
+      "min_y": 15,
+      "max_y": 34,
+      "target": "minecraft:stone",
+      "dimension": "overworld",
+      "rarity": null
+    },
+    {
+      "id": "ore_gneiss_iron",
+      "count": 25,
+      "size": 6,
+      "min_y": 30,
+      "max_y": 39,
+      "target": "hbm:stone_gneiss",
+      "dimension": "overworld",
+      "rarity": null
+    },
+    {
+      "id": "ore_gneiss_gold",
+      "count": 10,
+      "size": 6,
+      "min_y": 30,
+      "max_y": 39,
+      "target": "hbm:stone_gneiss",
+      "dimension": "overworld",
+      "rarity": null
+    },
+    {
+      "id": "ore_gneiss_uranium",
+      "count": 18,
+      "size": 6,
+      "min_y": 30,
+      "max_y": 39,
+      "target": "hbm:stone_gneiss",
+      "dimension": "overworld",
+      "rarity": null
+    },
+    {
+      "id": "ore_gneiss_copper",
+      "count": 36,
+      "size": 6,
+      "min_y": 30,
+      "max_y": 39,
+      "target": "hbm:stone_gneiss",
+      "dimension": "overworld",
+      "rarity": null
+    },
+    {
+      "id": "ore_gneiss_asbestos",
+      "count": 6,
+      "size": 6,
+      "min_y": 30,
+      "max_y": 39,
+      "target": "hbm:stone_gneiss",
+      "dimension": "overworld",
+      "rarity": null
+    },
+    {
+      "id": "ore_gneiss_lithium",
+      "count": 6,
+      "size": 6,
+      "min_y": 30,
+      "max_y": 39,
+      "target": "hbm:stone_gneiss",
+      "dimension": "overworld",
+      "rarity": null
+    },
+    {
+      "id": "ore_gneiss_rare",
+      "count": 6,
+      "size": 6,
+      "min_y": 30,
+      "max_y": 39,
+      "target": "hbm:stone_gneiss",
+      "dimension": "overworld",
+      "rarity": null
+    },
+    {
+      "id": "ore_nether_uranium",
+      "count": 8,
+      "size": 6,
+      "min_y": 0,
+      "max_y": 126,
+      "target": "minecraft:netherrack",
+      "dimension": "nether",
+      "rarity": null
+    },
+    {
+      "id": "ore_nether_tungsten",
+      "count": 10,
+      "size": 10,
+      "min_y": 0,
+      "max_y": 126,
+      "target": "minecraft:netherrack",
+      "dimension": "nether",
+      "rarity": null
+    },
+    {
+      "id": "ore_nether_sulfur",
+      "count": 26,
+      "size": 12,
+      "min_y": 0,
+      "max_y": 126,
+      "target": "minecraft:netherrack",
+      "dimension": "nether",
+      "rarity": null
+    },
+    {
+      "id": "ore_nether_fire",
+      "count": 24,
+      "size": 6,
+      "min_y": 0,
+      "max_y": 126,
+      "target": "minecraft:netherrack",
+      "dimension": "nether",
+      "rarity": null
+    },
+    {
+      "id": "ore_nether_coal",
+      "count": 8,
+      "size": 32,
+      "min_y": 16,
+      "max_y": 111,
+      "target": "minecraft:netherrack",
+      "dimension": "nether",
+      "rarity": null
+    },
+    {
+      "id": "ore_nether_cobalt",
+      "count": 2,
+      "size": 6,
+      "min_y": 100,
+      "max_y": 125,
+      "target": "minecraft:netherrack",
+      "dimension": "nether",
+      "rarity": null
+    },
+    {
+      "id": "ore_tikite",
+      "count": 8,
+      "size": 6,
+      "min_y": 0,
+      "max_y": 126,
+      "target": "minecraft:end_stone",
+      "dimension": "end",
+      "rarity": null
+    },
+    {
+      "id": "ore_alexandrite",
+      "count": 1,
+      "size": 3,
+      "min_y": 10,
+      "max_y": 14,
+      "target": "minecraft:stone",
+      "dimension": "overworld",
+      "rarity": 100
+    },
+    {
+      "id": "stone_resource_limestone",
+      "count": 1,
+      "size": 16,
+      "min_y": 25,
+      "max_y": 54,
+      "target": "minecraft:stone",
+      "dimension": "overworld",
+      "rarity": null
+    }
+  ],
+  "fuel_ticks": {
+    "lignite": 1200,
+    "coal_infernal": 4800,
+    "powder_fire": 6400
+  },
+  "direct_recipes": {
+    "block_aluminium_from_ingot_aluminium": {
+      "inputs": [
+        "hbm:ingot_aluminium"
+      ],
+      "output": "hbm:block_aluminium",
+      "source": "crafting/MineralRecipes.java:39"
+    },
+    "ingot_aluminium_from_block_aluminium": {
+      "inputs": [
+        "hbm:block_aluminium"
+      ],
+      "output": "hbm:ingot_aluminium",
+      "source": "crafting/MineralRecipes.java:39"
+    },
+    "block_coltan_from_fragment_coltan": {
+      "inputs": [
+        "hbm:fragment_coltan"
+      ],
+      "output": "hbm:block_coltan",
+      "source": "crafting/MineralRecipes.java:47"
+    },
+    "fragment_coltan_from_block_coltan": {
+      "inputs": [
+        "hbm:block_coltan"
+      ],
+      "output": "hbm:fragment_coltan",
+      "source": "crafting/MineralRecipes.java:47"
+    },
+    "ingot_zirconium_from_nugget_zirconium": {
+      "inputs": [
+        "hbm:nugget_zirconium"
+      ],
+      "output": "hbm:ingot_zirconium",
+      "source": "crafting/MineralRecipes.java:67"
+    },
+    "nugget_zirconium_from_ingot_zirconium": {
+      "inputs": [
+        "hbm:ingot_zirconium"
+      ],
+      "output": "hbm:nugget_zirconium",
+      "source": "crafting/MineralRecipes.java:67"
+    },
+    "block_zirconium_from_ingot_zirconium": {
+      "inputs": [
+        "hbm:ingot_zirconium"
+      ],
+      "output": "hbm:block_zirconium",
+      "source": "crafting/MineralRecipes.java:67"
+    },
+    "ingot_zirconium_from_block_zirconium": {
+      "inputs": [
+        "hbm:block_zirconium"
+      ],
+      "output": "hbm:ingot_zirconium",
+      "source": "crafting/MineralRecipes.java:67"
+    },
+    "billet_cobalt_from_nugget_cobalt": {
+      "inputs": [
+        "hbm:nugget_cobalt"
+      ],
+      "output": "hbm:billet_cobalt",
+      "source": "crafting/MineralRecipes.java:112"
+    },
+    "nugget_cobalt_from_billet_cobalt": {
+      "inputs": [
+        "hbm:billet_cobalt"
+      ],
+      "output": "hbm:nugget_cobalt",
+      "source": "crafting/MineralRecipes.java:112"
+    },
+    "billet_cobalt_from_ingot_cobalt": {
+      "inputs": [
+        "hbm:ingot_cobalt"
+      ],
+      "output": "hbm:billet_cobalt",
+      "source": "crafting/MineralRecipes.java:112"
+    },
+    "ingot_cobalt_from_billet_cobalt_x3": {
+      "inputs": [
+        "hbm:billet_cobalt",
+        "hbm:billet_cobalt",
+        "hbm:billet_cobalt"
+      ],
+      "output": "hbm:ingot_cobalt",
+      "source": "crafting/MineralRecipes.java:112"
+    },
+    "billet_uranium_from_nugget_uranium": {
+      "inputs": [
+        "hbm:nugget_uranium"
+      ],
+      "output": "hbm:billet_uranium",
+      "source": "crafting/MineralRecipes.java:115"
+    },
+    "nugget_uranium_from_billet_uranium": {
+      "inputs": [
+        "hbm:billet_uranium"
+      ],
+      "output": "hbm:nugget_uranium",
+      "source": "crafting/MineralRecipes.java:115"
+    },
+    "billet_uranium_from_ingot_uranium": {
+      "inputs": [
+        "hbm:ingot_uranium"
+      ],
+      "output": "hbm:billet_uranium",
+      "source": "crafting/MineralRecipes.java:115"
+    },
+    "ingot_uranium_from_billet_uranium_x3": {
+      "inputs": [
+        "hbm:billet_uranium",
+        "hbm:billet_uranium",
+        "hbm:billet_uranium"
+      ],
+      "output": "hbm:ingot_uranium",
+      "source": "crafting/MineralRecipes.java:115"
+    },
+    "billet_th232_from_nugget_th232": {
+      "inputs": [
+        "hbm:nugget_th232"
+      ],
+      "output": "hbm:billet_th232",
+      "source": "crafting/MineralRecipes.java:119"
+    },
+    "nugget_th232_from_billet_th232": {
+      "inputs": [
+        "hbm:billet_th232"
+      ],
+      "output": "hbm:nugget_th232",
+      "source": "crafting/MineralRecipes.java:119"
+    },
+    "billet_th232_from_ingot_th232": {
+      "inputs": [
+        "hbm:ingot_th232"
+      ],
+      "output": "hbm:billet_th232",
+      "source": "crafting/MineralRecipes.java:119"
+    },
+    "ingot_th232_from_billet_th232_x3": {
+      "inputs": [
+        "hbm:billet_th232",
+        "hbm:billet_th232",
+        "hbm:billet_th232"
+      ],
+      "output": "hbm:ingot_th232",
+      "source": "crafting/MineralRecipes.java:119"
+    },
+    "billet_australium_from_nugget_australium": {
+      "inputs": [
+        "hbm:nugget_australium"
+      ],
+      "output": "hbm:billet_australium",
+      "source": "crafting/MineralRecipes.java:147"
+    },
+    "nugget_australium_from_billet_australium": {
+      "inputs": [
+        "hbm:billet_australium"
+      ],
+      "output": "hbm:nugget_australium",
+      "source": "crafting/MineralRecipes.java:147"
+    },
+    "billet_australium_from_ingot_australium": {
+      "inputs": [
+        "hbm:ingot_australium"
+      ],
+      "output": "hbm:billet_australium",
+      "source": "crafting/MineralRecipes.java:147"
+    },
+    "ingot_australium_from_billet_australium_x3": {
+      "inputs": [
+        "hbm:billet_australium",
+        "hbm:billet_australium",
+        "hbm:billet_australium"
+      ],
+      "output": "hbm:ingot_australium",
+      "source": "crafting/MineralRecipes.java:147"
+    },
+    "billet_beryllium_from_nugget_beryllium": {
+      "inputs": [
+        "hbm:nugget_beryllium"
+      ],
+      "output": "hbm:billet_beryllium",
+      "source": "crafting/MineralRecipes.java:151"
+    },
+    "nugget_beryllium_from_billet_beryllium": {
+      "inputs": [
+        "hbm:billet_beryllium"
+      ],
+      "output": "hbm:nugget_beryllium",
+      "source": "crafting/MineralRecipes.java:151"
+    },
+    "billet_beryllium_from_ingot_beryllium": {
+      "inputs": [
+        "hbm:ingot_beryllium"
+      ],
+      "output": "hbm:billet_beryllium",
+      "source": "crafting/MineralRecipes.java:151"
+    },
+    "ingot_beryllium_from_billet_beryllium_x3": {
+      "inputs": [
+        "hbm:billet_beryllium",
+        "hbm:billet_beryllium",
+        "hbm:billet_beryllium"
+      ],
+      "output": "hbm:ingot_beryllium",
+      "source": "crafting/MineralRecipes.java:151"
+    },
+    "billet_zirconium_from_nugget_zirconium": {
+      "inputs": [
+        "hbm:nugget_zirconium"
+      ],
+      "output": "hbm:billet_zirconium",
+      "source": "crafting/MineralRecipes.java:152"
+    },
+    "nugget_zirconium_from_billet_zirconium": {
+      "inputs": [
+        "hbm:billet_zirconium"
+      ],
+      "output": "hbm:nugget_zirconium",
+      "source": "crafting/MineralRecipes.java:152"
+    },
+    "billet_zirconium_from_ingot_zirconium": {
+      "inputs": [
+        "hbm:ingot_zirconium"
+      ],
+      "output": "hbm:billet_zirconium",
+      "source": "crafting/MineralRecipes.java:152"
+    },
+    "ingot_zirconium_from_billet_zirconium_x3": {
+      "inputs": [
+        "hbm:billet_zirconium",
+        "hbm:billet_zirconium",
+        "hbm:billet_zirconium"
+      ],
+      "output": "hbm:ingot_zirconium",
+      "source": "crafting/MineralRecipes.java:152"
+    },
+    "block_copper_from_ingot_copper": {
+      "inputs": [
+        "hbm:ingot_copper"
+      ],
+      "output": "hbm:block_copper",
+      "source": "crafting/MineralRecipes.java:258"
+    },
+    "block_fluorite_from_fluorite": {
+      "inputs": [
+        "hbm:fluorite"
+      ],
+      "output": "hbm:block_fluorite",
+      "source": "crafting/MineralRecipes.java:259"
+    },
+    "block_niter_from_niter": {
+      "inputs": [
+        "hbm:niter"
+      ],
+      "output": "hbm:block_niter",
+      "source": "crafting/MineralRecipes.java:260"
+    },
+    "block_steel_from_ingot_steel": {
+      "inputs": [
+        "hbm:ingot_steel"
+      ],
+      "output": "hbm:block_steel",
+      "source": "crafting/MineralRecipes.java:262"
+    },
+    "block_sulfur_from_sulfur": {
+      "inputs": [
+        "hbm:sulfur"
+      ],
+      "output": "hbm:block_sulfur",
+      "source": "crafting/MineralRecipes.java:263"
+    },
+    "block_titanium_from_ingot_titanium": {
+      "inputs": [
+        "hbm:ingot_titanium"
+      ],
+      "output": "hbm:block_titanium",
+      "source": "crafting/MineralRecipes.java:264"
+    },
+    "block_tungsten_from_ingot_tungsten": {
+      "inputs": [
+        "hbm:ingot_tungsten"
+      ],
+      "output": "hbm:block_tungsten",
+      "source": "crafting/MineralRecipes.java:265"
+    },
+    "block_uranium_from_ingot_uranium": {
+      "inputs": [
+        "hbm:ingot_uranium"
+      ],
+      "output": "hbm:block_uranium",
+      "source": "crafting/MineralRecipes.java:266"
+    },
+    "block_thorium_from_ingot_th232": {
+      "inputs": [
+        "hbm:ingot_th232"
+      ],
+      "output": "hbm:block_thorium",
+      "source": "crafting/MineralRecipes.java:267"
+    },
+    "block_lead_from_ingot_lead": {
+      "inputs": [
+        "hbm:ingot_lead"
+      ],
+      "output": "hbm:block_lead",
+      "source": "crafting/MineralRecipes.java:268"
+    },
+    "block_beryllium_from_ingot_beryllium": {
+      "inputs": [
+        "hbm:ingot_beryllium"
+      ],
+      "output": "hbm:block_beryllium",
+      "source": "crafting/MineralRecipes.java:273"
+    },
+    "block_australium_from_ingot_australium": {
+      "inputs": [
+        "hbm:ingot_australium"
+      ],
+      "output": "hbm:block_australium",
+      "source": "crafting/MineralRecipes.java:280"
+    },
+    "block_lithium_from_lithium": {
+      "inputs": [
+        "hbm:lithium"
+      ],
+      "output": "hbm:block_lithium",
+      "source": "crafting/MineralRecipes.java:302"
+    },
+    "block_white_phosphorus_from_ingot_phosphorus": {
+      "inputs": [
+        "hbm:ingot_phosphorus"
+      ],
+      "output": "hbm:block_white_phosphorus",
+      "source": "crafting/MineralRecipes.java:303"
+    },
+    "block_red_phosphorus_from_powder_fire": {
+      "inputs": [
+        "hbm:powder_fire"
+      ],
+      "output": "hbm:block_red_phosphorus",
+      "source": "crafting/MineralRecipes.java:304"
+    },
+    "block_asbestos_from_ingot_asbestos": {
+      "inputs": [
+        "hbm:ingot_asbestos"
+      ],
+      "output": "hbm:block_asbestos",
+      "source": "crafting/MineralRecipes.java:306"
+    },
+    "block_cobalt_from_ingot_cobalt": {
+      "inputs": [
+        "hbm:ingot_cobalt"
+      ],
+      "output": "hbm:block_cobalt",
+      "source": "crafting/MineralRecipes.java:308"
+    },
+    "ingot_copper_from_block_copper": {
+      "inputs": [
+        "hbm:block_copper"
+      ],
+      "output": "hbm:ingot_copper",
+      "source": "crafting/MineralRecipes.java:310"
+    },
+    "fluorite_from_block_fluorite": {
+      "inputs": [
+        "hbm:block_fluorite"
+      ],
+      "output": "hbm:fluorite",
+      "source": "crafting/MineralRecipes.java:311"
+    },
+    "niter_from_block_niter": {
+      "inputs": [
+        "hbm:block_niter"
+      ],
+      "output": "hbm:niter",
+      "source": "crafting/MineralRecipes.java:312"
+    },
+    "ingot_steel_from_block_steel": {
+      "inputs": [
+        "hbm:block_steel"
+      ],
+      "output": "hbm:ingot_steel",
+      "source": "crafting/MineralRecipes.java:314"
+    },
+    "sulfur_from_block_sulfur": {
+      "inputs": [
+        "hbm:block_sulfur"
+      ],
+      "output": "hbm:sulfur",
+      "source": "crafting/MineralRecipes.java:315"
+    },
+    "ingot_titanium_from_block_titanium": {
+      "inputs": [
+        "hbm:block_titanium"
+      ],
+      "output": "hbm:ingot_titanium",
+      "source": "crafting/MineralRecipes.java:316"
+    },
+    "ingot_tungsten_from_block_tungsten": {
+      "inputs": [
+        "hbm:block_tungsten"
+      ],
+      "output": "hbm:ingot_tungsten",
+      "source": "crafting/MineralRecipes.java:317"
+    },
+    "ingot_uranium_from_block_uranium": {
+      "inputs": [
+        "hbm:block_uranium"
+      ],
+      "output": "hbm:ingot_uranium",
+      "source": "crafting/MineralRecipes.java:318"
+    },
+    "ingot_th232_from_block_thorium": {
+      "inputs": [
+        "hbm:block_thorium"
+      ],
+      "output": "hbm:ingot_th232",
+      "source": "crafting/MineralRecipes.java:319"
+    },
+    "ingot_lead_from_block_lead": {
+      "inputs": [
+        "hbm:block_lead"
+      ],
+      "output": "hbm:ingot_lead",
+      "source": "crafting/MineralRecipes.java:320"
+    },
+    "ingot_beryllium_from_block_beryllium": {
+      "inputs": [
+        "hbm:block_beryllium"
+      ],
+      "output": "hbm:ingot_beryllium",
+      "source": "crafting/MineralRecipes.java:324"
+    },
+    "ingot_australium_from_block_australium": {
+      "inputs": [
+        "hbm:block_australium"
+      ],
+      "output": "hbm:ingot_australium",
+      "source": "crafting/MineralRecipes.java:330"
+    },
+    "lithium_from_block_lithium": {
+      "inputs": [
+        "hbm:block_lithium"
+      ],
+      "output": "hbm:lithium",
+      "source": "crafting/MineralRecipes.java:350"
+    },
+    "ingot_phosphorus_from_block_white_phosphorus": {
+      "inputs": [
+        "hbm:block_white_phosphorus"
+      ],
+      "output": "hbm:ingot_phosphorus",
+      "source": "crafting/MineralRecipes.java:351"
+    },
+    "powder_fire_from_block_red_phosphorus": {
+      "inputs": [
+        "hbm:block_red_phosphorus"
+      ],
+      "output": "hbm:powder_fire",
+      "source": "crafting/MineralRecipes.java:352"
+    },
+    "ingot_asbestos_from_block_asbestos": {
+      "inputs": [
+        "hbm:block_asbestos"
+      ],
+      "output": "hbm:ingot_asbestos",
+      "source": "crafting/MineralRecipes.java:354"
+    },
+    "ingot_cobalt_from_block_cobalt": {
+      "inputs": [
+        "hbm:block_cobalt"
+      ],
+      "output": "hbm:ingot_cobalt",
+      "source": "crafting/MineralRecipes.java:356"
+    },
+    "ingot_th232_from_nugget_th232": {
+      "inputs": [
+        "hbm:nugget_th232"
+      ],
+      "output": "hbm:ingot_th232",
+      "source": "crafting/MineralRecipes.java:366"
+    },
+    "nugget_th232_from_ingot_th232": {
+      "inputs": [
+        "hbm:ingot_th232"
+      ],
+      "output": "hbm:nugget_th232",
+      "source": "crafting/MineralRecipes.java:367"
+    },
+    "ingot_uranium_from_nugget_uranium": {
+      "inputs": [
+        "hbm:nugget_uranium"
+      ],
+      "output": "hbm:ingot_uranium",
+      "source": "crafting/MineralRecipes.java:368"
+    },
+    "nugget_uranium_from_ingot_uranium": {
+      "inputs": [
+        "hbm:ingot_uranium"
+      ],
+      "output": "hbm:nugget_uranium",
+      "source": "crafting/MineralRecipes.java:369"
+    },
+    "ingot_lead_from_nugget_lead": {
+      "inputs": [
+        "hbm:nugget_lead"
+      ],
+      "output": "hbm:ingot_lead",
+      "source": "crafting/MineralRecipes.java:380"
+    },
+    "nugget_lead_from_ingot_lead": {
+      "inputs": [
+        "hbm:ingot_lead"
+      ],
+      "output": "hbm:nugget_lead",
+      "source": "crafting/MineralRecipes.java:381"
+    },
+    "ingot_beryllium_from_nugget_beryllium": {
+      "inputs": [
+        "hbm:nugget_beryllium"
+      ],
+      "output": "hbm:ingot_beryllium",
+      "source": "crafting/MineralRecipes.java:382"
+    },
+    "nugget_beryllium_from_ingot_beryllium": {
+      "inputs": [
+        "hbm:ingot_beryllium"
+      ],
+      "output": "hbm:nugget_beryllium",
+      "source": "crafting/MineralRecipes.java:383"
+    },
+    "ingot_australium_from_nugget_australium": {
+      "inputs": [
+        "hbm:nugget_australium"
+      ],
+      "output": "hbm:ingot_australium",
+      "source": "crafting/MineralRecipes.java:400"
+    },
+    "nugget_australium_from_ingot_australium": {
+      "inputs": [
+        "hbm:ingot_australium"
+      ],
+      "output": "hbm:nugget_australium",
+      "source": "crafting/MineralRecipes.java:401"
+    },
+    "gunpowder_from_coal": {
+      "inputs": [
+        "hbm:sulfur",
+        "hbm:niter",
+        "minecraft:coal"
+      ],
+      "output": "minecraft:gunpowder",
+      "source": "crafting/PowderRecipes.java:51-54"
+    },
+    "gunpowder_from_charcoal": {
+      "inputs": [
+        "hbm:sulfur",
+        "hbm:niter",
+        "minecraft:charcoal"
+      ],
+      "output": "minecraft:gunpowder",
+      "source": "crafting/PowderRecipes.java:51-54"
+    }
+  }
+}

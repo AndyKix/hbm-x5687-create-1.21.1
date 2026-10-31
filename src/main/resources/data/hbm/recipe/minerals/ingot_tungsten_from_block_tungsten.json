@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "hbm:block_tungsten"
+    }
+  },
+  "result": {
+    "id": "hbm:ingot_tungsten",
+    "count": 9
+  }
+}

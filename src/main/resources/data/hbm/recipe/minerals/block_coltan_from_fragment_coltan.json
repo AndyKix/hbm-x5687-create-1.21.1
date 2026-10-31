@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "hbm:fragment_coltan"
+    }
+  },
+  "result": {
+    "id": "hbm:block_coltan",
+    "count": 1
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "#c:billets/australium",
+    "#c:billets/beryllium",
+    "#c:billets/cobalt",
+    "#c:billets/thorium",
+    "#c:billets/uranium",
+    "#c:billets/zirconium"
+  ]
+}

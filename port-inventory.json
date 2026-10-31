@@ -2,7 +2,7 @@
   "upstream_tag": "1.0.27_X5687",
   "upstream_commit": "23ef33447280d83d44c1f7bcd3853fe59c0ec1fc",
   "target": "Minecraft 1.21.1 / NeoForge",
-  "note": "Independent partial port from official X5687: materials, two ores, base iron furnace, base iron/steel crates and Create mounted storage. Not a full HBM port.",
+  "note": "Independent partial X5687 port: natural solid resources/direct mineral recipes, geological/regional generation, base iron furnace and crates/Create storage. Fluids, drilling, hazards and complex products remain for dependent systems. Not a full port.",
   "java_sources": [
     {
       "source": "api/hbm/block/IBlowable.java",
@@ -198,7 +198,7 @@
     },
     {
       "source": "api/hbm/item/IDepthRockTool.java",
-      "status": "not_ported"
+      "status": "adapted_tool_contract_no_advanced_items"
     },
     {
       "source": "api/hbm/item/IDesignatorItem.java",
@@ -438,7 +438,7 @@
     },
     {
       "source": "com/hbm/blocks/ModBlocks.java",
-      "status": "partial_material_slice_only"
+      "status": "partial_natural_solid_resources_and_base_machines"
     },
     {
       "source": "com/hbm/blocks/ModSoundType.java",
@@ -822,7 +822,7 @@
     },
     {
       "source": "com/hbm/blocks/generic/BlockCluster.java",
-      "status": "not_ported"
+      "status": "four_natural_cluster_drops"
     },
     {
       "source": "com/hbm/blocks/generic/BlockCoke.java",
@@ -866,11 +866,11 @@
     },
     {
       "source": "com/hbm/blocks/generic/BlockDepth.java",
-      "status": "not_ported"
+      "status": "depth_tool_contract_and_hardness"
     },
     {
       "source": "com/hbm/blocks/generic/BlockDepthOre.java",
-      "status": "not_ported"
+      "status": "natural_depth_drops_and_alexandrite_cap"
     },
     {
       "source": "com/hbm/blocks/generic/BlockDirt.java",
@@ -982,7 +982,7 @@
     },
     {
       "source": "com/hbm/blocks/generic/BlockLithium.java",
-      "status": "not_ported"
+      "status": "water_contact_explosion"
     },
     {
       "source": "com/hbm/blocks/generic/BlockLoot.java",
@@ -1054,7 +1054,7 @@
     },
     {
       "source": "com/hbm/blocks/generic/BlockNetherCoal.java",
-      "status": "not_ported"
+      "status": "partial_drop_fuel_contact_fire_no_outgassing"
     },
     {
       "source": "com/hbm/blocks/generic/BlockNoDrop.java",
@@ -1066,7 +1066,7 @@
     },
     {
       "source": "com/hbm/blocks/generic/BlockOre.java",
-      "status": "not_ported"
+      "status": "partial_natural_drops_no_hazard_transforms"
     },
     {
       "source": "com/hbm/blocks/generic/BlockOreBasalt.java",
@@ -1122,7 +1122,7 @@
     },
     {
       "source": "com/hbm/blocks/generic/BlockResourceStone.java",
-      "status": "not_ported"
+      "status": "partial_six_variants_drops_no_asbestos_gas"
     },
     {
       "source": "com/hbm/blocks/generic/BlockRotatablePillar.java",
@@ -1174,7 +1174,7 @@
     },
     {
       "source": "com/hbm/blocks/generic/BlockStalagmite.java",
-      "status": "not_ported"
+      "status": "partial_asbestos_variants_only"
     },
     {
       "source": "com/hbm/blocks/generic/BlockStorageCrate.java",
@@ -2898,7 +2898,7 @@
     },
     {
       "source": "com/hbm/config/WorldConfig.java",
-      "status": "not_ported"
+      "status": "partial_effective_resource_defaults_via_datapacks"
     },
     {
       "source": "com/hbm/crafting/ArmorRecipes.java",
@@ -2910,11 +2910,11 @@
     },
     {
       "source": "com/hbm/crafting/MineralRecipes.java",
-      "status": "not_ported"
+      "status": "partial_reachable_natural_material_forms"
     },
     {
       "source": "com/hbm/crafting/PowderRecipes.java",
-      "status": "not_ported"
+      "status": "partial_direct_gunpowder_only"
     },
     {
       "source": "com/hbm/crafting/RodRecipes.java",
@@ -2922,7 +2922,7 @@
     },
     {
       "source": "com/hbm/crafting/SmeltingRecipes.java",
-      "status": "partial_titanium_lead_only"
+      "status": "partial_reachable_natural_smelting"
     },
     {
       "source": "com/hbm/crafting/ToolRecipes.java",
@@ -3974,7 +3974,7 @@
     },
     {
       "source": "com/hbm/handler/FuelHandler.java",
-      "status": "not_ported"
+      "status": "partial_current_natural_fuels"
     },
     {
       "source": "com/hbm/handler/GUIHandler.java",
@@ -4630,7 +4630,7 @@
     },
     {
       "source": "com/hbm/inventory/OreDictManager.java",
-      "status": "not_ported"
+      "status": "partial_registered_natural_material_tags"
     },
     {
       "source": "com/hbm/inventory/RecipesCommon.java",
@@ -6630,7 +6630,7 @@
     },
     {
       "source": "com/hbm/items/ModItems.java",
-      "status": "partial_material_slice_only"
+      "status": "partial_reachable_natural_materials_only"
     },
     {
       "source": "com/hbm/items/ModItemsArmor.java",
@@ -7326,7 +7326,7 @@
     },
     {
       "source": "com/hbm/items/special/ItemAlexandrite.java",
-      "status": "not_ported"
+      "status": "adapted_frames_and_local_block_light"
     },
     {
       "source": "com/hbm/items/special/ItemAutogen.java",
@@ -8362,7 +8362,7 @@
     },
     {
       "source": "com/hbm/lib/HbmWorldGen.java",
-      "status": "not_ported"
+      "status": "partial_solid_ores_depth_regional_no_fluids_events_structures"
     },
     {
       "source": "com/hbm/lib/Library.java",
@@ -13242,7 +13242,7 @@
     },
     {
       "source": "com/hbm/world/feature/DepthDeposit.java",
-      "status": "not_ported"
+      "status": "adapted_depth_deposits_modern_floor"
     },
     {
       "source": "com/hbm/world/feature/Dud.java",
@@ -13274,7 +13274,7 @@
     },
     {
       "source": "com/hbm/world/feature/OreCave.java",
-      "status": "not_ported"
+      "status": "partial_dry_asbestos_no_acid_sulfur"
     },
     {
       "source": "com/hbm/world/feature/OreLayer.java",
@@ -13282,11 +13282,11 @@
     },
     {
       "source": "com/hbm/world/feature/OreLayer3D.java",
-      "status": "not_ported"
+      "status": "adapted_three_resource_strata"
     },
     {
       "source": "com/hbm/world/feature/SchistStratum.java",
-      "status": "not_ported"
+      "status": "adapted_gneiss_generation"
     },
     {
       "source": "com/hbm/world/feature/WorldGenSurfaceSpot.java",
@@ -13624,9 +13624,13 @@
     "sources": [
       "com/hbm/lib/HbmWorldGen.java",
       "com/hbm/config/WorldConfig.java",
-      "com/hbm/world/generator/DungeonToolbox.java"
+      "com/hbm/world/generator/DungeonToolbox.java",
+      "com/hbm/world/feature/SchistStratum.java",
+      "com/hbm/world/feature/OreLayer3D.java",
+      "com/hbm/world/feature/OreCave.java",
+      "com/hbm/world/feature/DepthDeposit.java"
     ],
-    "scope": "Titanium and lead defaults only; modern engine vein geometry; no other ores or legacy structures ported.",
+    "scope": "Natural solid ore bands, gneiss/three strata, dry asbestos cave resources, modern-floor depth deposits and coltan/australium regions. Fluids, drilling, acid cave, events and transformed ores remain with dependent systems; see STAGE5_MAPPING.md.",
     "modern_source": "src/main/resources/data/hbm/worldgen/"
   },
   "create_integration_mapping": {
@@ -13636,5 +13640,7 @@
   "crate_recipe_mapping": {
     "source": "com/hbm/main/CraftingManager.java",
     "scope": "Original PPP / I I / III iron/steel crate recipes only; common c:plates and c:ingots tags."
-  }
+  },
+  "raw_resource_catalog": "src/main/resources/assets/hbm/raw-materials.json",
+  "raw_material_scope": "STAGE5_MAPPING.md"
 }

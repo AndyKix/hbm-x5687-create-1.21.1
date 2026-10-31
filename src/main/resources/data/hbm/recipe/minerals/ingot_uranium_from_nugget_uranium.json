@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "hbm:nugget_uranium"
+    }
+  },
+  "result": {
+    "id": "hbm:ingot_uranium",
+    "count": 1
+  }
+}

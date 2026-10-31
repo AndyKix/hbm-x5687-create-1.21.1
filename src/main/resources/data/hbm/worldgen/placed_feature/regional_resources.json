@@ -1,0 +1,8 @@
+{
+  "feature": "hbm:regional_resources",
+  "placement": [
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

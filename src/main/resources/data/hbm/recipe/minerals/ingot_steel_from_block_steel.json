@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "hbm:block_steel"
+    }
+  },
+  "result": {
+    "id": "hbm:ingot_steel",
+    "count": 9
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "hbm:ingot_uranium"
+    }
+  },
+  "result": {
+    "id": "hbm:billet_uranium",
+    "count": 3
+  }
+}

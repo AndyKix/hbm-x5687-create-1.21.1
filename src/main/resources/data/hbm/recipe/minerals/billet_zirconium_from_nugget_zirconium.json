@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "hbm:nugget_zirconium"
+    }
+  },
+  "result": {
+    "id": "hbm:billet_zirconium",
+    "count": 1
+  }
+}

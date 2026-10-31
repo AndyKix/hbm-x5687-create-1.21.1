@@ -1,0 +1,9 @@
+{
+  "runtime_classes_verified": 38,
+  "resources_verified": 941,
+  "tests_excluded": true,
+  "create_not_embedded": true,
+  "license_files_present": true,
+  "jar_sha256": "8fe0abc50cdcae3fd68735296e4960632425576b14a870e1fe68c900aba23fce",
+  "jar_bytes": 455503
+}

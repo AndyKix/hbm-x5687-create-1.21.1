@@ -1,0 +1,8 @@
+{
+  "feature": "hbm:geological_layers",
+  "placement": [
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

@@ -22,3 +22,9 @@ The original HBM mod and its developers do not endorse this port.
 Create is a separate dependency. Its code and binaries are not redistributed in
 this project's mod JAR. Reference version: Create 6.0.10 for Minecraft 1.21.1.
 Source: https://github.com/Creators-of-Create/Create/tree/mc1.21.1-6.0.10
+
+Natural resource textures/translations and source-derived mineral/worldgen rules
+are imported from the same pinned X5687 commit. See raw-material-provenance.json,
+tools/import_raw_materials.py and STAGE5_MAPPING.md. DepthDeposit, SchistStratum,
+OreLayer3D, OreCave, BlockLithium and IDepthRockTool algorithms are adapted to
+NeoForge's native generation/lifecycle APIs. No modern HBM port is used.

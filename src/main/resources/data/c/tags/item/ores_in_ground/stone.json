@@ -2,6 +2,27 @@
   "replace": false,
   "values": [
     "hbm:ore_titanium",
-    "hbm:ore_lead"
+    "hbm:ore_lead",
+    "hbm:ore_uranium",
+    "hbm:ore_thorium",
+    "hbm:ore_aluminium",
+    "hbm:ore_copper",
+    "hbm:ore_tungsten",
+    "hbm:ore_beryllium",
+    "hbm:ore_cobalt",
+    "hbm:ore_fluorite",
+    "hbm:ore_lignite",
+    "hbm:ore_coltan",
+    "hbm:ore_australium",
+    "hbm:ore_sulfur",
+    "hbm:stone_resource_sulfur",
+    "hbm:ore_niter",
+    "hbm:ore_asbestos",
+    "hbm:stone_resource_asbestos",
+    "hbm:ore_rare",
+    "hbm:ore_cinnebar",
+    "hbm:stone_resource_hematite",
+    "hbm:stone_resource_malachite",
+    "hbm:stone_resource_limestone"
   ]
 }

@@ -1,0 +1,8 @@
+{
+  "feature": "hbm:depth_overworld",
+  "placement": [
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

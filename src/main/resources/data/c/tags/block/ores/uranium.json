@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "hbm:ore_uranium",
+    "hbm:ore_gneiss_uranium",
+    "hbm:ore_nether_uranium"
+  ]
+}

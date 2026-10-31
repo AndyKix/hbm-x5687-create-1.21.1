@@ -38,6 +38,12 @@ public final class MaterialIntegrationTests {
     @GameTest(template = "empty", timeoutTicks = 400)
     public static void leadPressing(GameTestHelper helper) { press(helper, "lead"); }
 
+    @GameTest(template = "empty", timeoutTicks = 400)
+    public static void aluminiumPressing(GameTestHelper helper) { press(helper, "aluminium"); }
+
+    @GameTest(template = "empty", timeoutTicks = 400)
+    public static void hbmCopperUsesCreateSheetRecipe(GameTestHelper helper) { press(helper, "copper"); }
+
     private static Block createBlock(String path) {
         return BuiltInRegistries.BLOCK.get(ResourceLocation.fromNamespaceAndPath("create", path));
     }
@@ -59,7 +65,9 @@ public final class MaterialIntegrationTests {
             IItemHandler inventory = helper.getLevel().getCapability(Capabilities.ItemHandler.BLOCK, helper.absolutePos(depot), Direction.UP);
             helper.assertTrue(inventory != null, "Create depot is missing");
             ItemStack result = inventory.getStackInSlot(0);
-            helper.assertTrue(result.is(HbmPort.MATERIAL_ITEMS.get("plate_" + metal).get()) && result.getCount() == 1,
+            var expected = metal.equals("copper") ? BuiltInRegistries.ITEM.get(ResourceLocation.fromNamespaceAndPath("create", "copper_sheet"))
+                    : HbmPort.MATERIAL_ITEMS.get("plate_" + metal).get();
+            helper.assertTrue(result.is(expected) && result.getCount() == 1,
                     "Create press has not produced exactly one HBM " + metal + " plate");
         });
     }

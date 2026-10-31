@@ -3,6 +3,7 @@
   "values": [
     "#c:plates/steel",
     "#c:plates/titanium",
-    "#c:plates/lead"
+    "#c:plates/lead",
+    "#c:plates/aluminium"
   ]
 }

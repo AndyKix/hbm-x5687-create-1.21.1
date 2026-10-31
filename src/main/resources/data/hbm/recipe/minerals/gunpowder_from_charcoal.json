@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "hbm:sulfur"
+    },
+    {
+      "item": "hbm:niter"
+    },
+    {
+      "item": "minecraft:charcoal"
+    }
+  ],
+  "result": {
+    "id": "minecraft:gunpowder",
+    "count": 3
+  }
+}

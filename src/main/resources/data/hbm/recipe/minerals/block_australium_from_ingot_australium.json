@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "hbm:ingot_australium"
+    }
+  },
+  "result": {
+    "id": "hbm:block_australium",
+    "count": 1
+  }
+}

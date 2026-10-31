@@ -1,0 +1,577 @@
+{
+  "upstream_commit": "23ef33447280d83d44c1f7bcd3853fe59c0ec1fc",
+  "assets": {
+    "src/main/resources/assets/hbm/textures/item/ingot_phosphorus.png": {
+      "source": "src/main/resources/assets/hbm/textures/items/ingot_phosphorus.png",
+      "sha256": "52f5b4ceafad32832ac8bb0cbc38824023e5f2f447b9fc53013c394d682535c5"
+    },
+    "src/main/resources/assets/hbm/textures/item/sulfur.png": {
+      "source": "src/main/resources/assets/hbm/textures/items/sulfur.png",
+      "sha256": "1c375f161fe59d3f99f2d724c6a01bf4221d16f6bec368fefc1af3a33b3472a4"
+    },
+    "src/main/resources/assets/hbm/textures/item/fluorite.png": {
+      "source": "src/main/resources/assets/hbm/textures/items/fluorite.png",
+      "sha256": "13d0ef4774aa76504c387de1179d32436839a35c0a7f64002134f0f8cb8b1f80"
+    },
+    "src/main/resources/assets/hbm/textures/item/niter.png": {
+      "source": "src/main/resources/assets/hbm/textures/items/salpeter.png",
+      "sha256": "73fa46cdb252b880184bccf89b456fff356b7b372e509a281ec2a3ee4137d3e7"
+    },
+    "src/main/resources/assets/hbm/textures/item/chunk_ore_rare.png": {
+      "source": "src/main/resources/assets/hbm/textures/items/chunk_ore.rare.png",
+      "sha256": "03fd2feccb48fb255a7dac36fda3402c7d2197a9d4f59ffc41212737fabdd49f"
+    },
+    "src/main/resources/assets/hbm/textures/item/lignite.png": {
+      "source": "src/main/resources/assets/hbm/textures/items/lignite.png",
+      "sha256": "35e9ecad2e45e83ec48ec9979c742eedc7461b7abe6ee333554c966106e1d2d5"
+    },
+    "src/main/resources/assets/hbm/textures/item/ingot_asbestos.png": {
+      "source": "src/main/resources/assets/hbm/textures/items/ingot_asbestos.png",
+      "sha256": "1d844dd9f975f44acd9518dc7581e405ae6d278d4587707efc04e8ced21fddad"
+    },
+    "src/main/resources/assets/hbm/textures/item/cinnebar.png": {
+      "source": "src/main/resources/assets/hbm/textures/items/cinnebar.png",
+      "sha256": "af956fb3dbd40c182d8dfff99f32dfb4c4ff5e6c082711e0689433b2de86b9f9"
+    },
+    "src/main/resources/assets/hbm/textures/item/fragment_cobalt.png": {
+      "source": "src/main/resources/assets/hbm/textures/items/fragment_cobalt.png",
+      "sha256": "60a1e3c74ae4478bf3a8b2430378838515317de5c340e9d420cbd1e2a78f85ad"
+    },
+    "src/main/resources/assets/hbm/textures/item/crystal_iron.png": {
+      "source": "src/main/resources/assets/hbm/textures/items/crystal_iron.png",
+      "sha256": "3d377f1a72ff5151aff805c9f61669ee1b86ea6a77760ebaeff1262ba87a41a0"
+    },
+    "src/main/resources/assets/hbm/textures/item/crystal_titanium.png": {
+      "source": "src/main/resources/assets/hbm/textures/items/crystal_titanium.png",
+      "sha256": "23950cf312611da35b72559f8066eff899ab60f75d9bf04fd7f0f85d6963e7c9"
+    },
+    "src/main/resources/assets/hbm/textures/item/crystal_aluminium.png": {
+      "source": "src/main/resources/assets/hbm/textures/items/crystal_aluminium.png",
+      "sha256": "e0336116e8b655b7bef824906f2f611558a498f0f4c2bc8e1f06af29380f7e31"
+    },
+    "src/main/resources/assets/hbm/textures/item/crystal_copper.png": {
+      "source": "src/main/resources/assets/hbm/textures/items/crystal_copper.png",
+      "sha256": "4f4b6765d9cc507dd9b82236b27b559f9c1452e117df3c8cc57c7dc4b501ac13"
+    },
+    "src/main/resources/assets/hbm/textures/item/powder_fire.png": {
+      "source": "src/main/resources/assets/hbm/textures/items/powder_red_phosphorus.png",
+      "sha256": "0eceb75f7517ad10ce0320c03c318f014738745500740f32cc4fd06b118688cb"
+    },
+    "src/main/resources/assets/hbm/textures/item/coal_infernal.png": {
+      "source": "src/main/resources/assets/hbm/textures/items/coal_infernal.png",
+      "sha256": "695da43ad552968ac579e60614e281a782b55171c4ee07a7bc0c423026b40cce"
+    },
+    "src/main/resources/assets/hbm/textures/item/fragment_coltan.png": {
+      "source": "src/main/resources/assets/hbm/textures/items/fragment_coltan.png",
+      "sha256": "274eba082ccbc790f5a306ec04f859da2fc4ebb78ca26b01d199ab3b81a72b2d"
+    },
+    "src/main/resources/assets/hbm/textures/item/gem_alexandrite.png": {
+      "source": "src/main/resources/assets/hbm/textures/items/gem_alexandrite.png",
+      "sha256": "8596d0cad9b87c8d690ef2ff29675252dc60fbc137bf30c5112d6d93196bd1b5"
+    },
+    "src/main/resources/assets/hbm/textures/item/gem_alexandrite.png.mcmeta": {
+      "source": "src/main/resources/assets/hbm/textures/items/gem_alexandrite.png.mcmeta",
+      "sha256": "4a5dad045d1c6172b28dca8eda5ee036ecf966137cda30c64770bf48689c92d4"
+    },
+    "src/main/resources/assets/hbm/textures/item/crystal_tungsten.png": {
+      "source": "src/main/resources/assets/hbm/textures/items/crystal_tungsten.png",
+      "sha256": "114b3d9287fc15d2bd3498a2aaab31eef68b017235cea2f56d34941d591264c0"
+    },
+    "src/main/resources/assets/hbm/textures/item/nugget_zirconium.png": {
+      "source": "src/main/resources/assets/hbm/textures/items/nugget_zirconium.png",
+      "sha256": "713c70c07ccabe2d5c7baa7d5ca143dff50e230a213fa533e7a431f3d6ca6aa4"
+    },
+    "src/main/resources/assets/hbm/textures/item/powder_borax.png": {
+      "source": "src/main/resources/assets/hbm/textures/items/powder_borax.png",
+      "sha256": "3007d1eb4b6181591a4f532ad12a4d374d37efcb1f472494194a000739671cae"
+    },
+    "src/main/resources/assets/hbm/textures/item/fragment_neodymium.png": {
+      "source": "src/main/resources/assets/hbm/textures/items/fragment_neodymium.png",
+      "sha256": "d1e77b6ba1b5175895d5c06505f33df426a0e1421c546cbe6b28c2877d7ac05f"
+    },
+    "src/main/resources/assets/hbm/textures/item/chunk_ore_malachite.png": {
+      "source": "src/main/resources/assets/hbm/textures/items/chunk_ore.malachite.png",
+      "sha256": "97559fdf6e72a30c76295c898275e180ec9ebdaea19bdb8840c6ea9b8efc545f"
+    },
+    "src/main/resources/assets/hbm/textures/item/powder_asbestos.png": {
+      "source": "src/main/resources/assets/hbm/textures/items/powder_asbestos.png",
+      "sha256": "44e6d067b2f850ac6760adb00bc3485289df238ed9ac14cb60b480b13b60f254"
+    },
+    "src/main/resources/assets/hbm/textures/item/billet_australium.png": {
+      "source": "src/main/resources/assets/hbm/textures/items/billet_australium.png",
+      "sha256": "763a07450d585c3ffa197f6d94e88f5e0806947419174dcdebae39172c8a526a"
+    },
+    "src/main/resources/assets/hbm/textures/item/billet_beryllium.png": {
+      "source": "src/main/resources/assets/hbm/textures/items/billet_beryllium.png",
+      "sha256": "1887e2b6c4ae1bb669ec09b315c736508bcf1cafa7afce06bc7e5f15caff0a7f"
+    },
+    "src/main/resources/assets/hbm/textures/item/billet_cobalt.png": {
+      "source": "src/main/resources/assets/hbm/textures/items/billet_cobalt.png",
+      "sha256": "739d9a008d3e4acfa5e1c184debdd6114ede1a3b11a2f1954c2855a47989915a"
+    },
+    "src/main/resources/assets/hbm/textures/item/billet_th232.png": {
+      "source": "src/main/resources/assets/hbm/textures/items/billet_th232.png",
+      "sha256": "cd3603a70b17f83bd9ec63a7a80dc373a6f39b14ebe39a9e4fc1b67510abfb73"
+    },
+    "src/main/resources/assets/hbm/textures/item/billet_uranium.png": {
+      "source": "src/main/resources/assets/hbm/textures/items/billet_uranium.png",
+      "sha256": "abf7f7357f07502d40539da91c3c46f7d391dd3d8b5c6e0c7a57b71330c4945e"
+    },
+    "src/main/resources/assets/hbm/textures/item/billet_zirconium.png": {
+      "source": "src/main/resources/assets/hbm/textures/items/billet_zirconium.png",
+      "sha256": "ebdc091689c689df34cc9a0dc9dffc8ad0cf27fc02143bf9baa856bb2c9a8c17"
+    },
+    "src/main/resources/assets/hbm/textures/item/chunk_ore_cryolite.png": {
+      "source": "src/main/resources/assets/hbm/textures/items/chunk_ore.cryolite.png",
+      "sha256": "ab808c7eada8c150f686a9194d7973bae2a12fdd306efb759812ef91639363a5"
+    },
+    "src/main/resources/assets/hbm/textures/item/ingot_aluminium.png": {
+      "source": "src/main/resources/assets/hbm/textures/items/ingot_aluminium.png",
+      "sha256": "9a6165949435476b50295fa92c13bcf5f18cf7ece67992dbcb7ecbd72c491ae7"
+    },
+    "src/main/resources/assets/hbm/textures/item/ingot_australium.png": {
+      "source": "src/main/resources/assets/hbm/textures/items/ingot_australium.png",
+      "sha256": "ef5a8d07e5da9b0155ef64ded5e6b2dd86c2be950efb7e964dac027ec7f2e198"
+    },
+    "src/main/resources/assets/hbm/textures/item/ingot_beryllium.png": {
+      "source": "src/main/resources/assets/hbm/textures/items/ingot_beryllium.png",
+      "sha256": "e4a1d14be32e6914a877701067dd38b843546536f50955ca139e8b373472d493"
+    },
+    "src/main/resources/assets/hbm/textures/item/ingot_cobalt.png": {
+      "source": "src/main/resources/assets/hbm/textures/items/ingot_cobalt.png",
+      "sha256": "092d4687abf22637ef397ccf359cb858375d3a8977ef9522409f7cdac142c4d8"
+    },
+    "src/main/resources/assets/hbm/textures/item/ingot_copper.png": {
+      "source": "src/main/resources/assets/hbm/textures/items/ingot_copper.png",
+      "sha256": "7d76e1e326aa599c5449ecf320c31082ddc4fa2cde02d9e8d8690dc5589f88e9"
+    },
+    "src/main/resources/assets/hbm/textures/item/ingot_th232.png": {
+      "source": "src/main/resources/assets/hbm/textures/items/ingot_th232.png",
+      "sha256": "1b0786e10b428590531cfefceb34f52aab42204a308a013cc41bf35c50d6e7a3"
+    },
+    "src/main/resources/assets/hbm/textures/item/ingot_tungsten.png": {
+      "source": "src/main/resources/assets/hbm/textures/items/ingot_tungsten.png",
+      "sha256": "7b58529fb80a463b249e4c29dd8a6c64af5d06e541ee0b867b04b24620d45bd0"
+    },
+    "src/main/resources/assets/hbm/textures/item/ingot_uranium.png": {
+      "source": "src/main/resources/assets/hbm/textures/items/ingot_uranium.png",
+      "sha256": "c2615c3132c8753bb8e0e54d4db705ef0f72375df78b7583a9a633455b63c68a"
+    },
+    "src/main/resources/assets/hbm/textures/item/ingot_zirconium.png": {
+      "source": "src/main/resources/assets/hbm/textures/items/ingot_zirconium.png",
+      "sha256": "ceff9dbaf6b09c8d157093a758ead1d3de9d82f4e11583e3084b9f5ca7a21d70"
+    },
+    "src/main/resources/assets/hbm/textures/item/lithium.png": {
+      "source": "src/main/resources/assets/hbm/textures/items/lithium.png",
+      "sha256": "3e96e713c1b5c0e49ad941576cff3bc83ca14af8b899067c57a986a32f340446"
+    },
+    "src/main/resources/assets/hbm/textures/item/nugget_australium.png": {
+      "source": "src/main/resources/assets/hbm/textures/items/nugget_australium.png",
+      "sha256": "88995eef2bcf93dc7e43ee12099ab92e9a347d40641c96deab97efa0d040a299"
+    },
+    "src/main/resources/assets/hbm/textures/item/nugget_beryllium.png": {
+      "source": "src/main/resources/assets/hbm/textures/items/nugget_beryllium.png",
+      "sha256": "45b777aacbbc900c5efd37df7da16594b824e23d96d4968a721cdad5773ffd03"
+    },
+    "src/main/resources/assets/hbm/textures/item/nugget_cobalt.png": {
+      "source": "src/main/resources/assets/hbm/textures/items/nugget_cobalt.png",
+      "sha256": "2990489e262ea6057faee8f21505239b299a072275c787f7bc47fe2d9e51fda6"
+    },
+    "src/main/resources/assets/hbm/textures/item/nugget_lead.png": {
+      "source": "src/main/resources/assets/hbm/textures/items/nugget_lead.png",
+      "sha256": "fef81de37d8894c90a3b510dd3f18595a6077d50cc7f0baf7a17319739b7afbf"
+    },
+    "src/main/resources/assets/hbm/textures/item/nugget_th232.png": {
+      "source": "src/main/resources/assets/hbm/textures/items/nugget_th232.png",
+      "sha256": "efaa29c4b9c364a98ec2befc32d3be0bcf6f2192442d08ecb6521de6b04d221e"
+    },
+    "src/main/resources/assets/hbm/textures/item/nugget_uranium.png": {
+      "source": "src/main/resources/assets/hbm/textures/items/nugget_uranium.png",
+      "sha256": "2eb0c9013b2b27f02f3b40fd5e36fc2d79a60185544276d639ba34e6a054f371"
+    },
+    "src/main/resources/assets/hbm/textures/item/plate_aluminium.png": {
+      "source": "src/main/resources/assets/hbm/textures/items/plate_aluminium.png",
+      "sha256": "eea8d6d215ebb894a20d7847ed047444a914e75a2b0b976a3368f01e71488085"
+    },
+    "src/main/resources/assets/hbm/textures/block/ore_uranium.png": {
+      "source": "src/main/resources/assets/hbm/textures/blocks/ore_uranium.png",
+      "sha256": "81ce24fb5d2502b2137a2ac73a3607157431a701729f158ce1b1028075286f5e"
+    },
+    "src/main/resources/assets/hbm/textures/block/ore_thorium.png": {
+      "source": "src/main/resources/assets/hbm/textures/blocks/ore_thorium.png",
+      "sha256": "ae768f55b7164a55386e5d5f73ed888c75ca8fbcc3e905efaedb5f710ee5a328"
+    },
+    "src/main/resources/assets/hbm/textures/block/ore_sulfur.png": {
+      "source": "src/main/resources/assets/hbm/textures/blocks/ore_sulfur.png",
+      "sha256": "d95706e399a9200ecf8c7877d3477d6cc8811aafd4ebe7d2ef391179611a9f31"
+    },
+    "src/main/resources/assets/hbm/textures/block/ore_aluminium.png": {
+      "source": "src/main/resources/assets/hbm/textures/blocks/ore_aluminium.png",
+      "sha256": "b22a42424978d7e8a3743df50d708c4f0e7ae479737c2f3c7dc0f8b598d18ccd"
+    },
+    "src/main/resources/assets/hbm/textures/block/ore_copper.png": {
+      "source": "src/main/resources/assets/hbm/textures/blocks/ore_copper.png",
+      "sha256": "581b54a2d2a7718448db3bd0a1a349dcfd16e2000d4cdd06b200827f60573569"
+    },
+    "src/main/resources/assets/hbm/textures/block/ore_fluorite.png": {
+      "source": "src/main/resources/assets/hbm/textures/blocks/ore_fluorite.png",
+      "sha256": "e3ce382853ef5208bc3b491cabaf66b17b94ff5adf783c8b0f02977ce80e2e76"
+    },
+    "src/main/resources/assets/hbm/textures/block/ore_niter.png": {
+      "source": "src/main/resources/assets/hbm/textures/blocks/ore_niter.png",
+      "sha256": "f9cd4a70233f764046d03fa8698f04f0fbdc47cc80040b61e30231901f1868b1"
+    },
+    "src/main/resources/assets/hbm/textures/block/ore_tungsten.png": {
+      "source": "src/main/resources/assets/hbm/textures/blocks/ore_tungsten.png",
+      "sha256": "6391e7973827b4059eb55f5b69bea8a35d389712b5070aedc55a3aaed9242770"
+    },
+    "src/main/resources/assets/hbm/textures/block/ore_beryllium.png": {
+      "source": "src/main/resources/assets/hbm/textures/blocks/ore_beryllium.png",
+      "sha256": "58a7fe62bfd1c6bf4706e17ea917a39862f016037ec455dd4e9567d1403030dd"
+    },
+    "src/main/resources/assets/hbm/textures/block/ore_rare.png": {
+      "source": "src/main/resources/assets/hbm/textures/blocks/ore_rare.png",
+      "sha256": "96c59c3518d2a0db5bb96b0c37958ee61722bdd7df5ae219bda5fc2191df408d"
+    },
+    "src/main/resources/assets/hbm/textures/block/ore_lignite.png": {
+      "source": "src/main/resources/assets/hbm/textures/blocks/ore_lignite.png",
+      "sha256": "c1bb75b05abe71698a005a3f104c8c64c184002da7e4f93ce27771627a2fbfca"
+    },
+    "src/main/resources/assets/hbm/textures/block/ore_asbestos.png": {
+      "source": "src/main/resources/assets/hbm/textures/blocks/ore_asbestos.png",
+      "sha256": "0bae976be829b3935f4365139e22862474bfb49af938d104c760c13ae97ecc22"
+    },
+    "src/main/resources/assets/hbm/textures/block/ore_cinnebar.png": {
+      "source": "src/main/resources/assets/hbm/textures/blocks/ore_cinnebar.png",
+      "sha256": "366fab48e0dff383cc23f343c8117be832ad4a27bdad88c1b8759c11b6987666"
+    },
+    "src/main/resources/assets/hbm/textures/block/ore_cobalt.png": {
+      "source": "src/main/resources/assets/hbm/textures/blocks/ore_cobalt.png",
+      "sha256": "4fcfa398bbcf56303d62e276b7e6faaa86b904df54dca2001a0198df7df94651"
+    },
+    "src/main/resources/assets/hbm/textures/block/cluster_iron.png": {
+      "source": "src/main/resources/assets/hbm/textures/blocks/cluster_iron.png",
+      "sha256": "32cc64db8a966fcd3a3e91d4cc39cb66a521f9436ef1cc5462b78963aefae351"
+    },
+    "src/main/resources/assets/hbm/textures/block/cluster_titanium.png": {
+      "source": "src/main/resources/assets/hbm/textures/blocks/cluster_titanium.png",
+      "sha256": "435482f3f3114e649194f3b04e6e0624cc05dd9f5521cffdb481f76e33c753a9"
+    },
+    "src/main/resources/assets/hbm/textures/block/cluster_aluminium.png": {
+      "source": "src/main/resources/assets/hbm/textures/blocks/cluster_aluminium.png",
+      "sha256": "945c338b5670f92919b8cc731f75220c0aaafc25519f0dacdd46664896cc20d3"
+    },
+    "src/main/resources/assets/hbm/textures/block/cluster_copper.png": {
+      "source": "src/main/resources/assets/hbm/textures/blocks/cluster_copper.png",
+      "sha256": "3d46fd8fdc33c71e46dd17d9b0fe4f4bddb4628a0aed60843cda7c5b2da6bc89"
+    },
+    "src/main/resources/assets/hbm/textures/block/ore_gneiss_iron.png": {
+      "source": "src/main/resources/assets/hbm/textures/blocks/ore_gneiss_iron.png",
+      "sha256": "a4947d8b18ed8d1fce06733697df6bd9f65fc4a0d07eacc8486daf2a07016741"
+    },
+    "src/main/resources/assets/hbm/textures/block/ore_gneiss_gold.png": {
+      "source": "src/main/resources/assets/hbm/textures/blocks/ore_gneiss_gold.png",
+      "sha256": "eb81b4ff39f9ce73f999b56b8dbe9675919a746e049616a67d21854172f24a10"
+    },
+    "src/main/resources/assets/hbm/textures/block/ore_gneiss_uranium.png": {
+      "source": "src/main/resources/assets/hbm/textures/blocks/ore_gneiss_uranium.png",
+      "sha256": "212cff1259d43b6b9ea7bd9ea25e66952df35bcef4c00e168e113ffbf6ebcc5b"
+    },
+    "src/main/resources/assets/hbm/textures/block/ore_gneiss_copper.png": {
+      "source": "src/main/resources/assets/hbm/textures/blocks/ore_gneiss_copper.png",
+      "sha256": "b3418348cf99ff4114cb4c00a9b02ae0397099be0c4547cfd68761edf32d7a3c"
+    },
+    "src/main/resources/assets/hbm/textures/block/ore_gneiss_asbestos.png": {
+      "source": "src/main/resources/assets/hbm/textures/blocks/ore_gneiss_asbestos.png",
+      "sha256": "7e7d0e51c3be26c15db5918b7a29adcf88fd5fe43876071a5226fc84b184fc6b"
+    },
+    "src/main/resources/assets/hbm/textures/block/ore_gneiss_lithium.png": {
+      "source": "src/main/resources/assets/hbm/textures/blocks/ore_gneiss_lithium.png",
+      "sha256": "0ae0b75f037c3d7fc91c8418e43eb581bfd711bcae0aa1c7556b0a3e0204163a"
+    },
+    "src/main/resources/assets/hbm/textures/block/ore_gneiss_rare.png": {
+      "source": "src/main/resources/assets/hbm/textures/blocks/ore_gneiss_rare.png",
+      "sha256": "14ae7c6f469861ebb84216baea3fb4f6604b3f61b578321d746ee7aef803b811"
+    },
+    "src/main/resources/assets/hbm/textures/block/ore_nether_uranium.png": {
+      "source": "src/main/resources/assets/hbm/textures/blocks/ore_nether_uranium.png",
+      "sha256": "47713e21fd12db524c68987fdae2be07427352b45d382d6999b76e4d25c6a491"
+    },
+    "src/main/resources/assets/hbm/textures/block/ore_nether_tungsten.png": {
+      "source": "src/main/resources/assets/hbm/textures/blocks/ore_nether_tungsten.png",
+      "sha256": "46d47f24f805fa12e5d248a08eb4cdfb181e46c8a04eaddfe8f954fa6062912e"
+    },
+    "src/main/resources/assets/hbm/textures/block/ore_nether_sulfur.png": {
+      "source": "src/main/resources/assets/hbm/textures/blocks/ore_nether_sulfur.png",
+      "sha256": "d458f7c64d7f4d6c455742073ae834af5b63256da08c60530f6d353eee4f2557"
+    },
+    "src/main/resources/assets/hbm/textures/block/ore_nether_fire.png": {
+      "source": "src/main/resources/assets/hbm/textures/blocks/ore_nether_fire.png",
+      "sha256": "b82afe5cadc130bd690bbc0dc3d5684b594714e0fa12d7df77f6b370d293495b"
+    },
+    "src/main/resources/assets/hbm/textures/block/ore_nether_coal.png": {
+      "source": "src/main/resources/assets/hbm/textures/blocks/ore_nether_coal.png",
+      "sha256": "9a2ac26b17606700b98aeeb7eae8fc4ae9f40b162e02b2be5d2c093fe5395a28"
+    },
+    "src/main/resources/assets/hbm/textures/block/ore_nether_coal.png.mcmeta": {
+      "source": "src/main/resources/assets/hbm/textures/blocks/ore_nether_coal.png.mcmeta",
+      "sha256": "2054ec23771561d5c388c5aa16ec87c9690c220c85ffdb28608868ce8c27d14e"
+    },
+    "src/main/resources/assets/hbm/textures/block/ore_nether_cobalt.png": {
+      "source": "src/main/resources/assets/hbm/textures/blocks/ore_nether_cobalt.png",
+      "sha256": "35b0a5705a07c3045c3415f38fc02cb714a591b8fb4c1b603f075b3b0f56a308"
+    },
+    "src/main/resources/assets/hbm/textures/block/ore_tikite.png": {
+      "source": "src/main/resources/assets/hbm/textures/blocks/ore_tikite_alt.png",
+      "sha256": "3643afabae1c6ce5cb6c546ad38d87023caf83221f282affdc30e367c115557d"
+    },
+    "src/main/resources/assets/hbm/textures/block/ore_coltan.png": {
+      "source": "src/main/resources/assets/hbm/textures/blocks/ore_coltan.png",
+      "sha256": "1936d0e8b3f9bf3e41d53b4fea1a34076b0b1a8539ae2d1f327c927402092b63"
+    },
+    "src/main/resources/assets/hbm/textures/block/ore_australium.png": {
+      "source": "src/main/resources/assets/hbm/textures/blocks/ore_australium.png",
+      "sha256": "17f84a10d53566ab88e3e7e7d8dd31fe5b31e185725bfe97f82081368e0ffc8a"
+    },
+    "src/main/resources/assets/hbm/textures/block/ore_alexandrite.png": {
+      "source": "src/main/resources/assets/hbm/textures/blocks/ore_alexandrite.png",
+      "sha256": "82ac2bca0ea6126e6965387c53f4b6ca3c9932f46022b63834d4344101d247ae"
+    },
+    "src/main/resources/assets/hbm/textures/block/cluster_depth_iron.png": {
+      "source": "src/main/resources/assets/hbm/textures/blocks/cluster_depth_iron.png",
+      "sha256": "5dbae7ee60d7a774d69bde9d3ae7def6e6d8a141ceeda17bc069f4b438c68a54"
+    },
+    "src/main/resources/assets/hbm/textures/block/cluster_depth_titanium.png": {
+      "source": "src/main/resources/assets/hbm/textures/blocks/cluster_depth_titanium.png",
+      "sha256": "3568e69cd07d183ec0f9e1311c352b1d3da7d571589ef41c4a25f352a6181e68"
+    },
+    "src/main/resources/assets/hbm/textures/block/cluster_depth_tungsten.png": {
+      "source": "src/main/resources/assets/hbm/textures/blocks/cluster_depth_tungsten.png",
+      "sha256": "c13ad98cd1b3915e1d05b95ac3a2fbdd75c825fa9b4a87410a6c754fb3f7d225"
+    },
+    "src/main/resources/assets/hbm/textures/block/ore_depth_cinnebar.png": {
+      "source": "src/main/resources/assets/hbm/textures/blocks/ore_depth_cinnebar.png",
+      "sha256": "4744d5443b2734d4cf2f5d9afd9c7a2acc86936759b7345fbaf7762ff0b0468c"
+    },
+    "src/main/resources/assets/hbm/textures/block/ore_depth_zirconium.png": {
+      "source": "src/main/resources/assets/hbm/textures/blocks/ore_depth_zirconium.png",
+      "sha256": "7f6ed0a7be6849638ad972474b6762cfa65dc176210917b280e5f841ee1d1e3c"
+    },
+    "src/main/resources/assets/hbm/textures/block/ore_depth_borax.png": {
+      "source": "src/main/resources/assets/hbm/textures/blocks/ore_depth_borax.png",
+      "sha256": "35b7f630bb627f7b8bfa2130e431e3a2ebc49f7ee2019593a0fcf24fdf2dc185"
+    },
+    "src/main/resources/assets/hbm/textures/block/ore_depth_nether_neodymium.png": {
+      "source": "src/main/resources/assets/hbm/textures/blocks/ore_depth_nether_neodymium.png",
+      "sha256": "24062aa04c9f635822f60dc2e382a9abfc76f67d3100372b32db110d8a67755f"
+    },
+    "src/main/resources/assets/hbm/textures/block/stone_gneiss.png": {
+      "source": "src/main/resources/assets/hbm/textures/blocks/stone_gneiss_var.png",
+      "sha256": "c3c517a6bcd4a77845c8499c81cd52ab5f8a0301438c79c6a9c322b439510500"
+    },
+    "src/main/resources/assets/hbm/textures/block/stone_depth.png": {
+      "source": "src/main/resources/assets/hbm/textures/blocks/stone_depth.png",
+      "sha256": "0aa3477b514693a670a5c7fa92e852c3e734f3e5c4e3445b80352e06a4696d60"
+    },
+    "src/main/resources/assets/hbm/textures/block/stone_depth_nether.png": {
+      "source": "src/main/resources/assets/hbm/textures/blocks/stone_depth_nether.png",
+      "sha256": "716a7d4e9182bc04d33c1371f62212c44f7c9094113f15723e361c92cc508eae"
+    },
+    "src/main/resources/assets/hbm/textures/block/stone_resource_sulfur.png": {
+      "source": "src/main/resources/assets/hbm/textures/blocks/stone_resource.sulfur.png",
+      "sha256": "58a9fafe5ebc964e460d2264e1c0fee61c0c42986d3233ff8a4fedc341c5b5e1"
+    },
+    "src/main/resources/assets/hbm/textures/block/stone_resource_asbestos.png": {
+      "source": "src/main/resources/assets/hbm/textures/blocks/stone_resource.asbestos.png",
+      "sha256": "13b217cf58ad8e1e08d5c9d672b7728578025a6b12a19845e4db88d9151ed200"
+    },
+    "src/main/resources/assets/hbm/textures/block/stone_resource_hematite.png": {
+      "source": "src/main/resources/assets/hbm/textures/blocks/stone_resource.hematite.png",
+      "sha256": "0588ed3c3d2ffb4da35400c55830daa1857c981ea9189d5affc0c46999a53826"
+    },
+    "src/main/resources/assets/hbm/textures/block/stone_resource_malachite.png": {
+      "source": "src/main/resources/assets/hbm/textures/blocks/stone_resource.malachite.png",
+      "sha256": "f446aaef72168bd0e26cdf3141ca4aab32d4cadb271ca615e985d8cda86dbcc6"
+    },
+    "src/main/resources/assets/hbm/textures/block/stone_resource_limestone.png": {
+      "source": "src/main/resources/assets/hbm/textures/blocks/stone_resource.limestone.png",
+      "sha256": "6f92e33e0075dd6dad026495411ea8688011d84b33a136aa6aa7f8a681156d5f"
+    },
+    "src/main/resources/assets/hbm/textures/block/stone_resource_bauxite.png": {
+      "source": "src/main/resources/assets/hbm/textures/blocks/stone_resource.bauxite.png",
+      "sha256": "43439b54171ad584c1d76fdccba3b05a6eecfef3f30870f3388838feb3c770a5"
+    },
+    "src/main/resources/assets/hbm/textures/block/stalagmite_asbestos.png": {
+      "source": "src/main/resources/assets/hbm/textures/blocks/stalagmite.asbestos.png",
+      "sha256": "dfe3094cf46763bf60be18aa71739b535f047eefe6f3b42243ee4a47afed4e1b"
+    },
+    "src/main/resources/assets/hbm/textures/block/stalactite_asbestos.png": {
+      "source": "src/main/resources/assets/hbm/textures/blocks/stalactite.asbestos.png",
+      "sha256": "8166480845afd00af65facad3011abee8530e345d0c5fb4b166dfd6bbcb36c61"
+    },
+    "src/main/resources/assets/hbm/textures/block/block_aluminium.png": {
+      "source": "src/main/resources/assets/hbm/textures/blocks/block_aluminium.png",
+      "sha256": "676a6e55ed6d353c77930b0c9aac5d3814fcf81f6c1420d10b4484cebb51d09f"
+    },
+    "src/main/resources/assets/hbm/textures/block/block_asbestos.png": {
+      "source": "src/main/resources/assets/hbm/textures/blocks/block_asbestos.png",
+      "sha256": "e9d0173fd69d1da742b45a21c64ed3d15e472d75c72b62bf18af9efd7ca3c02f"
+    },
+    "src/main/resources/assets/hbm/textures/block/block_australium.png": {
+      "source": "src/main/resources/assets/hbm/textures/blocks/block_australium.png",
+      "sha256": "d05cbf63b004ad8e7f8d268aee60fba3aee40d0bf0a17989ca0f5804c9874de0"
+    },
+    "src/main/resources/assets/hbm/textures/block/block_beryllium.png": {
+      "source": "src/main/resources/assets/hbm/textures/blocks/block_beryllium.png",
+      "sha256": "2f872cf1b25f12b79895e1cf9e06859124fd78dd509fb170c95eec772b312975"
+    },
+    "src/main/resources/assets/hbm/textures/block/block_cobalt.png": {
+      "source": "src/main/resources/assets/hbm/textures/blocks/block_cobalt.png",
+      "sha256": "e58f7978b13657f49af309d6f90d81677204089c58299db6c2834a865d5dbe5e"
+    },
+    "src/main/resources/assets/hbm/textures/block/block_coltan.png": {
+      "source": "src/main/resources/assets/hbm/textures/blocks/block_coltan.png",
+      "sha256": "33e8bc108370983430fc3715ff5f0e587c6deecda121fb7783cc3e2630745c47"
+    },
+    "src/main/resources/assets/hbm/textures/block/block_copper.png": {
+      "source": "src/main/resources/assets/hbm/textures/blocks/block_copper.png",
+      "sha256": "555fb19b8e1cd1deb23bed453b97382c82f81f11d48aefc28821a6f5afec1d1f"
+    },
+    "src/main/resources/assets/hbm/textures/block/block_fluorite.png": {
+      "source": "src/main/resources/assets/hbm/textures/blocks/block_fluorite.png",
+      "sha256": "d95a37df78c7ee84ba69b9bd9ae967342a4dbdebf004bdaa286ae80f0912acbf"
+    },
+    "src/main/resources/assets/hbm/textures/block/block_lithium.png": {
+      "source": "src/main/resources/assets/hbm/textures/blocks/block_lithium.png",
+      "sha256": "26bbb828248e28fc03795a4ed49c99570aeb2a7288a0fd5277a6629dc2bc9c01"
+    },
+    "src/main/resources/assets/hbm/textures/block/block_niter.png": {
+      "source": "src/main/resources/assets/hbm/textures/blocks/block_niter.png",
+      "sha256": "43e2e589c9bca5964b13bdada9fa33543b4fe2d1d939f051a467af7a614799f4"
+    },
+    "src/main/resources/assets/hbm/textures/block/block_red_phosphorus.png": {
+      "source": "src/main/resources/assets/hbm/textures/blocks/block_red_phosphorus.png",
+      "sha256": "2b057db61418a087a04917f48d4c217e7b3bcbd181b2bf7bc85bd3a535f5d4bb"
+    },
+    "src/main/resources/assets/hbm/textures/block/block_sulfur.png": {
+      "source": "src/main/resources/assets/hbm/textures/blocks/block_sulfur.png",
+      "sha256": "d42a2d8370ba2a9c9805499877bc80d3e95ccdc080d5ee74442ddb26e63fd264"
+    },
+    "src/main/resources/assets/hbm/textures/block/block_thorium.png": {
+      "source": "src/main/resources/assets/hbm/textures/blocks/block_thorium.png",
+      "sha256": "ca0b24c6127a89b225a2d7e8614d3b8d687f8363fce5e4493fd9550ffc45f45f"
+    },
+    "src/main/resources/assets/hbm/textures/block/block_tungsten.png": {
+      "source": "src/main/resources/assets/hbm/textures/blocks/block_tungsten.png",
+      "sha256": "0a6f95e465f20033b9066af0cae7809c2c2aae15e73cf832008c13db2f511749"
+    },
+    "src/main/resources/assets/hbm/textures/block/block_uranium.png": {
+      "source": "src/main/resources/assets/hbm/textures/blocks/block_uranium.png",
+      "sha256": "0701321fa38c456e4167cb4529186b6bd327fb9cfeeaf34a268c6bab4c01d9a9"
+    },
+    "src/main/resources/assets/hbm/textures/block/block_white_phosphorus.png": {
+      "source": "src/main/resources/assets/hbm/textures/blocks/block_white_phosphorus.png",
+      "sha256": "ae4b2b223625c45fdac290256f0e5dc62c777f5b14a7f461090784843b4e6d44"
+    },
+    "src/main/resources/assets/hbm/textures/block/block_zirconium.png": {
+      "source": "src/main/resources/assets/hbm/textures/blocks/block_zirconium.png",
+      "sha256": "eaefb3e61452123ac2181e20c43ac07c81292853bebbff67c46a6b1e6da1a2be"
+    },
+    "src/main/resources/assets/hbm/textures/item/gem_alexandrite_0.png": {
+      "source": "src/main/resources/assets/hbm/textures/items/gem_alexandrite.png",
+      "source_sha256": "8596d0cad9b87c8d690ef2ff29675252dc60fbc137bf30c5112d6d93196bd1b5",
+      "sha256": "5673fa5f5a1f33738fa59fd2bc1321d7939657e78b3a11ed8d703e99523c75e9",
+      "transformation": "lossless 16x16 frame 0 of 16"
+    },
+    "src/main/resources/assets/hbm/textures/item/gem_alexandrite_1.png": {
+      "source": "src/main/resources/assets/hbm/textures/items/gem_alexandrite.png",
+      "source_sha256": "8596d0cad9b87c8d690ef2ff29675252dc60fbc137bf30c5112d6d93196bd1b5",
+      "sha256": "ff874ef32501eb1181caed83e947818e175d50f5d74caebe10d26af3c237b5b2",
+      "transformation": "lossless 16x16 frame 1 of 16"
+    },
+    "src/main/resources/assets/hbm/textures/item/gem_alexandrite_2.png": {
+      "source": "src/main/resources/assets/hbm/textures/items/gem_alexandrite.png",
+      "source_sha256": "8596d0cad9b87c8d690ef2ff29675252dc60fbc137bf30c5112d6d93196bd1b5",
+      "sha256": "9bf37442164bdd9c73664ef2a9fa869d9c90c45ad72b0370adc34eddb69489d3",
+      "transformation": "lossless 16x16 frame 2 of 16"
+    },
+    "src/main/resources/assets/hbm/textures/item/gem_alexandrite_3.png": {
+      "source": "src/main/resources/assets/hbm/textures/items/gem_alexandrite.png",
+      "source_sha256": "8596d0cad9b87c8d690ef2ff29675252dc60fbc137bf30c5112d6d93196bd1b5",
+      "sha256": "e6204194fd32745bb416c528fd0db3d948c7e8c5163bf268f3b1a311065fa300",
+      "transformation": "lossless 16x16 frame 3 of 16"
+    },
+    "src/main/resources/assets/hbm/textures/item/gem_alexandrite_4.png": {
+      "source": "src/main/resources/assets/hbm/textures/items/gem_alexandrite.png",
+      "source_sha256": "8596d0cad9b87c8d690ef2ff29675252dc60fbc137bf30c5112d6d93196bd1b5",
+      "sha256": "1e095f36f39844b207f57cf246db9f264ed1a0df58c460cdd713a3f8bc4561cb",
+      "transformation": "lossless 16x16 frame 4 of 16"
+    },
+    "src/main/resources/assets/hbm/textures/item/gem_alexandrite_5.png": {
+      "source": "src/main/resources/assets/hbm/textures/items/gem_alexandrite.png",
+      "source_sha256": "8596d0cad9b87c8d690ef2ff29675252dc60fbc137bf30c5112d6d93196bd1b5",
+      "sha256": "d9212b53e6d39ed3401d2fa7abf2a4c8e085cb13d5320fd0430527c05dbd42a7",
+      "transformation": "lossless 16x16 frame 5 of 16"
+    },
+    "src/main/resources/assets/hbm/textures/item/gem_alexandrite_6.png": {
+      "source": "src/main/resources/assets/hbm/textures/items/gem_alexandrite.png",
+      "source_sha256": "8596d0cad9b87c8d690ef2ff29675252dc60fbc137bf30c5112d6d93196bd1b5",
+      "sha256": "7e89c92c4afc0f4f178d55dd0ab40f5c7b3b5b75869a4dac95d1f9acec505e74",
+      "transformation": "lossless 16x16 frame 6 of 16"
+    },
+    "src/main/resources/assets/hbm/textures/item/gem_alexandrite_7.png": {
+      "source": "src/main/resources/assets/hbm/textures/items/gem_alexandrite.png",
+      "source_sha256": "8596d0cad9b87c8d690ef2ff29675252dc60fbc137bf30c5112d6d93196bd1b5",
+      "sha256": "d9b98d9096cec37862670f32ac438c2d97558bc98aaf46e4b08fa57881dd8445",
+      "transformation": "lossless 16x16 frame 7 of 16"
+    },
+    "src/main/resources/assets/hbm/textures/item/gem_alexandrite_8.png": {
+      "source": "src/main/resources/assets/hbm/textures/items/gem_alexandrite.png",
+      "source_sha256": "8596d0cad9b87c8d690ef2ff29675252dc60fbc137bf30c5112d6d93196bd1b5",
+      "sha256": "3508ffff16bb888c2e9c36b4c52316fb4d7e89ae50470855492317a80d63679a",
+      "transformation": "lossless 16x16 frame 8 of 16"
+    },
+    "src/main/resources/assets/hbm/textures/item/gem_alexandrite_9.png": {
+      "source": "src/main/resources/assets/hbm/textures/items/gem_alexandrite.png",
+      "source_sha256": "8596d0cad9b87c8d690ef2ff29675252dc60fbc137bf30c5112d6d93196bd1b5",
+      "sha256": "c057d70677bacf9a5a1f824a9a78ed7b0a474f297807d55347a8de97d7dcc27b",
+      "transformation": "lossless 16x16 frame 9 of 16"
+    },
+    "src/main/resources/assets/hbm/textures/item/gem_alexandrite_10.png": {
+      "source": "src/main/resources/assets/hbm/textures/items/gem_alexandrite.png",
+      "source_sha256": "8596d0cad9b87c8d690ef2ff29675252dc60fbc137bf30c5112d6d93196bd1b5",
+      "sha256": "0d22017a3fde02403ee68b0330b4ffdb42a273b744ee6275e9943fcc129e641b",
+      "transformation": "lossless 16x16 frame 10 of 16"
+    },
+    "src/main/resources/assets/hbm/textures/item/gem_alexandrite_11.png": {
+      "source": "src/main/resources/assets/hbm/textures/items/gem_alexandrite.png",
+      "source_sha256": "8596d0cad9b87c8d690ef2ff29675252dc60fbc137bf30c5112d6d93196bd1b5",
+      "sha256": "a2b4bd0ea8c86e73f7abd868249c3018a0989818747817c27486732dcffa802c",
+      "transformation": "lossless 16x16 frame 11 of 16"
+    },
+    "src/main/resources/assets/hbm/textures/item/gem_alexandrite_12.png": {
+      "source": "src/main/resources/assets/hbm/textures/items/gem_alexandrite.png",
+      "source_sha256": "8596d0cad9b87c8d690ef2ff29675252dc60fbc137bf30c5112d6d93196bd1b5",
+      "sha256": "7db847bde659a1df8dc149f969f2452ce993168254ad85c7a05276225510779d",
+      "transformation": "lossless 16x16 frame 12 of 16"
+    },
+    "src/main/resources/assets/hbm/textures/item/gem_alexandrite_13.png": {
+      "source": "src/main/resources/assets/hbm/textures/items/gem_alexandrite.png",
+      "source_sha256": "8596d0cad9b87c8d690ef2ff29675252dc60fbc137bf30c5112d6d93196bd1b5",
+      "sha256": "a1dca4e4ecc3b35bc1cd9c9e17896d499dbdda764ec56f0bc25bba4fbf639d40",
+      "transformation": "lossless 16x16 frame 13 of 16"
+    },
+    "src/main/resources/assets/hbm/textures/item/gem_alexandrite_14.png": {
+      "source": "src/main/resources/assets/hbm/textures/items/gem_alexandrite.png",
+      "source_sha256": "8596d0cad9b87c8d690ef2ff29675252dc60fbc137bf30c5112d6d93196bd1b5",
+      "sha256": "7014ee7def33dd6a5615a74fd32902bec01941a131ef0e2950b3664af5cffd06",
+      "transformation": "lossless 16x16 frame 14 of 16"
+    },
+    "src/main/resources/assets/hbm/textures/item/gem_alexandrite_15.png": {
+      "source": "src/main/resources/assets/hbm/textures/items/gem_alexandrite.png",
+      "source_sha256": "8596d0cad9b87c8d690ef2ff29675252dc60fbc137bf30c5112d6d93196bd1b5",
+      "sha256": "357b151bec5fd62ae3a085cb258870bc0943f9635a45842b2c4dde403a457021",
+      "transformation": "lossless 16x16 frame 15 of 16"
+    }
+  }
+}

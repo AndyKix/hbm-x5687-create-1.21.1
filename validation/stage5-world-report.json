@@ -1,0 +1,57 @@
+{
+  "seed": 5687,
+  "world": "hbm-stage5-smoke-1793446908347",
+  "natural_resource_counts": {
+    "overworld": {
+      "cluster_aluminium": 421,
+      "cluster_copper": 570,
+      "cluster_depth_iron": 21,
+      "cluster_depth_titanium": 70,
+      "cluster_depth_tungsten": 100,
+      "cluster_iron": 541,
+      "cluster_titanium": 258,
+      "ore_aluminium": 1029,
+      "ore_asbestos": 165,
+      "ore_beryllium": 399,
+      "ore_cinnebar": 82,
+      "ore_cobalt": 96,
+      "ore_copper": 1749,
+      "ore_depth_borax": 269,
+      "ore_depth_cinnebar": 385,
+      "ore_depth_zirconium": 271,
+      "ore_fluorite": 395,
+      "ore_lead": 1305,
+      "ore_lignite": 3612,
+      "ore_niter": 782,
+      "ore_rare": 594,
+      "ore_sulfur": 956,
+      "ore_thorium": 772,
+      "ore_titanium": 1093,
+      "ore_tungsten": 1926,
+      "ore_uranium": 658,
+      "stone_depth": 2033,
+      "stone_resource_hematite": 14112,
+      "stone_resource_limestone": 671,
+      "stone_resource_malachite": 865
+    },
+    "nether": {
+      "ore_depth_nether_neodymium": 476,
+      "ore_nether_coal": 11571,
+      "ore_nether_cobalt": 86,
+      "ore_nether_fire": 1367,
+      "ore_nether_sulfur": 4482,
+      "ore_nether_tungsten": 1230,
+      "ore_nether_uranium": 457,
+      "stone_depth_nether": 1808
+    },
+    "end": {
+      "ore_tikite": 115
+    }
+  },
+  "scanned_chunks": {
+    "overworld": 49,
+    "end": 9,
+    "nether": 25
+  },
+  "saved_material_stacks": 50
+}

@@ -12,6 +12,9 @@ import com.hbm.port.machine.IronFurnaceBlock;
 import com.hbm.port.machine.IronFurnaceBlockEntity;
 import com.hbm.port.machine.IronFurnaceMenu;
 import com.hbm.port.storage.CrateContent;
+import com.hbm.port.material.RawMaterials;
+import com.hbm.port.material.RawOreYield;
+import com.hbm.port.world.RawWorldgen;
 import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.inventory.MenuType;
 import net.minecraft.world.flag.FeatureFlags;
@@ -64,6 +67,7 @@ public final class HbmPort {
             ORES.put(id, ore);
             MATERIAL_ITEMS.put(id, ITEMS.register(id, () -> new BlockItem(ore.get(), new Item.Properties())));
         }
+        RawMaterials.register();
         TABS.register("materials", () -> CreativeModeTab.builder()
                 .title(Component.translatable("itemGroup.hbm.materials"))
                 .icon(() -> MATERIAL_ITEMS.get("ingot_steel").get().getDefaultInstance())
@@ -80,6 +84,8 @@ public final class HbmPort {
     }
 
     public HbmPort(IEventBus bus) {
+        RawOreYield.TYPES.register(bus);
+        RawWorldgen.FEATURES.register(bus);
         CrateContent.register(bus);
         ITEMS.register(bus);
         BLOCKS.register(bus);

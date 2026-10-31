@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "hbm:block_copper"
+    }
+  },
+  "result": {
+    "id": "hbm:ingot_copper",
+    "count": 9
+  }
+}

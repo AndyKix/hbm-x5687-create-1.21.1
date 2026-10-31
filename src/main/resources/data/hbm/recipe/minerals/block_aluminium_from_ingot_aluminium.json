@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "hbm:ingot_aluminium"
+    }
+  },
+  "result": {
+    "id": "hbm:block_aluminium",
+    "count": 1
+  }
+}

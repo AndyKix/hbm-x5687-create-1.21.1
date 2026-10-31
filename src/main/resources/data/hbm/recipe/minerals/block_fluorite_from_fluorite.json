@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "hbm:fluorite"
+    }
+  },
+  "result": {
+    "id": "hbm:block_fluorite",
+    "count": 1
+  }
+}

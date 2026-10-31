@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "#c:dusts/sulfur",
+    "#c:dusts/saltpeter",
+    "#c:dusts/fluorite",
+    "#c:dusts/borax",
+    "#c:dusts/red_phosphorus",
+    "#c:dusts/asbestos"
+  ]
+}

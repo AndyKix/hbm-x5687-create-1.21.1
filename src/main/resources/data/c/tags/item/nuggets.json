@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "#c:nuggets/zirconium",
+    "#c:nuggets/australium",
+    "#c:nuggets/beryllium",
+    "#c:nuggets/cobalt",
+    "#c:nuggets/lead",
+    "#c:nuggets/thorium",
+    "#c:nuggets/uranium",
+    "#c:nuggets/neodymium"
+  ]
+}

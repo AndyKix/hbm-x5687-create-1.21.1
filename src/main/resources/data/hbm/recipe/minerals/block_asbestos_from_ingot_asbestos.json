@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "hbm:ingot_asbestos"
+    }
+  },
+  "result": {
+    "id": "hbm:block_asbestos",
+    "count": 1
+  }
+}

@@ -2,6 +2,31 @@
   "replace": false,
   "values": [
     "#c:ores/titanium",
-    "#c:ores/lead"
+    "#c:ores/lead",
+    "#c:ores/uranium",
+    "#c:ores/thorium",
+    "#c:ores/aluminium",
+    "#c:ores/copper",
+    "#c:ores/tungsten",
+    "#c:ores/beryllium",
+    "#c:ores/cobalt",
+    "#c:ores/fluorite",
+    "#c:ores/lignite",
+    "#c:ores/coltan",
+    "#c:ores/australium",
+    "#c:ores/sulfur",
+    "#c:ores/saltpeter",
+    "#c:ores/asbestos",
+    "#c:ores/rare_earth",
+    "#c:ores/cinnabar",
+    "#c:ores/borax",
+    "#c:ores/zirconium",
+    "#c:ores/neodymium",
+    "#c:ores/lithium",
+    "#c:ores/iron",
+    "#c:ores/gold",
+    "#c:ores/hematite",
+    "#c:ores/malachite",
+    "#c:ores/limestone"
   ]
 }

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "hbm:niter"
+    }
+  },
+  "result": {
+    "id": "hbm:block_niter",
+    "count": 1
+  }
+}

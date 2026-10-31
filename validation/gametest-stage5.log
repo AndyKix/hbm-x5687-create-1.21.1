@@ -1,0 +1,139 @@
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/9.2.1/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build
+> Task :createMinecraftArtifacts UP-TO-DATE
+> Task :compileJava UP-TO-DATE
+> Task :processResources UP-TO-DATE
+> Task :classes UP-TO-DATE
+> Task :jarJar NO-SOURCE
+> Task :jar UP-TO-DATE
+> Task :assemble UP-TO-DATE
+> Task :compileTestJava NO-SOURCE
+> Task :processTestResources NO-SOURCE
+> Task :testClasses UP-TO-DATE
+> Task :test NO-SOURCE
+> Task :check UP-TO-DATE
+> Task :build UP-TO-DATE
+> Task :downloadAssets UP-TO-DATE
+> Task :writeGameTestServerLegacyClasspath UP-TO-DATE
+> Task :prepareGameTestServerRun UP-TO-DATE
+
+> Task :runGameTestServer
+WARN StatusConsoleListener Advanced terminal features are not available in this environment
+[17:03:44] [main/INFO] [cp.mo.mo.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserverdev, --gameDir, ., --fml.fmlVersion, 4.0.45, --fml.mcVersion, 1.21.1, --fml.neoForgeVersion, 21.1.264, --fml.neoFormVersion, 20240808.144430]
+[17:03:44] [main/INFO] [cp.mo.mo.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.13+9-LTS
+[17:03:44] [main/INFO] [cp.mo.mo.Launcher/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.13 by Eclipse Adoptium; OS Mac OS X arch aarch64 version 15.6.1
+[17:03:44] [main/INFO] [ne.ne.fm.lo.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserverdev
+[17:03:44] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:<workspace>/work/gradle-cache/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.16.4+mixin.0.8.7/26d01f0567ab46e9ca0d2ed89d0ecc11aadbd433/sponge-mixin-0.16.4+mixin.0.8.7.jar%2394!/ Service=ModLauncher Env=SERVER
+[17:03:44] [main/INFO] [ne.ne.fm.lo.mo.lo.JarInJarDependencyLocator/]: Found 5 dependencies adding them to mods collection
+[17:03:44] [main/INFO] [ne.ne.fm.lo.mo.ModDiscoverer/]:
+     Mod List:
+		Name Version (Mod Id)
+
+		Create 6.0.10 (create)
+		Flywheel 1.0.6 (flywheel)
+		HBM 1.21.1 — Port Prototype 0.5.0-stage5 (hbm)
+		Minecraft 1.21.1 (minecraft)
+		NeoForge 21.1.264 (neoforge)
+		Ponder 1.0.82+mc1.21.1 (ponder)
+[17:03:45] [main/INFO] [mixin/]: Compatibility level set to JAVA_21
+[17:03:45] [main/INFO] [cp.mo.mo.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserverdev' with arguments [--gameDir, .]
+[17:03:45] [main/WARN] [mixin/]: Reference map 'ponder.refmap.json' for ponder-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[17:03:45] [main/WARN] [mixin/]: Error loading class: org/jetbrains/annotations/ApiStatus$ScheduledForRemoval (java.lang.ClassNotFoundException: org.jetbrains.annotations.ApiStatus$ScheduledForRemoval)
+[17:03:45] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.5).
+[17:03:51] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[17:03:51] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[17:03:51] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[17:03:51] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[17:03:51] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[17:03:51] [modloading-worker-0/INFO] [ne.ne.ne.co.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.264, for MC 1.21.1
+[17:03:51] [modloading-worker-0/INFO] [co.si.cr.Create/]: Create 6.0.10 initializing! Commit hash: c308d004788fce2998bf41653f6d39412b6fc8ed
+[17:03:53] [main/INFO] [mojang/YggdrasilAuthenticationService]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[17:03:53] [NeoForge Version Check/INFO] [ne.ne.fm.VersionChecker/]: [create] Starting version check at https://api.modrinth.com/updates/create/forge_updates.json?neoforge=only
+[17:03:53] [main/WARN] [minecraft/VanillaPackResourcesBuilder]: Assets URL 'union:<workspace>/work/stage1-build/moddev/artifacts/neoforge-21.1.264.jar%23125!/assets/.mcassetsroot' uses unexpected schema
+[17:03:53] [main/WARN] [minecraft/VanillaPackResourcesBuilder]: Assets URL 'union:<workspace>/work/stage1-build/moddev/artifacts/neoforge-21.1.264.jar%23125!/data/.mcassetsroot' uses unexpected schema
+[17:03:53] [main/INFO] [co.si.cr.Create/]: Created 157 recipes which will be injected into the game
+[17:03:53] [main/INFO] [co.si.cr.Create/]: Created 0 tags which will be injected into the game
+[17:03:53] [main/INFO] [ne.ne.ne.ga.GameTestHooks/]: Enabled Gametest Namespaces: [hbm]
+[17:03:53] [NeoForge Version Check/INFO] [ne.ne.fm.VersionChecker/]: [create] Found status: OUTDATED Current: 6.0.10 Target: 6.0.10+mc1.21.1
+[17:03:54] [main/INFO] [minecraft/RecipeManager]: Loaded 2963 recipes
+[17:03:54] [main/INFO] [minecraft/AdvancementTree]: Loaded 2507 advancements
+[17:03:55] [Server thread/INFO] [minecraft/MinecraftServer]: Preparing start region for dimension minecraft:overworld
+[17:03:55] [worldgen/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 2%
+[17:03:55] [Server thread/INFO] [minecraft/LoggerChunkProgressListener]: Time elapsed: 109 ms
+[17:03:55] [Server thread/INFO] [minecraft/GameTestServer]: Started game test server
+[17:03:55] [Server thread/INFO] [ne.ne.ne.se.pe.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[17:03:55] [Server thread/INFO] [minecraft/GameTestServer]: 61 tests are now running at position 9133152, -59, -1784874!
+[17:03:55] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'raw_worldgen:0' (1 tests)...
+[17:03:56] [Server thread/INFO] [minecraft/GameTestServer]: [                                                             ]
+[17:03:56] [Server thread/INFO] [minecraft/GameTestServer]: [                                                             ]
+[17:03:56] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'raw_regional:0' (1 tests)...
+[17:03:56] [Server thread/INFO] [minecraft/GameTestServer]: [+                                                            ]
+[17:03:56] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'crate_isolation:0' (1 tests)...
+[17:03:56] [Server thread/INFO] [minecraft/GameTestServer]: [++                                                           ]
+[17:03:56] [Server thread/INFO] [minecraft/GameTestServer]: [++                                                           ]
+[17:03:56] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'raw_depth:0' (1 tests)...
+[17:03:56] [Server thread/INFO] [minecraft/GameTestServer]: [+++                                                          ]
+[17:03:56] [Server thread/INFO] [minecraft/GameTestServer]: [+++                                                          ]
+[17:03:56] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'raw_lithium:0' (1 tests)...
+[17:03:56] [Server thread/INFO] [minecraft/GameTestServer]: [++++                                                         ]
+[17:03:56] [Server thread/INFO] [minecraft/GameTestServer]: [++++                                                         ]
+[17:03:56] [Server thread/INFO] [minecraft/GameTestServer]: [++++                                                         ]
+[17:03:56] [Server thread/INFO] [minecraft/GameTestServer]: [++++                                                         ]
+[17:03:56] [Server thread/INFO] [minecraft/GameTestServer]: [++++                                                         ]
+[17:03:56] [Server thread/INFO] [minecraft/GameTestServer]: [++++                                                         ]
+[17:03:57] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'defaultBatch:0' (50 tests)...
+[17:03:57] [Server thread/INFO] [minecraft/GameTestServer]: [+++++                                                        ]
+[17:03:57] [Server thread/INFO] [minecraft/GameTestServer]: [+++++                                                        ]
+[17:03:57] [Server thread/INFO] [co.si.cr.Create/]: RecipeTrie of depth 5 with 507 nodes built with 464 variants, 326 ingredients, and 410 recipes
+[17:03:57] [Server thread/INFO] [minecraft/GameTestServer]: [+++++     ++++    +_++    __+_    __++    _+__               ]
+[17:03:57] [Server thread/INFO] [minecraft/GameTestServer]: [++++++__++++++++__+++++++++++_++____+++_+__+__+++++++        ]
+[17:03:57] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++_++++++++__+++++++++++_++____+++_+__+__++++++++_      ]
+[17:03:57] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++_++++++++__++++++++++++++____+++_+__+__++++++++_      ]
+[17:03:57] [Server thread/INFO] [co.hb.po.te.MixerReportedScenarioTests/]: HBM MIXER DIAGNOSTIC: dropped andesite + iron nugget produced alloy without fueled heat
+[17:03:57] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++_++++++++++++++++++++++++__+++++_+__+__++++++++_      ]
+[17:03:57] [Server thread/INFO] [minecraft/GameTestServer]: [++++++++++++++++++++++++++++++++__+++++_+__+__++++++++_      ]
+[17:03:57] [Server thread/INFO] [minecraft/GameTestServer]: [++++++++++++++++++++++++++++++++__+++++_+__+__++++++++_      ]
+[17:03:57] [Server thread/INFO] [minecraft/GameTestServer]: [++++++++++++++++++++++++++++++++__+++++_+__+__++++++++_      ]
+[17:03:57] [Server thread/INFO] [minecraft/GameTestServer]: [++++++++++++++++++++++++++++++++__+++++_+__+__++++++++_      ]
+[17:03:57] [Server thread/INFO] [minecraft/GameTestServer]: [++++++++++++++++++++++++++++++++_++++++_+_++__++++++++_      ]
+[17:03:57] [Server thread/INFO] [minecraft/GameTestServer]: [++++++++++++++++++++++++++++++++_++++++_+_++__++++++++_      ]
+[17:03:57] [Server thread/INFO] [minecraft/GameTestServer]: [++++++++++++++++++++++++++++++++++++++++++++__+++++++++      ]
+[17:03:57] [Server thread/INFO] [minecraft/GameTestServer]: [++++++++++++++++++++++++++++++++++++++++++++__+++++++++      ]
+[17:03:57] [Server thread/INFO] [co.hb.po.te.MixerReportedScenarioTests/]: HBM MIXER DIAGNOSTIC: same rotating mixer left iron ingot + basin coal unchanged with unfueled burner
+[17:03:57] [Server thread/INFO] [minecraft/GameTestServer]: [++++++++++++++++++++++++++++++++++++++++++++__+++++++++      ]
+[17:03:57] [Server thread/INFO] [minecraft/GameTestServer]: [++++++++++++++++++++++++++++++++++++++++++++__+++++++++      ]
+[17:03:57] [Server thread/INFO] [minecraft/GameTestServer]: [++++++++++++++++++++++++++++++++++++++++++++__+++++++++      ]
+[17:03:57] [Server thread/INFO] [co.hb.po.te.MixerReportedScenarioTests/]: HBM MIXER DIAGNOSTIC PASSED: separately fueling burner enabled one steel without replacing the machine or recipe
+[17:03:57] [Server thread/INFO] [minecraft/GameTestServer]: [++++++++++++++++++++++++++++++++++++++++++++_++++++++++      ]
+[17:03:57] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'defaultBatch:1' (2 tests)...
+[17:03:57] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++++++++++++++++++++++++++++++      ]
+[17:03:57] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'worldgen:0' (1 tests)...
+[17:03:57] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++++++++++++++++++++++++++++++++    ]
+[17:03:57] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++++++++++++++++++++++++++++++++    ]
+[17:03:57] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'raw_strata:0' (1 tests)...
+[17:03:57] [Server thread/INFO] [minecraft/GameTestServer]: [++++++++++++++++++++++++++++++++++++++++++++++++++++++++++   ]
+[17:03:57] [Server thread/INFO] [minecraft/GameTestServer]: [++++++++++++++++++++++++++++++++++++++++++++++++++++++++++   ]
+[17:03:58] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'raw_floor:0' (1 tests)...
+[17:03:58] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  ]
+[17:03:58] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'storage_explosion:0' (1 tests)...
+[17:03:58] [Server thread/INFO] [minecraft/GameTestServer]: [++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ ]
+[17:03:58] [Server thread/INFO] [minecraft/GameTestServer]: [++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ ]
+[17:03:58] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++]
+[17:03:58] [Server thread/INFO] [minecraft/GameTestServer]: ========= 61 GAME TESTS COMPLETE IN 2.577 s ======================
+[17:03:58] [Server thread/INFO] [minecraft/GameTestServer]: All 61 required tests passed :)
+[17:03:58] [Server thread/INFO] [minecraft/GameTestServer]: ====================================================
+[17:03:58] [Server thread/INFO] [minecraft/MinecraftServer]: Stopping server
+[17:03:58] [Server thread/INFO] [minecraft/MinecraftServer]: Saving players
+[17:03:58] [Server thread/INFO] [minecraft/MinecraftServer]: Saving worlds
+[17:03:58] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[Test Level]'/minecraft:overworld
+[17:03:58] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[Test Level]'/minecraft:the_end
+[17:03:58] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[Test Level]'/minecraft:the_nether
+[17:03:58] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[17:03:58] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[17:03:58] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[17:03:58] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage: All dimensions are saved
+[17:03:58] [Server thread/INFO] [minecraft/GameTestServer]: Game test server shutting down
+
+BUILD SUCCESSFUL in 19s
+8 actionable tasks: 1 executed, 7 up-to-date
+Consider enabling configuration cache to speed up this build: https://docs.gradle.org/9.2.1/userguide/configuration_cache_enabling.html

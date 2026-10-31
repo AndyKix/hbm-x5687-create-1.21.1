@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "hbm:nugget_australium"
+    }
+  },
+  "result": {
+    "id": "hbm:billet_australium",
+    "count": 1
+  }
+}

@@ -15,11 +15,14 @@ neoForge {
             if (project.hasProperty('crateClientSmoke')) systemProperty 'hbm.crateClientSmoke', 'true'
             if (project.hasProperty('crateReloadSmoke')) systemProperty 'hbm.crateReloadSmoke', 'true'
             if (project.hasProperty('crateIsolationSmoke')) systemProperty 'hbm.crateIsolationSmoke', 'true'
+            if (project.hasProperty('rawClientSmoke')) systemProperty 'hbm.rawClientSmoke', 'true'
+            if (project.hasProperty('rawReloadSmoke')) systemProperty 'hbm.rawReloadSmoke', 'true'
         }
         server { server(); programArgument '--nogui' }
         gameTestServer {
             type = 'gameTestServer'
             systemProperty 'neoforge.enabledGameTestNamespaces', 'hbm'
+            systemProperty 'hbm.resourceTestTools', 'true'
         }
         configureEach { logLevel = org.slf4j.event.Level.INFO }
     }
