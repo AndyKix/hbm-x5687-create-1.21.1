@@ -174,5 +174,6 @@
   "container.hbm.barrel_steel": "Steel Barrel",
   "container.hbm.fluid_identifier": "Fluid Identifier",
   "block.hbm.machine_electric_furnace_off": "Electric Furnace",
-  "container.hbm.electric_furnace": "Electric Furnace"
+  "container.hbm.electric_furnace": "Electric Furnace",
+  "item.hbm.plate_polymer": "Insulator"
 }

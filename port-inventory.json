@@ -13700,5 +13700,6 @@
     "scope": "Initial HE and water/lava infrastructure only; See STAGE6_MAPPING.md for boundaries/modern fixes",
     "provenance": "infrastructure-provenance.json"
   },
-  "electric_furnace_scope": "STAGE7_MAPPING.md"
+  "electric_furnace_scope": "STAGE7_MAPPING.md",
+  "insulator_crafting_scope": "STAGE8_MAPPING.md"
 }

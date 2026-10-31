@@ -39,3 +39,7 @@ tools/import_infrastructure.py and STAGE6_MAPPING.md for exact scope and changes
 The base electric furnace adapts TileEntityMachineElectricFurnace and its native
 GUI/automation to 1.21.1; original five block textures and GUI are copied unchanged.
 See electric-furnace-provenance.json and STAGE7_MAPPING.md for scope and differences.
+
+The insulator item uses the unchanged X5687 plate_polymer texture and original
+direct crafting rules; two existing battery recipes are enabled. See
+insulator-provenance.json, tools/import_insulator.py and STAGE8_MAPPING.md.

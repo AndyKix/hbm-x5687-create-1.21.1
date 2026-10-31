@@ -31,6 +31,7 @@ public final class InfrastructureContent {
             () -> DataComponentType.<BarrelState>builder().persistent(BarrelState.CODEC).networkSynchronized(BarrelState.STREAM_CODEC).build());
     public static final BlockCapability<HeStorage, net.minecraft.core.Direction> ENERGY = BlockCapability.createSided(ResourceLocation.fromNamespaceAndPath("hbm", "he_energy"), HeStorage.class);
     public static final ItemCapability<HeStorage, Void> ITEM_ENERGY = ItemCapability.createVoid(ResourceLocation.fromNamespaceAndPath("hbm", "he_energy"), HeStorage.class);
+    public static final DeferredHolder<Item,Item> INSULATOR=HbmPort.ITEMS.register("plate_polymer",()->new Item(new Item.Properties()));
     public static final EnumMap<BatteryKind, DeferredHolder<Item, BatteryItem>> BATTERIES = new EnumMap<>(BatteryKind.class);
     public static final DeferredHolder<Block, EnergySocketBlock> SOCKET = HbmPort.BLOCKS.register("machine_battery_socket",
             () -> new EnergySocketBlock(BlockBehaviour.Properties.of().strength(5,10).sound(SoundType.METAL).requiresCorrectToolForDrops().noOcclusion()));
@@ -78,6 +79,7 @@ public final class InfrastructureContent {
         for (var battery : BATTERIES.values()) event.registerItem(ITEM_ENERGY, (stack,ctx) -> ((BatteryItem)stack.getItem()).storage(stack), battery.get());
     }
     public static void creative(CreativeModeTab.Output output) {
+        output.accept(INSULATOR.get());
         output.accept(SOCKET_ITEM.get()); output.accept(CABLE_ITEM.get()); output.accept(BARREL_ITEM.get()); output.accept(PIPE_ITEM.get());
         for (var entry : BATTERIES.entrySet()) {
             var item = entry.getValue().get(); var kind = entry.getKey();

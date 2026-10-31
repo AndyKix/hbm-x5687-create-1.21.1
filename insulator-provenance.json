@@ -1,0 +1,34 @@
+{
+  "upstream_commit": "23ef33447280d83d44c1f7bcd3853fe59c0ec1fc",
+  "source_assets_sha256": {
+    "textures/items/plate_polymer.png": "e85b1ab596e082520df3830f58b50116547f2a225c57734ede05a7d5995f5a86"
+  },
+  "recipes": {
+    "insulator_bricks": {
+      "source": "CraftingManager.java:109",
+      "output": "hbm:plate_polymer",
+      "count": 4
+    },
+    "insulator_wool": {
+      "source": "CraftingManager.java:108",
+      "output": "hbm:plate_polymer",
+      "count": 4
+    },
+    "insulator_asbestos": {
+      "source": "CraftingManager.java:107",
+      "output": "hbm:plate_polymer",
+      "count": 16
+    },
+    "battery_redstone": {
+      "source": "CraftingManager.java:278",
+      "output": "hbm:battery_redstone",
+      "count": 1
+    },
+    "capacitor_copper": {
+      "source": "CraftingManager.java:279",
+      "output": "hbm:capacitor_copper",
+      "count": 1
+    }
+  },
+  "omissions": "Plastic/rubber/fiber inputs await their materials. The source nether-brick alternative uses ingotNetherBrick, while the canonical key is ingotBrickNether; no alias or repaired recipe is silently introduced. Batteries craft empty."
+}
