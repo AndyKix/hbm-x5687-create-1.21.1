@@ -15,6 +15,7 @@ import com.hbm.port.storage.CrateContent;
 import com.hbm.port.material.RawMaterials;
 import com.hbm.port.material.RawOreYield;
 import com.hbm.port.world.RawWorldgen;
+import com.hbm.port.infrastructure.InfrastructureContent;
 import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.inventory.MenuType;
 import net.minecraft.world.flag.FeatureFlags;
@@ -75,6 +76,7 @@ public final class HbmPort {
                     MATERIAL_ITEMS.values().forEach(item -> output.accept(item.get()));
                     output.accept(IRON_FURNACE_ITEM.get());
                     CrateContent.ITEMS.values().forEach(item -> output.accept(item.get()));
+                    InfrastructureContent.creative(output);
                 })
                 .build());
     }
@@ -84,6 +86,7 @@ public final class HbmPort {
     }
 
     public HbmPort(IEventBus bus) {
+        InfrastructureContent.register(bus);
         RawOreYield.TYPES.register(bus);
         RawWorldgen.FEATURES.register(bus);
         CrateContent.register(bus);
@@ -101,5 +104,6 @@ public final class HbmPort {
             return furnace == null ? null : furnace.itemHandler(side);
         }, IRON_FURNACE.get());
         CrateContent.registerCapabilities(event);
+        InfrastructureContent.capabilities(event);
     }
 }

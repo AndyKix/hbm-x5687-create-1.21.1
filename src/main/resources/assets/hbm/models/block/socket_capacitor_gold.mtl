@@ -1,0 +1,9 @@
+newmtl socket
+Ka 0 0 0
+Kd 1 1 1
+map_Kd hbm:block/battery_socket
+
+newmtl pack
+Ka 0 0 0
+Kd 1 1 1
+map_Kd hbm:block/capacitor_gold

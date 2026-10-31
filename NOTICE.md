@@ -28,3 +28,10 @@ are imported from the same pinned X5687 commit. See raw-material-provenance.json
 tools/import_raw_materials.py and STAGE5_MAPPING.md. DepthDeposit, SchistStratum,
 OreLayer3D, OreCave, BlockLithium and IDepthRockTool algorithms are adapted to
 NeoForge's native generation/lifecycle APIs. No modern HBM port is used.
+
+The HE and water/lava foundation adapts X5687 battery, socket, cable, steel barrel,
+fluid identifier and typed network behavior to native NeoForge components,
+capabilities, menus and loaded-chunk lifecycle. Source textures/GUI are copied
+byte-for-byte; original OBJ groups are selected, origin/orientation translated
+and native materials/colors bound. See infrastructure-provenance.json,
+tools/import_infrastructure.py and STAGE6_MAPPING.md for exact scope and changes.

@@ -1,15 +1,19 @@
 {
   "replace": false,
   "values": [
-    "hbm:furnace_iron",
-    "hbm:ore_alexandrite",
+    "hbm:barrel_steel",
     "hbm:cluster_depth_iron",
     "hbm:cluster_depth_titanium",
     "hbm:cluster_depth_tungsten",
-    "hbm:ore_depth_cinnebar",
-    "hbm:ore_depth_zirconium",
+    "hbm:fluid_duct_neo",
+    "hbm:furnace_iron",
+    "hbm:machine_battery_socket",
+    "hbm:ore_alexandrite",
     "hbm:ore_depth_borax",
+    "hbm:ore_depth_cinnebar",
     "hbm:ore_depth_nether_neodymium",
+    "hbm:ore_depth_zirconium",
+    "hbm:red_cable",
     "hbm:stone_depth",
     "hbm:stone_depth_nether"
   ]

@@ -1,0 +1,169 @@
+{
+  "variants": {
+    "part=0,facing=south,pack=empty": {
+      "model": "hbm:block/socket_empty",
+      "y": 0
+    },
+    "part=0,facing=east,pack=empty": {
+      "model": "hbm:block/socket_empty",
+      "y": 270
+    },
+    "part=0,facing=north,pack=empty": {
+      "model": "hbm:block/socket_empty",
+      "y": 180
+    },
+    "part=0,facing=west,pack=empty": {
+      "model": "hbm:block/socket_empty",
+      "y": 90
+    },
+    "part=0,facing=south,pack=battery_redstone": {
+      "model": "hbm:block/socket_battery_redstone",
+      "y": 0
+    },
+    "part=0,facing=east,pack=battery_redstone": {
+      "model": "hbm:block/socket_battery_redstone",
+      "y": 270
+    },
+    "part=0,facing=north,pack=battery_redstone": {
+      "model": "hbm:block/socket_battery_redstone",
+      "y": 180
+    },
+    "part=0,facing=west,pack=battery_redstone": {
+      "model": "hbm:block/socket_battery_redstone",
+      "y": 90
+    },
+    "part=0,facing=south,pack=battery_lead": {
+      "model": "hbm:block/socket_battery_lead",
+      "y": 0
+    },
+    "part=0,facing=east,pack=battery_lead": {
+      "model": "hbm:block/socket_battery_lead",
+      "y": 270
+    },
+    "part=0,facing=north,pack=battery_lead": {
+      "model": "hbm:block/socket_battery_lead",
+      "y": 180
+    },
+    "part=0,facing=west,pack=battery_lead": {
+      "model": "hbm:block/socket_battery_lead",
+      "y": 90
+    },
+    "part=0,facing=south,pack=battery_lithium": {
+      "model": "hbm:block/socket_battery_lithium",
+      "y": 0
+    },
+    "part=0,facing=east,pack=battery_lithium": {
+      "model": "hbm:block/socket_battery_lithium",
+      "y": 270
+    },
+    "part=0,facing=north,pack=battery_lithium": {
+      "model": "hbm:block/socket_battery_lithium",
+      "y": 180
+    },
+    "part=0,facing=west,pack=battery_lithium": {
+      "model": "hbm:block/socket_battery_lithium",
+      "y": 90
+    },
+    "part=0,facing=south,pack=capacitor_copper": {
+      "model": "hbm:block/socket_capacitor_copper",
+      "y": 0
+    },
+    "part=0,facing=east,pack=capacitor_copper": {
+      "model": "hbm:block/socket_capacitor_copper",
+      "y": 270
+    },
+    "part=0,facing=north,pack=capacitor_copper": {
+      "model": "hbm:block/socket_capacitor_copper",
+      "y": 180
+    },
+    "part=0,facing=west,pack=capacitor_copper": {
+      "model": "hbm:block/socket_capacitor_copper",
+      "y": 90
+    },
+    "part=0,facing=south,pack=capacitor_gold": {
+      "model": "hbm:block/socket_capacitor_gold",
+      "y": 0
+    },
+    "part=0,facing=east,pack=capacitor_gold": {
+      "model": "hbm:block/socket_capacitor_gold",
+      "y": 270
+    },
+    "part=0,facing=north,pack=capacitor_gold": {
+      "model": "hbm:block/socket_capacitor_gold",
+      "y": 180
+    },
+    "part=0,facing=west,pack=capacitor_gold": {
+      "model": "hbm:block/socket_capacitor_gold",
+      "y": 90
+    },
+    "part=0,facing=south,pack=battery_potato": {
+      "model": "hbm:block/socket_battery_potato",
+      "y": 0
+    },
+    "part=0,facing=east,pack=battery_potato": {
+      "model": "hbm:block/socket_battery_potato",
+      "y": 270
+    },
+    "part=0,facing=north,pack=battery_potato": {
+      "model": "hbm:block/socket_battery_potato",
+      "y": 180
+    },
+    "part=0,facing=west,pack=battery_potato": {
+      "model": "hbm:block/socket_battery_potato",
+      "y": 90
+    },
+    "part=0,facing=south,pack=battery_creative": {
+      "model": "hbm:block/socket_battery_creative",
+      "y": 0
+    },
+    "part=0,facing=east,pack=battery_creative": {
+      "model": "hbm:block/socket_battery_creative",
+      "y": 270
+    },
+    "part=0,facing=north,pack=battery_creative": {
+      "model": "hbm:block/socket_battery_creative",
+      "y": 180
+    },
+    "part=0,facing=west,pack=battery_creative": {
+      "model": "hbm:block/socket_battery_creative",
+      "y": 90
+    },
+    "part=0,facing=south,pack=cube_power": {
+      "model": "hbm:block/socket_cube_power",
+      "y": 0
+    },
+    "part=0,facing=east,pack=cube_power": {
+      "model": "hbm:block/socket_cube_power",
+      "y": 270
+    },
+    "part=0,facing=north,pack=cube_power": {
+      "model": "hbm:block/socket_cube_power",
+      "y": 180
+    },
+    "part=0,facing=west,pack=cube_power": {
+      "model": "hbm:block/socket_cube_power",
+      "y": 90
+    },
+    "part=1": {
+      "model": "hbm:block/infrastructure_empty"
+    },
+    "part=2": {
+      "model": "hbm:block/infrastructure_empty"
+    },
+    "part=3": {
+      "model": "hbm:block/infrastructure_empty"
+    },
+    "part=4": {
+      "model": "hbm:block/infrastructure_empty"
+    },
+    "part=5": {
+      "model": "hbm:block/infrastructure_empty"
+    },
+    "part=6": {
+      "model": "hbm:block/infrastructure_empty"
+    },
+    "part=7": {
+      "model": "hbm:block/infrastructure_empty"
+    }
+  }
+}

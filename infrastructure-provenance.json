@@ -1,0 +1,37 @@
+{
+  "upstream_commit": "23ef33447280d83d44c1f7bcd3853fe59c0ec1fc",
+  "source_assets_sha256": {
+    "textures/gui/storage/gui_battery_socket.png": "c26a02596b381e7e6e5c2c94a00b2dbb823a25f0388bad2b4a867d2c417baead",
+    "textures/gui/storage/gui_barrel.png": "3866a18cba72c585ec3d9ff4d2f7eb2ecf5f0e19277a1d3be86f003e28c3c7b9",
+    "textures/models/machines/battery_socket.png": "bd859e4195d4ebb4d43c0da23697baf0da7307e90ad863b258882b187f2fecca",
+    "textures/models/machines/battery_redstone.png": "9867ac981f0b9cfc7012d78ee7e77b02ae2a84e051228f36fc94bb53f6afdb6b",
+    "textures/models/machines/battery_lead.png": "919a59aa1139166f75bac8d7993eaf46b61ab81f02037afb4280423d6f80c4cd",
+    "textures/models/machines/battery_lithium.png": "82f92ecb0cca96a73a75870d3a7da5ec3ae078c869eb27b02017e6325d6d0fd2",
+    "textures/models/machines/capacitor_copper.png": "cd074c4d7cb2ae03570cc0cd05ab417a3944ace883ba3b81358f5420ee4b59c9",
+    "textures/models/machines/capacitor_gold.png": "26381651a7c8748a42c878ee5c8cf6887669ded5bb2ab6817baae322871ee50e",
+    "textures/blocks/barrel_steel.png": "a92c1a1eecc5e45af58216c8d87168b4a208db9c658e34338201fce7a420c433",
+    "textures/blocks/cable_neo.png": "4fc01ee42c5bca0f582d1072d16d73565bc519346fc98e5098a6c8360d2221af",
+    "textures/blocks/pipe_neo.png": "976bff02a25ee9d999418812a0fcb0895acdebc427ae4b65677f473c7c4af29f",
+    "textures/blocks/pipe_neo_overlay.png": "0b5efb2c7e86669a98c10cee757d40ef736b0f1fa04068f93294c44db45caedf",
+    "textures/items/battery_potato.png": "b43d928b3f22a533f126cb5d7b3f3ca351827662e18b7d880aa8a9d52d6fbb50",
+    "textures/items/cube_power.png": "0c3bff0e314cfa4a01328f91394c2cfff8e0fef9c9d933913892467f53b9ffa2",
+    "textures/items/battery_creative_new.png": "aa0c155d256e6c43d8c762625e8be73152f6cedd0ef498a6d97093cf5fc85694",
+    "textures/items/fluid_identifier_multi.png": "3f906f825ee6c0eb9f7a22fa85b9ef466c3b4c87fd58873af58d5781131dff3c",
+    "textures/items/fluid_identifier_overlay.png": "eb68c0cb65cd7ac0c8f0279c33462998751337f0877dec7b68be28f7d8722eea",
+    "models/machines/battery.obj": "64255ab076fc29c3fbf0e6304338badd7af38d793c0f73e83f785947d9bbe36b",
+    "models/blocks/barrel.obj": "bba030e9327e3a9de65767d53312abcdc6829519fae8200c0aff688344580650",
+    "models/blocks/cable_neo.obj": "51f16e698e3d0dcae5e165e185c0eb50be87c5b7fb78be5fc0997503ead37e4e",
+    "models/blocks/pipe_neo.obj": "ef184f682148ff20754d745045f67196426e144f8970bc4017223957e93fa45d"
+  },
+  "mesh_adaptation": "Preserved source UVs/faces; rotated socket origin, translated block origins, selected original visible groups; bound native MTLs and per-fluid overlay colors. Creative horse/beam effects deferred.",
+  "deferred_recipes": [
+    "Cable needs red-copper fine wire and polymer plates",
+    "Battery recipes require polymers, chemical plant or assembler",
+    "Identifier requires vacuum-tube circuit",
+    "Potato battery requires fine wires"
+  ],
+  "reachable_recipes": [
+    "Steel barrel: 6 steel plates + 2 steel ingots",
+    "8 fluid ducts: 4 steel plates + 2 aluminium plates"
+  ]
+}

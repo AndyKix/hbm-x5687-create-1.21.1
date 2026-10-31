@@ -11,6 +11,8 @@ neoForge {
     runs {
         client {
             client()
+            if (project.hasProperty('infrastructureClientSmoke')) systemProperty 'hbm.infrastructureClientSmoke', 'true'
+            if (project.hasProperty('infrastructureReloadSmoke')) systemProperty 'hbm.infrastructureReloadSmoke', 'true'
             if (project.hasProperty('clientSmoke')) systemProperty 'hbm.clientSmoke', 'true'
             if (project.hasProperty('crateClientSmoke')) systemProperty 'hbm.crateClientSmoke', 'true'
             if (project.hasProperty('crateReloadSmoke')) systemProperty 'hbm.crateReloadSmoke', 'true'

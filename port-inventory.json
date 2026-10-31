@@ -2,7 +2,7 @@
   "upstream_tag": "1.0.27_X5687",
   "upstream_commit": "23ef33447280d83d44c1f7bcd3853fe59c0ec1fc",
   "target": "Minecraft 1.21.1 / NeoForge",
-  "note": "Independent partial X5687 port: natural solid resources/direct mineral recipes, geological/regional generation, base iron furnace and crates/Create storage. Fluids, drilling, hazards and complex products remain for dependent systems. Not a full port.",
+  "note": "Independent partial X5687 port: natural solid resources/direct recipes, geology, iron furnace/crates, long HE socket/cable foundation and water/lava barrels/ducts with native fluid handlers. Generators, production consumers, advanced fluids, hazards and complex products remain. Not a full port.",
   "java_sources": [
     {
       "source": "api/hbm/block/IBlowable.java",
@@ -62,7 +62,9 @@
     },
     {
       "source": "api/hbm/energymk2/IBatteryItem.java",
-      "status": "not_ported"
+      "status": "partial_native_stage6",
+      "scope": "Native HeStorage item capability; five basic packs, potato, cube, creative only.",
+      "modern_source": "src/main/java/com/hbm/port/infrastructure/"
     },
     {
       "source": "api/hbm/energymk2/IEnergyConductorMK2.java",
@@ -94,7 +96,9 @@
     },
     {
       "source": "api/hbm/energymk2/PowerNetMK2.java",
-      "status": "not_ported"
+      "status": "partial_native_stage6",
+      "scope": "Native loaded-node network for sockets/cables only; exact conservative BigInteger allocation. Other producers/consumers remain.",
+      "modern_source": "src/main/java/com/hbm/port/infrastructure/"
     },
     {
       "source": "api/hbm/energymk2/package-info.java",
@@ -1386,7 +1390,9 @@
     },
     {
       "source": "com/hbm/blocks/machine/BlockFluidBarrel.java",
-      "status": "not_ported"
+      "status": "partial_native_stage6",
+      "scope": "Steel barrel only, modern portable fluid/mode components and separate inventory drops.",
+      "modern_source": "src/main/java/com/hbm/port/infrastructure/"
     },
     {
       "source": "com/hbm/blocks/machine/BlockFusionComponent.java",
@@ -2382,7 +2388,9 @@
     },
     {
       "source": "com/hbm/blocks/network/BlockCable.java",
-      "status": "not_ported"
+      "status": "partial_native_stage6",
+      "scope": "Native cable shapes and loaded socket topology only.",
+      "modern_source": "src/main/java/com/hbm/port/infrastructure/"
     },
     {
       "source": "com/hbm/blocks/network/BlockCableGauge.java",
@@ -2562,7 +2570,9 @@
     },
     {
       "source": "com/hbm/blocks/network/MachineBatterySocket.java",
-      "status": "not_ported"
+      "status": "partial_native_stage6",
+      "scope": "Native socket placement/ghost removal, drops and original mesh groups.",
+      "modern_source": "src/main/java/com/hbm/port/infrastructure/"
     },
     {
       "source": "com/hbm/blocks/network/PowerCableBox.java",
@@ -7118,15 +7128,21 @@
     },
     {
       "source": "com/hbm/items/machine/ItemBattery.java",
-      "status": "not_ported"
+      "status": "partial_native_stage6",
+      "scope": "Potato/power cube capacities, rates and initial charge only.",
+      "modern_source": "src/main/java/com/hbm/port/infrastructure/"
     },
     {
       "source": "com/hbm/items/machine/ItemBatteryCreative.java",
-      "status": "not_ported"
+      "status": "partial_native_stage6",
+      "scope": "Fixed infinite creative charge/rates; animated effects deferred.",
+      "modern_source": "src/main/java/com/hbm/port/infrastructure/"
     },
     {
       "source": "com/hbm/items/machine/ItemBatteryPack.java",
-      "status": "not_ported"
+      "status": "partial_native_stage6",
+      "scope": "Redstone/lead/lithium/copper/gold packs only; production recipes await dependent machines.",
+      "modern_source": "src/main/java/com/hbm/port/infrastructure/"
     },
     {
       "source": "com/hbm/items/machine/ItemBatterySC.java",
@@ -7186,7 +7202,9 @@
     },
     {
       "source": "com/hbm/items/machine/ItemFluidIDMulti.java",
-      "status": "not_ported"
+      "status": "partial_native_stage6",
+      "scope": "Two-slot selector, right-click swap and block configuration for water/lava/NONE only.",
+      "modern_source": "src/main/java/com/hbm/port/infrastructure/"
     },
     {
       "source": "com/hbm/items/machine/ItemFluidIcon.java",
@@ -12422,11 +12440,15 @@
     },
     {
       "source": "com/hbm/tileentity/machine/storage/TileEntityBarrel.java",
-      "status": "not_ported"
+      "status": "partial_native_stage6",
+      "scope": "16000mB steel barrel only: water/lava, six slots, modes, native fluid handler and portable fluid state; other barrels/chemistry deferred.",
+      "modern_source": "src/main/java/com/hbm/port/infrastructure/"
     },
     {
       "source": "com/hbm/tileentity/machine/storage/TileEntityBatteryBase.java",
-      "status": "not_ported"
+      "status": "partial_native_stage6",
+      "scope": "Native socket mode/redstone/priority, menu and persistence foundation only.",
+      "modern_source": "src/main/java/com/hbm/port/infrastructure/"
     },
     {
       "source": "com/hbm/tileentity/machine/storage/TileEntityBatteryREDD.java",
@@ -12434,7 +12456,9 @@
     },
     {
       "source": "com/hbm/tileentity/machine/storage/TileEntityBatterySocket.java",
-      "status": "not_ported"
+      "status": "partial_native_stage6",
+      "scope": "Native 2x2x2 socket, one battery slot and eight lower horizontal power faces.",
+      "modern_source": "src/main/java/com/hbm/port/infrastructure/"
     },
     {
       "source": "com/hbm/tileentity/machine/storage/TileEntityCrateBase.java",
@@ -12518,7 +12542,9 @@
     },
     {
       "source": "com/hbm/tileentity/network/TileEntityCableBaseNT.java",
-      "status": "not_ported"
+      "status": "partial_native_stage6",
+      "scope": "Loaded native cable topology for socket HE only.",
+      "modern_source": "src/main/java/com/hbm/port/infrastructure/"
     },
     {
       "source": "com/hbm/tileentity/network/TileEntityCableSwitch.java",
@@ -12610,7 +12636,9 @@
     },
     {
       "source": "com/hbm/tileentity/network/TileEntityPipeBaseNT.java",
-      "status": "not_ported"
+      "status": "partial_native_stage6",
+      "scope": "Typed water/lava duct, no internal storage, native IFluidHandler bridge only.",
+      "modern_source": "src/main/java/com/hbm/port/infrastructure/"
     },
     {
       "source": "com/hbm/tileentity/network/TileEntityPipeExhaust.java",
@@ -13642,5 +13670,26 @@
     "scope": "Original PPP / I I / III iron/steel crate recipes only; common c:plates and c:ingots tags."
   },
   "raw_resource_catalog": "src/main/resources/assets/hbm/raw-materials.json",
-  "raw_material_scope": "STAGE5_MAPPING.md"
+  "raw_material_scope": "STAGE5_MAPPING.md",
+  "infrastructure_scope": "STAGE6_MAPPING.md",
+  "infrastructure_mapping": {
+    "sources": [
+      "api/hbm/energymk2/IBatteryItem.java",
+      "api/hbm/energymk2/PowerNetMK2.java",
+      "com/hbm/blocks/machine/BlockFluidBarrel.java",
+      "com/hbm/blocks/network/BlockCable.java",
+      "com/hbm/blocks/network/MachineBatterySocket.java",
+      "com/hbm/items/machine/ItemBattery.java",
+      "com/hbm/items/machine/ItemBatteryCreative.java",
+      "com/hbm/items/machine/ItemBatteryPack.java",
+      "com/hbm/items/machine/ItemFluidIDMulti.java",
+      "com/hbm/tileentity/machine/storage/TileEntityBarrel.java",
+      "com/hbm/tileentity/machine/storage/TileEntityBatteryBase.java",
+      "com/hbm/tileentity/machine/storage/TileEntityBatterySocket.java",
+      "com/hbm/tileentity/network/TileEntityCableBaseNT.java",
+      "com/hbm/tileentity/network/TileEntityPipeBaseNT.java"
+    ],
+    "scope": "Initial HE and water/lava infrastructure only; See STAGE6_MAPPING.md for boundaries/modern fixes",
+    "provenance": "infrastructure-provenance.json"
+  }
 }

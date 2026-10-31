@@ -1,0 +1,196 @@
+{
+  "variants": {
+    "mask=0": {
+      "model": "hbm:block/cable_0"
+    },
+    "mask=1": {
+      "model": "hbm:block/cable_1"
+    },
+    "mask=2": {
+      "model": "hbm:block/cable_2"
+    },
+    "mask=3": {
+      "model": "hbm:block/cable_3"
+    },
+    "mask=4": {
+      "model": "hbm:block/cable_4"
+    },
+    "mask=5": {
+      "model": "hbm:block/cable_5"
+    },
+    "mask=6": {
+      "model": "hbm:block/cable_6"
+    },
+    "mask=7": {
+      "model": "hbm:block/cable_7"
+    },
+    "mask=8": {
+      "model": "hbm:block/cable_8"
+    },
+    "mask=9": {
+      "model": "hbm:block/cable_9"
+    },
+    "mask=10": {
+      "model": "hbm:block/cable_10"
+    },
+    "mask=11": {
+      "model": "hbm:block/cable_11"
+    },
+    "mask=12": {
+      "model": "hbm:block/cable_12"
+    },
+    "mask=13": {
+      "model": "hbm:block/cable_13"
+    },
+    "mask=14": {
+      "model": "hbm:block/cable_14"
+    },
+    "mask=15": {
+      "model": "hbm:block/cable_15"
+    },
+    "mask=16": {
+      "model": "hbm:block/cable_16"
+    },
+    "mask=17": {
+      "model": "hbm:block/cable_17"
+    },
+    "mask=18": {
+      "model": "hbm:block/cable_18"
+    },
+    "mask=19": {
+      "model": "hbm:block/cable_19"
+    },
+    "mask=20": {
+      "model": "hbm:block/cable_20"
+    },
+    "mask=21": {
+      "model": "hbm:block/cable_21"
+    },
+    "mask=22": {
+      "model": "hbm:block/cable_22"
+    },
+    "mask=23": {
+      "model": "hbm:block/cable_23"
+    },
+    "mask=24": {
+      "model": "hbm:block/cable_24"
+    },
+    "mask=25": {
+      "model": "hbm:block/cable_25"
+    },
+    "mask=26": {
+      "model": "hbm:block/cable_26"
+    },
+    "mask=27": {
+      "model": "hbm:block/cable_27"
+    },
+    "mask=28": {
+      "model": "hbm:block/cable_28"
+    },
+    "mask=29": {
+      "model": "hbm:block/cable_29"
+    },
+    "mask=30": {
+      "model": "hbm:block/cable_30"
+    },
+    "mask=31": {
+      "model": "hbm:block/cable_31"
+    },
+    "mask=32": {
+      "model": "hbm:block/cable_32"
+    },
+    "mask=33": {
+      "model": "hbm:block/cable_33"
+    },
+    "mask=34": {
+      "model": "hbm:block/cable_34"
+    },
+    "mask=35": {
+      "model": "hbm:block/cable_35"
+    },
+    "mask=36": {
+      "model": "hbm:block/cable_36"
+    },
+    "mask=37": {
+      "model": "hbm:block/cable_37"
+    },
+    "mask=38": {
+      "model": "hbm:block/cable_38"
+    },
+    "mask=39": {
+      "model": "hbm:block/cable_39"
+    },
+    "mask=40": {
+      "model": "hbm:block/cable_40"
+    },
+    "mask=41": {
+      "model": "hbm:block/cable_41"
+    },
+    "mask=42": {
+      "model": "hbm:block/cable_42"
+    },
+    "mask=43": {
+      "model": "hbm:block/cable_43"
+    },
+    "mask=44": {
+      "model": "hbm:block/cable_44"
+    },
+    "mask=45": {
+      "model": "hbm:block/cable_45"
+    },
+    "mask=46": {
+      "model": "hbm:block/cable_46"
+    },
+    "mask=47": {
+      "model": "hbm:block/cable_47"
+    },
+    "mask=48": {
+      "model": "hbm:block/cable_48"
+    },
+    "mask=49": {
+      "model": "hbm:block/cable_49"
+    },
+    "mask=50": {
+      "model": "hbm:block/cable_50"
+    },
+    "mask=51": {
+      "model": "hbm:block/cable_51"
+    },
+    "mask=52": {
+      "model": "hbm:block/cable_52"
+    },
+    "mask=53": {
+      "model": "hbm:block/cable_53"
+    },
+    "mask=54": {
+      "model": "hbm:block/cable_54"
+    },
+    "mask=55": {
+      "model": "hbm:block/cable_55"
+    },
+    "mask=56": {
+      "model": "hbm:block/cable_56"
+    },
+    "mask=57": {
+      "model": "hbm:block/cable_57"
+    },
+    "mask=58": {
+      "model": "hbm:block/cable_58"
+    },
+    "mask=59": {
+      "model": "hbm:block/cable_59"
+    },
+    "mask=60": {
+      "model": "hbm:block/cable_60"
+    },
+    "mask=61": {
+      "model": "hbm:block/cable_61"
+    },
+    "mask=62": {
+      "model": "hbm:block/cable_62"
+    },
+    "mask=63": {
+      "model": "hbm:block/cable_63"
+    }
+  }
+}

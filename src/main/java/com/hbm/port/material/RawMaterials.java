@@ -64,7 +64,7 @@ public final class RawMaterials {
                 return new ResourceBlock(properties, flag(data, "burning"), flag(data, "depth"));
             });
             HbmPort.MATERIAL_ITEMS.put(id, HbmPort.ITEMS.register(id, () -> flag(data, "depth")
-                    ? new DepthBlockItem(holder.get()) : new BlockItem(holder.get(), new Item.Properties())));
+                    ? new DepthBlockItem(holder.get()) : id.equals("ore_tikite") ? new ProcessingOreItem(holder.get()) : new BlockItem(holder.get(), new Item.Properties())));
         }
         for (var entry : CATALOG.getAsJsonObject("items").entrySet()) {
             String id = entry.getKey();
@@ -89,6 +89,14 @@ public final class RawMaterials {
         @Override public void appendHoverText(ItemStack stack, Item.TooltipContext context, List<Component> lines, TooltipFlag flags) {
             super.appendHoverText(stack, context, lines, flags);
             lines.add(Component.translatable("tooltip.hbm.depth_rock").withStyle(ChatFormatting.YELLOW));
+        }
+    }
+    private static final class ProcessingOreItem extends BlockItem {
+        ProcessingOreItem(Block block) { super(block, new Item.Properties()); }
+        @Override public void appendHoverText(ItemStack stack, Item.TooltipContext context, List<Component> lines, TooltipFlag flags) {
+            super.appendHoverText(stack, context, lines, flags);
+            lines.add(Component.translatable("tooltip.hbm.tikite_processing").withStyle(ChatFormatting.YELLOW));
+            lines.add(Component.translatable("tooltip.hbm.tikite_processing_pending").withStyle(ChatFormatting.GRAY));
         }
     }
 

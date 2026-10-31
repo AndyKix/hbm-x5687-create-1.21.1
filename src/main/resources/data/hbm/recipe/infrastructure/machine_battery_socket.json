@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PRP"
+  ],
+  "key": {
+    "P": {
+      "tag": "c:plates/steel"
+    },
+    "R": {
+      "tag": "c:ingots/red_copper"
+    }
+  },
+  "result": {
+    "id": "hbm:machine_battery_socket",
+    "count": 1
+  }
+}

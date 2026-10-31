@@ -1,0 +1,9 @@
+newmtl base
+Ka 0 0 0
+Kd 1 1 1
+map_Kd hbm:block/pipe_neo
+
+newmtl overlay
+Ka 0 0 0
+Kd 0.5333333333333333 0.5333333333333333 0.5333333333333333
+map_Kd hbm:block/pipe_neo_overlay

@@ -22,7 +22,14 @@ public final class PortClient {
                     return mc.player == null || mc.level == null ? 0 : mc.level.getBrightness(LightLayer.BLOCK, mc.player.blockPosition()) / 15F;
                 }));
     }
+    @SubscribeEvent public static void colors(net.neoforged.neoforge.client.event.RegisterColorHandlersEvent.Item event) {
+        event.register((stack,layer)->layer==1?0xff000000|com.hbm.port.infrastructure.FluidIdentifierItem.primary(stack).color:-1,
+                com.hbm.port.infrastructure.InfrastructureContent.IDENTIFIER.get());
+    }
     @SubscribeEvent public static void screens(RegisterMenuScreensEvent event) {
+        event.register(com.hbm.port.infrastructure.InfrastructureContent.SOCKET_MENU.get(), EnergySocketScreen::new);
+        event.register(com.hbm.port.infrastructure.InfrastructureContent.BARREL_MENU.get(), SteelBarrelScreen::new);
+        event.register(com.hbm.port.infrastructure.InfrastructureContent.IDENTIFIER_MENU.get(), FluidIdentifierScreen::new);
         event.register(HbmPort.IRON_FURNACE_MENU.get(), IronFurnaceScreen::new);
         event.register(CrateContent.IRON_MENU.get(), StorageCrateScreen::new);
         event.register(CrateContent.STEEL_MENU.get(), StorageCrateScreen::new);

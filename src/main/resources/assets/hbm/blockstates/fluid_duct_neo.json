@@ -1,0 +1,580 @@
+{
+  "variants": {
+    "mask=0,fluid=none": {
+      "model": "hbm:block/pipe_none_0"
+    },
+    "mask=0,fluid=water": {
+      "model": "hbm:block/pipe_water_0"
+    },
+    "mask=0,fluid=lava": {
+      "model": "hbm:block/pipe_lava_0"
+    },
+    "mask=1,fluid=none": {
+      "model": "hbm:block/pipe_none_1"
+    },
+    "mask=1,fluid=water": {
+      "model": "hbm:block/pipe_water_1"
+    },
+    "mask=1,fluid=lava": {
+      "model": "hbm:block/pipe_lava_1"
+    },
+    "mask=2,fluid=none": {
+      "model": "hbm:block/pipe_none_2"
+    },
+    "mask=2,fluid=water": {
+      "model": "hbm:block/pipe_water_2"
+    },
+    "mask=2,fluid=lava": {
+      "model": "hbm:block/pipe_lava_2"
+    },
+    "mask=3,fluid=none": {
+      "model": "hbm:block/pipe_none_3"
+    },
+    "mask=3,fluid=water": {
+      "model": "hbm:block/pipe_water_3"
+    },
+    "mask=3,fluid=lava": {
+      "model": "hbm:block/pipe_lava_3"
+    },
+    "mask=4,fluid=none": {
+      "model": "hbm:block/pipe_none_4"
+    },
+    "mask=4,fluid=water": {
+      "model": "hbm:block/pipe_water_4"
+    },
+    "mask=4,fluid=lava": {
+      "model": "hbm:block/pipe_lava_4"
+    },
+    "mask=5,fluid=none": {
+      "model": "hbm:block/pipe_none_5"
+    },
+    "mask=5,fluid=water": {
+      "model": "hbm:block/pipe_water_5"
+    },
+    "mask=5,fluid=lava": {
+      "model": "hbm:block/pipe_lava_5"
+    },
+    "mask=6,fluid=none": {
+      "model": "hbm:block/pipe_none_6"
+    },
+    "mask=6,fluid=water": {
+      "model": "hbm:block/pipe_water_6"
+    },
+    "mask=6,fluid=lava": {
+      "model": "hbm:block/pipe_lava_6"
+    },
+    "mask=7,fluid=none": {
+      "model": "hbm:block/pipe_none_7"
+    },
+    "mask=7,fluid=water": {
+      "model": "hbm:block/pipe_water_7"
+    },
+    "mask=7,fluid=lava": {
+      "model": "hbm:block/pipe_lava_7"
+    },
+    "mask=8,fluid=none": {
+      "model": "hbm:block/pipe_none_8"
+    },
+    "mask=8,fluid=water": {
+      "model": "hbm:block/pipe_water_8"
+    },
+    "mask=8,fluid=lava": {
+      "model": "hbm:block/pipe_lava_8"
+    },
+    "mask=9,fluid=none": {
+      "model": "hbm:block/pipe_none_9"
+    },
+    "mask=9,fluid=water": {
+      "model": "hbm:block/pipe_water_9"
+    },
+    "mask=9,fluid=lava": {
+      "model": "hbm:block/pipe_lava_9"
+    },
+    "mask=10,fluid=none": {
+      "model": "hbm:block/pipe_none_10"
+    },
+    "mask=10,fluid=water": {
+      "model": "hbm:block/pipe_water_10"
+    },
+    "mask=10,fluid=lava": {
+      "model": "hbm:block/pipe_lava_10"
+    },
+    "mask=11,fluid=none": {
+      "model": "hbm:block/pipe_none_11"
+    },
+    "mask=11,fluid=water": {
+      "model": "hbm:block/pipe_water_11"
+    },
+    "mask=11,fluid=lava": {
+      "model": "hbm:block/pipe_lava_11"
+    },
+    "mask=12,fluid=none": {
+      "model": "hbm:block/pipe_none_12"
+    },
+    "mask=12,fluid=water": {
+      "model": "hbm:block/pipe_water_12"
+    },
+    "mask=12,fluid=lava": {
+      "model": "hbm:block/pipe_lava_12"
+    },
+    "mask=13,fluid=none": {
+      "model": "hbm:block/pipe_none_13"
+    },
+    "mask=13,fluid=water": {
+      "model": "hbm:block/pipe_water_13"
+    },
+    "mask=13,fluid=lava": {
+      "model": "hbm:block/pipe_lava_13"
+    },
+    "mask=14,fluid=none": {
+      "model": "hbm:block/pipe_none_14"
+    },
+    "mask=14,fluid=water": {
+      "model": "hbm:block/pipe_water_14"
+    },
+    "mask=14,fluid=lava": {
+      "model": "hbm:block/pipe_lava_14"
+    },
+    "mask=15,fluid=none": {
+      "model": "hbm:block/pipe_none_15"
+    },
+    "mask=15,fluid=water": {
+      "model": "hbm:block/pipe_water_15"
+    },
+    "mask=15,fluid=lava": {
+      "model": "hbm:block/pipe_lava_15"
+    },
+    "mask=16,fluid=none": {
+      "model": "hbm:block/pipe_none_16"
+    },
+    "mask=16,fluid=water": {
+      "model": "hbm:block/pipe_water_16"
+    },
+    "mask=16,fluid=lava": {
+      "model": "hbm:block/pipe_lava_16"
+    },
+    "mask=17,fluid=none": {
+      "model": "hbm:block/pipe_none_17"
+    },
+    "mask=17,fluid=water": {
+      "model": "hbm:block/pipe_water_17"
+    },
+    "mask=17,fluid=lava": {
+      "model": "hbm:block/pipe_lava_17"
+    },
+    "mask=18,fluid=none": {
+      "model": "hbm:block/pipe_none_18"
+    },
+    "mask=18,fluid=water": {
+      "model": "hbm:block/pipe_water_18"
+    },
+    "mask=18,fluid=lava": {
+      "model": "hbm:block/pipe_lava_18"
+    },
+    "mask=19,fluid=none": {
+      "model": "hbm:block/pipe_none_19"
+    },
+    "mask=19,fluid=water": {
+      "model": "hbm:block/pipe_water_19"
+    },
+    "mask=19,fluid=lava": {
+      "model": "hbm:block/pipe_lava_19"
+    },
+    "mask=20,fluid=none": {
+      "model": "hbm:block/pipe_none_20"
+    },
+    "mask=20,fluid=water": {
+      "model": "hbm:block/pipe_water_20"
+    },
+    "mask=20,fluid=lava": {
+      "model": "hbm:block/pipe_lava_20"
+    },
+    "mask=21,fluid=none": {
+      "model": "hbm:block/pipe_none_21"
+    },
+    "mask=21,fluid=water": {
+      "model": "hbm:block/pipe_water_21"
+    },
+    "mask=21,fluid=lava": {
+      "model": "hbm:block/pipe_lava_21"
+    },
+    "mask=22,fluid=none": {
+      "model": "hbm:block/pipe_none_22"
+    },
+    "mask=22,fluid=water": {
+      "model": "hbm:block/pipe_water_22"
+    },
+    "mask=22,fluid=lava": {
+      "model": "hbm:block/pipe_lava_22"
+    },
+    "mask=23,fluid=none": {
+      "model": "hbm:block/pipe_none_23"
+    },
+    "mask=23,fluid=water": {
+      "model": "hbm:block/pipe_water_23"
+    },
+    "mask=23,fluid=lava": {
+      "model": "hbm:block/pipe_lava_23"
+    },
+    "mask=24,fluid=none": {
+      "model": "hbm:block/pipe_none_24"
+    },
+    "mask=24,fluid=water": {
+      "model": "hbm:block/pipe_water_24"
+    },
+    "mask=24,fluid=lava": {
+      "model": "hbm:block/pipe_lava_24"
+    },
+    "mask=25,fluid=none": {
+      "model": "hbm:block/pipe_none_25"
+    },
+    "mask=25,fluid=water": {
+      "model": "hbm:block/pipe_water_25"
+    },
+    "mask=25,fluid=lava": {
+      "model": "hbm:block/pipe_lava_25"
+    },
+    "mask=26,fluid=none": {
+      "model": "hbm:block/pipe_none_26"
+    },
+    "mask=26,fluid=water": {
+      "model": "hbm:block/pipe_water_26"
+    },
+    "mask=26,fluid=lava": {
+      "model": "hbm:block/pipe_lava_26"
+    },
+    "mask=27,fluid=none": {
+      "model": "hbm:block/pipe_none_27"
+    },
+    "mask=27,fluid=water": {
+      "model": "hbm:block/pipe_water_27"
+    },
+    "mask=27,fluid=lava": {
+      "model": "hbm:block/pipe_lava_27"
+    },
+    "mask=28,fluid=none": {
+      "model": "hbm:block/pipe_none_28"
+    },
+    "mask=28,fluid=water": {
+      "model": "hbm:block/pipe_water_28"
+    },
+    "mask=28,fluid=lava": {
+      "model": "hbm:block/pipe_lava_28"
+    },
+    "mask=29,fluid=none": {
+      "model": "hbm:block/pipe_none_29"
+    },
+    "mask=29,fluid=water": {
+      "model": "hbm:block/pipe_water_29"
+    },
+    "mask=29,fluid=lava": {
+      "model": "hbm:block/pipe_lava_29"
+    },
+    "mask=30,fluid=none": {
+      "model": "hbm:block/pipe_none_30"
+    },
+    "mask=30,fluid=water": {
+      "model": "hbm:block/pipe_water_30"
+    },
+    "mask=30,fluid=lava": {
+      "model": "hbm:block/pipe_lava_30"
+    },
+    "mask=31,fluid=none": {
+      "model": "hbm:block/pipe_none_31"
+    },
+    "mask=31,fluid=water": {
+      "model": "hbm:block/pipe_water_31"
+    },
+    "mask=31,fluid=lava": {
+      "model": "hbm:block/pipe_lava_31"
+    },
+    "mask=32,fluid=none": {
+      "model": "hbm:block/pipe_none_32"
+    },
+    "mask=32,fluid=water": {
+      "model": "hbm:block/pipe_water_32"
+    },
+    "mask=32,fluid=lava": {
+      "model": "hbm:block/pipe_lava_32"
+    },
+    "mask=33,fluid=none": {
+      "model": "hbm:block/pipe_none_33"
+    },
+    "mask=33,fluid=water": {
+      "model": "hbm:block/pipe_water_33"
+    },
+    "mask=33,fluid=lava": {
+      "model": "hbm:block/pipe_lava_33"
+    },
+    "mask=34,fluid=none": {
+      "model": "hbm:block/pipe_none_34"
+    },
+    "mask=34,fluid=water": {
+      "model": "hbm:block/pipe_water_34"
+    },
+    "mask=34,fluid=lava": {
+      "model": "hbm:block/pipe_lava_34"
+    },
+    "mask=35,fluid=none": {
+      "model": "hbm:block/pipe_none_35"
+    },
+    "mask=35,fluid=water": {
+      "model": "hbm:block/pipe_water_35"
+    },
+    "mask=35,fluid=lava": {
+      "model": "hbm:block/pipe_lava_35"
+    },
+    "mask=36,fluid=none": {
+      "model": "hbm:block/pipe_none_36"
+    },
+    "mask=36,fluid=water": {
+      "model": "hbm:block/pipe_water_36"
+    },
+    "mask=36,fluid=lava": {
+      "model": "hbm:block/pipe_lava_36"
+    },
+    "mask=37,fluid=none": {
+      "model": "hbm:block/pipe_none_37"
+    },
+    "mask=37,fluid=water": {
+      "model": "hbm:block/pipe_water_37"
+    },
+    "mask=37,fluid=lava": {
+      "model": "hbm:block/pipe_lava_37"
+    },
+    "mask=38,fluid=none": {
+      "model": "hbm:block/pipe_none_38"
+    },
+    "mask=38,fluid=water": {
+      "model": "hbm:block/pipe_water_38"
+    },
+    "mask=38,fluid=lava": {
+      "model": "hbm:block/pipe_lava_38"
+    },
+    "mask=39,fluid=none": {
+      "model": "hbm:block/pipe_none_39"
+    },
+    "mask=39,fluid=water": {
+      "model": "hbm:block/pipe_water_39"
+    },
+    "mask=39,fluid=lava": {
+      "model": "hbm:block/pipe_lava_39"
+    },
+    "mask=40,fluid=none": {
+      "model": "hbm:block/pipe_none_40"
+    },
+    "mask=40,fluid=water": {
+      "model": "hbm:block/pipe_water_40"
+    },
+    "mask=40,fluid=lava": {
+      "model": "hbm:block/pipe_lava_40"
+    },
+    "mask=41,fluid=none": {
+      "model": "hbm:block/pipe_none_41"
+    },
+    "mask=41,fluid=water": {
+      "model": "hbm:block/pipe_water_41"
+    },
+    "mask=41,fluid=lava": {
+      "model": "hbm:block/pipe_lava_41"
+    },
+    "mask=42,fluid=none": {
+      "model": "hbm:block/pipe_none_42"
+    },
+    "mask=42,fluid=water": {
+      "model": "hbm:block/pipe_water_42"
+    },
+    "mask=42,fluid=lava": {
+      "model": "hbm:block/pipe_lava_42"
+    },
+    "mask=43,fluid=none": {
+      "model": "hbm:block/pipe_none_43"
+    },
+    "mask=43,fluid=water": {
+      "model": "hbm:block/pipe_water_43"
+    },
+    "mask=43,fluid=lava": {
+      "model": "hbm:block/pipe_lava_43"
+    },
+    "mask=44,fluid=none": {
+      "model": "hbm:block/pipe_none_44"
+    },
+    "mask=44,fluid=water": {
+      "model": "hbm:block/pipe_water_44"
+    },
+    "mask=44,fluid=lava": {
+      "model": "hbm:block/pipe_lava_44"
+    },
+    "mask=45,fluid=none": {
+      "model": "hbm:block/pipe_none_45"
+    },
+    "mask=45,fluid=water": {
+      "model": "hbm:block/pipe_water_45"
+    },
+    "mask=45,fluid=lava": {
+      "model": "hbm:block/pipe_lava_45"
+    },
+    "mask=46,fluid=none": {
+      "model": "hbm:block/pipe_none_46"
+    },
+    "mask=46,fluid=water": {
+      "model": "hbm:block/pipe_water_46"
+    },
+    "mask=46,fluid=lava": {
+      "model": "hbm:block/pipe_lava_46"
+    },
+    "mask=47,fluid=none": {
+      "model": "hbm:block/pipe_none_47"
+    },
+    "mask=47,fluid=water": {
+      "model": "hbm:block/pipe_water_47"
+    },
+    "mask=47,fluid=lava": {
+      "model": "hbm:block/pipe_lava_47"
+    },
+    "mask=48,fluid=none": {
+      "model": "hbm:block/pipe_none_48"
+    },
+    "mask=48,fluid=water": {
+      "model": "hbm:block/pipe_water_48"
+    },
+    "mask=48,fluid=lava": {
+      "model": "hbm:block/pipe_lava_48"
+    },
+    "mask=49,fluid=none": {
+      "model": "hbm:block/pipe_none_49"
+    },
+    "mask=49,fluid=water": {
+      "model": "hbm:block/pipe_water_49"
+    },
+    "mask=49,fluid=lava": {
+      "model": "hbm:block/pipe_lava_49"
+    },
+    "mask=50,fluid=none": {
+      "model": "hbm:block/pipe_none_50"
+    },
+    "mask=50,fluid=water": {
+      "model": "hbm:block/pipe_water_50"
+    },
+    "mask=50,fluid=lava": {
+      "model": "hbm:block/pipe_lava_50"
+    },
+    "mask=51,fluid=none": {
+      "model": "hbm:block/pipe_none_51"
+    },
+    "mask=51,fluid=water": {
+      "model": "hbm:block/pipe_water_51"
+    },
+    "mask=51,fluid=lava": {
+      "model": "hbm:block/pipe_lava_51"
+    },
+    "mask=52,fluid=none": {
+      "model": "hbm:block/pipe_none_52"
+    },
+    "mask=52,fluid=water": {
+      "model": "hbm:block/pipe_water_52"
+    },
+    "mask=52,fluid=lava": {
+      "model": "hbm:block/pipe_lava_52"
+    },
+    "mask=53,fluid=none": {
+      "model": "hbm:block/pipe_none_53"
+    },
+    "mask=53,fluid=water": {
+      "model": "hbm:block/pipe_water_53"
+    },
+    "mask=53,fluid=lava": {
+      "model": "hbm:block/pipe_lava_53"
+    },
+    "mask=54,fluid=none": {
+      "model": "hbm:block/pipe_none_54"
+    },
+    "mask=54,fluid=water": {
+      "model": "hbm:block/pipe_water_54"
+    },
+    "mask=54,fluid=lava": {
+      "model": "hbm:block/pipe_lava_54"
+    },
+    "mask=55,fluid=none": {
+      "model": "hbm:block/pipe_none_55"
+    },
+    "mask=55,fluid=water": {
+      "model": "hbm:block/pipe_water_55"
+    },
+    "mask=55,fluid=lava": {
+      "model": "hbm:block/pipe_lava_55"
+    },
+    "mask=56,fluid=none": {
+      "model": "hbm:block/pipe_none_56"
+    },
+    "mask=56,fluid=water": {
+      "model": "hbm:block/pipe_water_56"
+    },
+    "mask=56,fluid=lava": {
+      "model": "hbm:block/pipe_lava_56"
+    },
+    "mask=57,fluid=none": {
+      "model": "hbm:block/pipe_none_57"
+    },
+    "mask=57,fluid=water": {
+      "model": "hbm:block/pipe_water_57"
+    },
+    "mask=57,fluid=lava": {
+      "model": "hbm:block/pipe_lava_57"
+    },
+    "mask=58,fluid=none": {
+      "model": "hbm:block/pipe_none_58"
+    },
+    "mask=58,fluid=water": {
+      "model": "hbm:block/pipe_water_58"
+    },
+    "mask=58,fluid=lava": {
+      "model": "hbm:block/pipe_lava_58"
+    },
+    "mask=59,fluid=none": {
+      "model": "hbm:block/pipe_none_59"
+    },
+    "mask=59,fluid=water": {
+      "model": "hbm:block/pipe_water_59"
+    },
+    "mask=59,fluid=lava": {
+      "model": "hbm:block/pipe_lava_59"
+    },
+    "mask=60,fluid=none": {
+      "model": "hbm:block/pipe_none_60"
+    },
+    "mask=60,fluid=water": {
+      "model": "hbm:block/pipe_water_60"
+    },
+    "mask=60,fluid=lava": {
+      "model": "hbm:block/pipe_lava_60"
+    },
+    "mask=61,fluid=none": {
+      "model": "hbm:block/pipe_none_61"
+    },
+    "mask=61,fluid=water": {
+      "model": "hbm:block/pipe_water_61"
+    },
+    "mask=61,fluid=lava": {
+      "model": "hbm:block/pipe_lava_61"
+    },
+    "mask=62,fluid=none": {
+      "model": "hbm:block/pipe_none_62"
+    },
+    "mask=62,fluid=water": {
+      "model": "hbm:block/pipe_water_62"
+    },
+    "mask=62,fluid=lava": {
+      "model": "hbm:block/pipe_lava_62"
+    },
+    "mask=63,fluid=none": {
+      "model": "hbm:block/pipe_none_63"
+    },
+    "mask=63,fluid=water": {
+      "model": "hbm:block/pipe_water_63"
+    },
+    "mask=63,fluid=lava": {
+      "model": "hbm:block/pipe_lava_63"
+    }
+  }
+}
