@@ -4,6 +4,8 @@
     "hbm:block_lead",
     "hbm:block_steel",
     "hbm:block_titanium",
+    "hbm:crate_iron",
+    "hbm:crate_steel",
     "hbm:furnace_iron",
     "hbm:ore_lead",
     "hbm:ore_titanium"

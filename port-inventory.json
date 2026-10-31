@@ -2,7 +2,7 @@
   "upstream_tag": "1.0.27_X5687",
   "upstream_commit": "23ef33447280d83d44c1f7bcd3853fe59c0ec1fc",
   "target": "Minecraft 1.21.1 / NeoForge",
-  "note": "Independent partial port from official X5687. Materials, two ores, and base iron furnace only; completion requires subsystem-specific validation.",
+  "note": "Independent partial port from official X5687: materials, two ores, base iron furnace, base iron/steel crates and Create mounted storage. Not a full HBM port.",
   "java_sources": [
     {
       "source": "api/hbm/block/IBlowable.java",
@@ -1178,7 +1178,7 @@
     },
     {
       "source": "com/hbm/blocks/generic/BlockStorageCrate.java",
-      "status": "not_ported"
+      "status": "partial_iron_steel_portable_storage"
     },
     {
       "source": "com/hbm/blocks/generic/BlockSupplyCrate.java",
@@ -4786,7 +4786,7 @@
     },
     {
       "source": "com/hbm/inventory/container/ContainerCrateBase.java",
-      "status": "not_ported"
+      "status": "partial_placed_menus_no_held_menu"
     },
     {
       "source": "com/hbm/inventory/container/ContainerCrateDesh.java",
@@ -4794,11 +4794,11 @@
     },
     {
       "source": "com/hbm/inventory/container/ContainerCrateIron.java",
-      "status": "not_ported"
+      "status": "base_placed_storage_menu"
     },
     {
       "source": "com/hbm/inventory/container/ContainerCrateSteel.java",
-      "status": "not_ported"
+      "status": "base_placed_storage_menu"
     },
     {
       "source": "com/hbm/inventory/container/ContainerCrateTemplate.java",
@@ -5546,11 +5546,11 @@
     },
     {
       "source": "com/hbm/inventory/gui/GUICrateIron.java",
-      "status": "not_ported"
+      "status": "base_storage_gui"
     },
     {
       "source": "com/hbm/inventory/gui/GUICrateSteel.java",
-      "status": "not_ported"
+      "status": "base_storage_gui"
     },
     {
       "source": "com/hbm/inventory/gui/GUICrateTemplate.java",
@@ -6998,7 +6998,7 @@
     },
     {
       "source": "com/hbm/items/block/ItemBlockStorageCrate.java",
-      "status": "not_ported"
+      "status": "partial_portable_contents_no_held_menu"
     },
     {
       "source": "com/hbm/items/block/ItemCustomMachine.java",
@@ -12438,7 +12438,7 @@
     },
     {
       "source": "com/hbm/tileentity/machine/storage/TileEntityCrateBase.java",
-      "status": "not_ported"
+      "status": "partial_storage_no_hbm_locks_spiders"
     },
     {
       "source": "com/hbm/tileentity/machine/storage/TileEntityCrateDesh.java",
@@ -12446,11 +12446,11 @@
     },
     {
       "source": "com/hbm/tileentity/machine/storage/TileEntityCrateIron.java",
-      "status": "not_ported"
+      "status": "base_placed_storage_only"
     },
     {
       "source": "com/hbm/tileentity/machine/storage/TileEntityCrateSteel.java",
-      "status": "not_ported"
+      "status": "base_placed_storage_only"
     },
     {
       "source": "com/hbm/tileentity/machine/storage/TileEntityCrateTemplate.java",
@@ -13530,7 +13530,9 @@
         "block_lead",
         "ore_titanium",
         "ore_lead",
-        "furnace_iron"
+        "furnace_iron",
+        "crate_iron",
+        "crate_steel"
       ],
       "modern_source": "src/main/java/com/hbm/port/HbmPort.java"
     },
@@ -13566,6 +13568,56 @@
       "legacy_source": "com/hbm/tileentity/machine/TileEntityFurnaceIron.java",
       "modern_source": "src/main/java/com/hbm/port/machine/IronFurnaceBlockEntity.java",
       "scope": "partial_base_smelting_inventory_nbt"
+    },
+    {
+      "legacy_source": "com/hbm/blocks/generic/BlockStorageCrate.java",
+      "modern_source": "src/main/java/com/hbm/port/storage/StorageCrateBlock.java",
+      "scope": "partial_iron_steel_portable_storage"
+    },
+    {
+      "legacy_source": "com/hbm/inventory/container/ContainerCrateBase.java",
+      "modern_source": "src/main/java/com/hbm/port/storage/StorageCrateMenu.java",
+      "scope": "partial_placed_menus_no_held_menu"
+    },
+    {
+      "legacy_source": "com/hbm/inventory/container/ContainerCrateIron.java",
+      "modern_source": "src/main/java/com/hbm/port/storage/StorageCrateMenu.java",
+      "scope": "base_placed_storage_menu"
+    },
+    {
+      "legacy_source": "com/hbm/inventory/container/ContainerCrateSteel.java",
+      "modern_source": "src/main/java/com/hbm/port/storage/StorageCrateMenu.java",
+      "scope": "base_placed_storage_menu"
+    },
+    {
+      "legacy_source": "com/hbm/inventory/gui/GUICrateIron.java",
+      "modern_source": "src/main/java/com/hbm/port/client/StorageCrateScreen.java",
+      "scope": "base_storage_gui"
+    },
+    {
+      "legacy_source": "com/hbm/inventory/gui/GUICrateSteel.java",
+      "modern_source": "src/main/java/com/hbm/port/client/StorageCrateScreen.java",
+      "scope": "base_storage_gui"
+    },
+    {
+      "legacy_source": "com/hbm/items/block/ItemBlockStorageCrate.java",
+      "modern_source": "src/main/java/com/hbm/port/storage/StorageCrateItem.java",
+      "scope": "partial_portable_contents_no_held_menu"
+    },
+    {
+      "legacy_source": "com/hbm/tileentity/machine/storage/TileEntityCrateBase.java",
+      "modern_source": "src/main/java/com/hbm/port/storage/StorageCrateBlockEntity.java",
+      "scope": "partial_storage_no_hbm_locks_spiders"
+    },
+    {
+      "legacy_source": "com/hbm/tileentity/machine/storage/TileEntityCrateIron.java",
+      "modern_source": "src/main/java/com/hbm/port/storage/StorageCrateBlockEntity.java",
+      "scope": "base_placed_storage_only"
+    },
+    {
+      "legacy_source": "com/hbm/tileentity/machine/storage/TileEntityCrateSteel.java",
+      "modern_source": "src/main/java/com/hbm/port/storage/StorageCrateBlockEntity.java",
+      "scope": "base_placed_storage_only"
     }
   ],
   "worldgen_mapping": {
@@ -13580,5 +13632,9 @@
   "create_integration_mapping": {
     "source": "com/hbm/inventory/recipes/BlastFurnaceRecipes.java",
     "scope": "Heated Create mixing integration of the iron ingot + coal -> steel ratio only; HBM blast furnace not implemented."
+  },
+  "crate_recipe_mapping": {
+    "source": "com/hbm/main/CraftingManager.java",
+    "scope": "Original PPP / I I / III iron/steel crate recipes only; common c:plates and c:ingots tags."
   }
 }

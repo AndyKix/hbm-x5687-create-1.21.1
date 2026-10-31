@@ -1,0 +1,12 @@
+{
+  "block.crate_open": {
+    "sounds": [
+      "hbm:block/crate_open"
+    ]
+  },
+  "block.crate_close": {
+    "sounds": [
+      "hbm:block/crate_close"
+    ]
+  }
+}

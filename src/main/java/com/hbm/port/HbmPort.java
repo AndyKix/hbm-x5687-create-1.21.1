@@ -11,6 +11,7 @@ import net.minecraft.world.level.block.state.BlockBehaviour;
 import com.hbm.port.machine.IronFurnaceBlock;
 import com.hbm.port.machine.IronFurnaceBlockEntity;
 import com.hbm.port.machine.IronFurnaceMenu;
+import com.hbm.port.storage.CrateContent;
 import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.inventory.MenuType;
 import net.minecraft.world.flag.FeatureFlags;
@@ -69,6 +70,7 @@ public final class HbmPort {
                 .displayItems((parameters, output) -> {
                     MATERIAL_ITEMS.values().forEach(item -> output.accept(item.get()));
                     output.accept(IRON_FURNACE_ITEM.get());
+                    CrateContent.ITEMS.values().forEach(item -> output.accept(item.get()));
                 })
                 .build());
     }
@@ -78,6 +80,7 @@ public final class HbmPort {
     }
 
     public HbmPort(IEventBus bus) {
+        CrateContent.register(bus);
         ITEMS.register(bus);
         BLOCKS.register(bus);
         TABS.register(bus);
@@ -91,5 +94,6 @@ public final class HbmPort {
             IronFurnaceBlockEntity furnace = IronFurnaceBlock.controller(level, pos, state);
             return furnace == null ? null : furnace.itemHandler(side);
         }, IRON_FURNACE.get());
+        CrateContent.registerCapabilities(event);
     }
 }

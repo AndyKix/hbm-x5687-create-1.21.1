@@ -6,7 +6,7 @@ modId="hbm"
 version="${version}"
 displayName="HBM 1.21.1 — Port Prototype"
 authors="Original HBM team; independent port contributors"
-description='Stage 2 of the independent X5687 port: basic materials, titanium/lead ores and Create processing. Not the full HBM mod.'
+description='Independent X5687 port prototype: materials, ores, iron furnace and portable storage crates with Create integration. Not the full HBM mod.'
 [[dependencies.hbm]]
 modId="neoforge"
 type="required"

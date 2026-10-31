@@ -1,0 +1,14 @@
+{
+  "upstream_commit": "23ef33447280d83d44c1f7bcd3853fe59c0ec1fc",
+  "source_assets_sha256": {
+    "textures/blocks/crate_iron_top.png": "63ae560b60d5d5fb39a2ca5437ab3dd7b5814a0af7a857d0ea47f9a01db3fdad",
+    "textures/blocks/crate_iron_side.png": "d5465d8d616d03b9c92f3b6a04ba0b462f2cd7c1c4b8c8e1a0be69b071beb3b8",
+    "textures/gui/storage/gui_crate_iron.png": "19918ed407c2f1fe3e118c7bc61aba3ec78e72bab64f7ab5fa7d94cdff782620",
+    "textures/blocks/crate_steel_top.png": "c455a2b2cf1dfcc0e576bb34d7d6fbc6414ffce719ea2abd8e12fc57d6fa95a2",
+    "textures/blocks/crate_steel_side.png": "e328164d7cbe2c621a88cb6f301df1541dc06ae7fcea40846410f2c063a5f77c",
+    "textures/gui/storage/gui_crate_steel.png": "e771963b17c1a8b9495b7b72961674bf115009f8c535886ea9faed89844802f5",
+    "sounds/block/crateOpen.ogg": "069079af4c78006c11d2cc335aae44ac45781dca380cd87e6229faeeb57b792d",
+    "sounds/block/crateClose.ogg": "146d3c6ba33be53cd80f02fdbe33d3c0858cd1ba0a0da25e8737515a3dc9677a"
+  },
+  "changes": "Textures, GUI and sounds copied byte-for-byte; new native block models and recipes."
+}

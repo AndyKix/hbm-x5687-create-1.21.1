@@ -13,5 +13,8 @@
   "block.hbm.ore_lead": "Lead Ore",
   "block.hbm.furnace_iron": "Iron Furnace",
   "container.hbm.furnace_iron": "Iron Furnace",
-  "tooltip.hbm.upgrades_pending": "Upgrades are planned for a later stage"
+  "tooltip.hbm.upgrades_pending": "Upgrades are planned for a later stage",
+  "block.hbm.crate_iron": "Iron Crate",
+  "block.hbm.crate_steel": "Steel Crate",
+  "tooltip.hbm.crate_slots": "%s inventory slots"
 }

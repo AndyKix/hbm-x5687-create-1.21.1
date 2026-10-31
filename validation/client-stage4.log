@@ -1,0 +1,255 @@
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/9.2.1/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build
+> Task :createMinecraftArtifacts UP-TO-DATE
+
+> Task :compileJava
+<workspace>/outputs/hbm-1.21.1/src/main/java/com/hbm/port/client/PortClient.java:10: warning: [removal] bus() in EventBusSubscriber has been deprecated and marked for removal
+@EventBusSubscriber(modid = HbmPort.MOD_ID, bus = EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
+                                            ^
+<workspace>/outputs/hbm-1.21.1/src/main/java/com/hbm/port/client/PortClient.java:10: warning: [removal] Bus in EventBusSubscriber has been deprecated and marked for removal
+@EventBusSubscriber(modid = HbmPort.MOD_ID, bus = EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
+                                                                    ^
+Note: <workspace>/outputs/hbm-1.21.1/src/main/java/com/hbm/port/test/StorageCrateClientSmoke.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+2 warnings
+
+> Task :processResources
+> Task :classes
+> Task :jarJar NO-SOURCE
+> Task :jar
+> Task :assemble
+> Task :compileTestJava NO-SOURCE
+> Task :processTestResources NO-SOURCE
+> Task :testClasses UP-TO-DATE
+> Task :test NO-SOURCE
+> Task :check UP-TO-DATE
+> Task :build
+> Task :downloadAssets UP-TO-DATE
+> Task :writeGameTestServerLegacyClasspath UP-TO-DATE
+> Task :prepareGameTestServerRun UP-TO-DATE
+
+> Task :runGameTestServer
+WARN StatusConsoleListener Advanced terminal features are not available in this environment
+[14:33:19] [main/INFO] [cp.mo.mo.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserverdev, --gameDir, ., --fml.fmlVersion, 4.0.45, --fml.mcVersion, 1.21.1, --fml.neoForgeVersion, 21.1.264, --fml.neoFormVersion, 20240808.144430]
+[14:33:19] [main/INFO] [cp.mo.mo.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.13+9-LTS
+[14:33:19] [main/INFO] [cp.mo.mo.Launcher/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.13 by Eclipse Adoptium; OS Mac OS X arch aarch64 version 15.6.1
+[14:33:20] [main/INFO] [ne.ne.fm.lo.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserverdev
+[14:33:20] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:<workspace>/work/gradle-cache/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.16.4+mixin.0.8.7/26d01f0567ab46e9ca0d2ed89d0ecc11aadbd433/sponge-mixin-0.16.4+mixin.0.8.7.jar%2394!/ Service=ModLauncher Env=SERVER
+[14:33:20] [main/INFO] [ne.ne.fm.lo.mo.lo.JarInJarDependencyLocator/]: Found 5 dependencies adding them to mods collection
+[14:33:20] [main/INFO] [ne.ne.fm.lo.mo.ModDiscoverer/]:
+     Mod List:
+		Name Version (Mod Id)
+
+		Create 6.0.10 (create)
+		Flywheel 1.0.6 (flywheel)
+		HBM 1.21.1 — Port Prototype 0.4.0-stage4 (hbm)
+		Minecraft 1.21.1 (minecraft)
+		NeoForge 21.1.264 (neoforge)
+		Ponder 1.0.82+mc1.21.1 (ponder)
+[14:33:20] [main/INFO] [mixin/]: Compatibility level set to JAVA_21
+[14:33:20] [main/INFO] [cp.mo.mo.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserverdev' with arguments [--gameDir, .]
+[14:33:20] [main/WARN] [mixin/]: Reference map 'ponder.refmap.json' for ponder-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[14:33:20] [main/WARN] [mixin/]: Error loading class: org/jetbrains/annotations/ApiStatus$ScheduledForRemoval (java.lang.ClassNotFoundException: org.jetbrains.annotations.ApiStatus$ScheduledForRemoval)
+[14:33:20] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.5).
+[14:33:26] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[14:33:26] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[14:33:26] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[14:33:26] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[14:33:26] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[14:33:26] [modloading-worker-0/INFO] [ne.ne.ne.co.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.264, for MC 1.21.1
+[14:33:26] [modloading-worker-0/INFO] [co.si.cr.Create/]: Create 6.0.10 initializing! Commit hash: c308d004788fce2998bf41653f6d39412b6fc8ed
+[14:33:28] [main/INFO] [mojang/YggdrasilAuthenticationService]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[14:33:28] [main/WARN] [minecraft/VanillaPackResourcesBuilder]: Assets URL 'union:<workspace>/work/stage1-build/moddev/artifacts/neoforge-21.1.264.jar%23125!/assets/.mcassetsroot' uses unexpected schema
+[14:33:28] [main/WARN] [minecraft/VanillaPackResourcesBuilder]: Assets URL 'union:<workspace>/work/stage1-build/moddev/artifacts/neoforge-21.1.264.jar%23125!/data/.mcassetsroot' uses unexpected schema
+[14:33:28] [NeoForge Version Check/INFO] [ne.ne.fm.VersionChecker/]: [create] Starting version check at https://api.modrinth.com/updates/create/forge_updates.json?neoforge=only
+[14:33:28] [main/INFO] [co.si.cr.Create/]: Created 157 recipes which will be injected into the game
+[14:33:28] [main/INFO] [co.si.cr.Create/]: Created 0 tags which will be injected into the game
+[14:33:28] [main/INFO] [ne.ne.ne.ga.GameTestHooks/]: Enabled Gametest Namespaces: [hbm]
+[14:33:29] [NeoForge Version Check/INFO] [ne.ne.fm.VersionChecker/]: [create] Found status: OUTDATED Current: 6.0.10 Target: 6.0.10+mc1.21.1
+[14:33:29] [main/INFO] [minecraft/RecipeManager]: Loaded 2835 recipes
+[14:33:29] [main/INFO] [minecraft/AdvancementTree]: Loaded 2507 advancements
+[14:33:30] [Server thread/INFO] [minecraft/MinecraftServer]: Preparing start region for dimension minecraft:overworld
+[14:33:30] [worldgen/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 2%
+[14:33:30] [Server thread/INFO] [minecraft/LoggerChunkProgressListener]: Time elapsed: 89 ms
+[14:33:30] [Server thread/INFO] [minecraft/GameTestServer]: Started game test server
+[14:33:30] [Server thread/INFO] [ne.ne.ne.se.pe.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[14:33:30] [Server thread/INFO] [minecraft/GameTestServer]: 36 tests are now running at position -10135063, -59, -9176252!
+[14:33:31] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'defaultBatch:0' (35 tests)...
+[14:33:31] [Server thread/INFO] [minecraft/GameTestServer]: [                                    ]
+[14:33:31] [Server thread/INFO] [co.si.cr.Create/]: RecipeTrie of depth 5 with 494 nodes built with 455 variants, 317 ingredients, and 402 recipes
+[14:33:31] [Server thread/INFO] [minecraft/GameTestServer]: [+_+++_   +_+__   ++++++  +          ]
+[14:33:31] [Server thread/INFO] [minecraft/GameTestServer]: [+_+++_+_++_+___+_++++++__+++++___++ ]
+[14:33:31] [Server thread/INFO] [minecraft/GameTestServer]: [+_+++_+_++_+___+++++++++++++++___++ ]
+[14:33:31] [Server thread/INFO] [minecraft/GameTestServer]: [+++++_+_++_+___+++++++++++++++___++ ]
+[14:33:31] [Server thread/INFO] [co.hb.po.te.MixerReportedScenarioTests/]: HBM MIXER DIAGNOSTIC: dropped andesite + iron nugget produced alloy without fueled heat
+[14:33:31] [Server thread/INFO] [minecraft/GameTestServer]: [+++++_+_++++__++++++++++++++++___++ ]
+[14:33:31] [Server thread/INFO] [minecraft/GameTestServer]: [+++++_+_++++__++++++++++++++++__+++ ]
+[14:33:31] [Server thread/INFO] [minecraft/GameTestServer]: [+++++_+_++++__++++++++++++++++__+++ ]
+[14:33:31] [Server thread/INFO] [minecraft/GameTestServer]: [+++++_+_++++__++++++++++++++++__+++ ]
+[14:33:31] [Server thread/INFO] [minecraft/GameTestServer]: [+++++_+_++++__++++++++++++++++__+++ ]
+[14:33:31] [Server thread/INFO] [minecraft/GameTestServer]: [+++++_+_++++__+++++++++++++++++_+++ ]
+[14:33:31] [Server thread/INFO] [minecraft/GameTestServer]: [++++++++++++__+++++++++++++++++++++ ]
+[14:33:31] [Server thread/INFO] [minecraft/GameTestServer]: [++++++++++++__+++++++++++++++++++++ ]
+[14:33:31] [Server thread/INFO] [minecraft/GameTestServer]: [++++++++++++__+++++++++++++++++++++ ]
+[14:33:31] [Server thread/INFO] [co.hb.po.te.MixerReportedScenarioTests/]: HBM MIXER DIAGNOSTIC: same rotating mixer left iron ingot + basin coal unchanged with unfueled burner
+[14:33:31] [Server thread/INFO] [minecraft/GameTestServer]: [++++++++++++__+++++++++++++++++++++ ]
+[14:33:31] [Server thread/INFO] [minecraft/GameTestServer]: [++++++++++++__+++++++++++++++++++++ ]
+[14:33:31] [Server thread/INFO] [minecraft/GameTestServer]: [++++++++++++__+++++++++++++++++++++ ]
+[14:33:31] [Server thread/INFO] [co.hb.po.te.MixerReportedScenarioTests/]: HBM MIXER DIAGNOSTIC PASSED: separately fueling burner enabled one steel without replacing the machine or recipe
+[14:33:31] [Server thread/INFO] [minecraft/GameTestServer]: [++++++++++++_++++++++++++++++++++++ ]
+[14:33:31] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'worldgen:0' (1 tests)...
+[14:33:31] [Server thread/INFO] [minecraft/GameTestServer]: [+++++++++++++++++++++++++++++++++++ ]
+[14:33:31] [Server thread/INFO] [minecraft/GameTestServer]: [++++++++++++++++++++++++++++++++++++]
+[14:33:31] [Server thread/INFO] [minecraft/GameTestServer]: ========= 36 GAME TESTS COMPLETE IN 1.208 s ======================
+[14:33:31] [Server thread/INFO] [minecraft/GameTestServer]: All 36 required tests passed :)
+[14:33:31] [Server thread/INFO] [minecraft/GameTestServer]: ====================================================
+[14:33:31] [Server thread/INFO] [minecraft/MinecraftServer]: Stopping server
+[14:33:31] [Server thread/INFO] [minecraft/MinecraftServer]: Saving players
+[14:33:31] [Server thread/INFO] [minecraft/MinecraftServer]: Saving worlds
+[14:33:32] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[Test Level]'/minecraft:overworld
+[14:33:32] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[Test Level]'/minecraft:the_end
+[14:33:32] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[Test Level]'/minecraft:the_nether
+[14:33:32] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[14:33:32] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[14:33:32] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[14:33:32] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage: All dimensions are saved
+[14:33:32] [Server thread/INFO] [minecraft/GameTestServer]: Game test server shutting down
+
+> Task :writeClientLegacyClasspath UP-TO-DATE
+> Task :prepareClientRun UP-TO-DATE
+
+> Task :runClient
+WARN StatusConsoleListener Advanced terminal features are not available in this environment
+[14:33:33] [main/INFO] [cp.mo.mo.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientdev, --version, 21.1.264, --assetIndex, 17, --assetsDir, <workspace>/work/gradle-cache/caches/neoformruntime/assets, --gameDir, ., --fml.fmlVersion, 4.0.45, --fml.mcVersion, 1.21.1, --fml.neoForgeVersion, 21.1.264, --fml.neoFormVersion, 20240808.144430]
+[14:33:33] [main/INFO] [cp.mo.mo.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.13+9-LTS
+[14:33:33] [main/INFO] [cp.mo.mo.Launcher/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.13 by Eclipse Adoptium; OS Mac OS X arch aarch64 version 15.6.1
+[14:33:33] [main/INFO] [ne.ne.fm.lo.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[14:33:34] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[14:33:34] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.5
+[14:33:34] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.4
+[14:33:34] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.3
+[14:33:34] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.2
+[14:33:34] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.1
+[14:33:34] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.1 got version 4.1
+[14:33:34] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:<workspace>/work/gradle-cache/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.16.4+mixin.0.8.7/26d01f0567ab46e9ca0d2ed89d0ecc11aadbd433/sponge-mixin-0.16.4+mixin.0.8.7.jar%23132!/ Service=ModLauncher Env=CLIENT
+[14:33:34] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: Apple M1 GL version 4.1 Metal - 89.4, Apple
+[14:33:34] [main/INFO] [ne.ne.fm.lo.mo.lo.JarInJarDependencyLocator/]: Found 5 dependencies adding them to mods collection
+[14:33:34] [main/INFO] [ne.ne.fm.lo.mo.ModDiscoverer/]:
+     Mod List:
+		Name Version (Mod Id)
+
+		Create 6.0.10 (create)
+		Flywheel 1.0.6 (flywheel)
+		HBM 1.21.1 — Port Prototype 0.4.0-stage4 (hbm)
+		Minecraft 1.21.1 (minecraft)
+		NeoForge 21.1.264 (neoforge)
+		Ponder 1.0.82+mc1.21.1 (ponder)
+[14:33:35] [main/INFO] [mixin/]: Compatibility level set to JAVA_21
+[14:33:35] [main/INFO] [cp.mo.mo.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientdev' with arguments [--version, 21.1.264, --gameDir, ., --assetsDir, <workspace>/work/gradle-cache/caches/neoformruntime/assets, --assetIndex, 17]
+[14:33:35] [main/WARN] [mixin/]: Reference map 'ponder.refmap.json' for ponder-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[14:33:35] [main/WARN] [mixin/]: Error loading class: org/jetbrains/annotations/ApiStatus$ScheduledForRemoval (java.lang.ClassNotFoundException: org.jetbrains.annotations.ApiStatus$ScheduledForRemoval)
+[14:33:35] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.5).
+[14:33:36] [Datafixer Bootstrap/INFO] [mojang/DataFixerBuilder]: 229 Datafixer optimizations took 199 milliseconds
+[14:33:40] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[14:33:40] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[14:33:40] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[14:33:40] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[14:33:40] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[14:33:40] [Render thread/WARN] [minecraft/VanillaPackResourcesBuilder]: Assets URL 'union:<workspace>/work/stage1-build/moddev/artifacts/neoforge-21.1.264.jar%23184!/assets/.mcassetsroot' uses unexpected schema
+[14:33:40] [Render thread/WARN] [minecraft/VanillaPackResourcesBuilder]: Assets URL 'union:<workspace>/work/stage1-build/moddev/artifacts/neoforge-21.1.264.jar%23184!/data/.mcassetsroot' uses unexpected schema
+[14:33:40] [Render thread/INFO] [mojang/YggdrasilAuthenticationService]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[14:33:40] [Render thread/INFO] [minecraft/Minecraft]: Setting user: Dev
+[14:33:40] [Render thread/INFO] [minecraft/Minecraft]: Backend library: LWJGL version 3.3.3+5
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 0 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+[14:33:40] [modloading-worker-0/INFO] [ne.ne.ne.co.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.264, for MC 1.21.1
+[14:33:41] [modloading-worker-0/INFO] [co.si.cr.Create/]: Create 6.0.10 initializing! Commit hash: c308d004788fce2998bf41653f6d39412b6fc8ed
+[14:33:43] [Render thread/INFO] [ne.ne.ne.ga.GameTestHooks/]: Enabled Gametest Namespaces: []
+[14:33:44] [Render thread/INFO] [minecraft/ReloadableResourceManager]: Reloading ResourceManager: vanilla, mod_resources, mod/flywheel, mod/ponder, mod/create, mod/hbm, mod/neoforge
+[14:33:44] [NeoForge Version Check/INFO] [ne.ne.fm.VersionChecker/]: [create] Starting version check at https://api.modrinth.com/updates/create/forge_updates.json?neoforge=only
+[14:33:44] [Worker-Main-5/INFO] [minecraft/UnihexProvider]: Found unifont_all_no_pua-15.1.05.hex, loading
+[14:33:44] [Worker-Main-7/INFO] [minecraft/UnihexProvider]: Found unifont_jp_patch-15.1.05.hex, loading
+[14:33:44] [Worker-Main-7/WARN] [minecraft/SpriteLoader]: Texture hbm:block/furnace_iron with size 156x68 limits mip level from 4 to 2
+[14:33:45] [NeoForge Version Check/INFO] [ne.ne.fm.VersionChecker/]: [create] Found status: OUTDATED Current: 6.0.10 Target: 6.0.10+mc1.21.1
+[14:33:46] [Worker-Main-4/INFO] [PonderIndex/]: Registering Ponder Scenes took 44.60 ms
+[14:33:46] [Worker-Main-4/INFO] [PonderIndex/]: Registering Ponder Tags took 2.407 ms
+[14:33:47] [Render thread/WARN] [minecraft/SoundEngine]: Missing sound for event: minecraft:item.goat_horn.play
+[14:33:47] [Render thread/WARN] [minecraft/SoundEngine]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[14:33:47] [Render thread/INFO] [mojang/Library]: OpenAL initialized on device Динамики MacBook Air
+[14:33:47] [Render thread/INFO] [minecraft/SoundEngine]: Sound engine started
+[14:33:47] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 2048x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[14:33:47] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[14:33:47] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[14:33:47] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[14:33:47] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 2048x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[14:33:47] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[14:33:47] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[14:33:47] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[14:33:47] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[14:33:47] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[14:33:47] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[14:33:47] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[14:33:47] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[14:33:47] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
+[14:33:47] [Render thread/WARN] [minecraft/ShaderInstance]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[14:33:47] [Render thread/INFO] [flywheel/backend/shaders/]: Loaded 77 shader sources in 13,730 ms
+[14:33:47] [Render thread/INFO] [co.si.cr.Create/]: Loaded 58 train hat configurations.
+[14:33:47] [Render thread/INFO] [ne.ne.ne.cl.en.an.js.AnimationLoader/]: Loaded 0 entity animations
+[14:33:47] [Render thread/WARN] [flywheel/]: Flywheel backend fell back from 'flywheel:indirect' to 'flywheel:instancing'
+[14:33:49] [Render thread/INFO] [co.si.cr.Create/]: Created 157 recipes which will be injected into the game
+[14:33:49] [Render thread/INFO] [co.si.cr.Create/]: Created 0 tags which will be injected into the game
+[14:33:49] [Render thread/INFO] [minecraft/MinecraftServer]: Found new data pack create:dynamic_data, loading it automatically
+[14:33:50] [Render thread/INFO] [minecraft/RecipeManager]: Loaded 2834 recipes
+[14:33:50] [Render thread/INFO] [minecraft/AdvancementTree]: Loaded 2506 advancements
+[14:33:51] [Server thread/INFO] [minecraft/IntegratedServer]: Starting integrated minecraft server version 1.21.1
+[14:33:51] [Server thread/INFO] [minecraft/MinecraftServer]: Generating keypair
+[14:33:55] [Server thread/INFO] [minecraft/MinecraftServer]: Preparing start region for dimension minecraft:overworld
+[14:33:55] [progressListener/INFO] [minecraft/LoggerChunkProgressListener]: Подготовка области возрождения: 2%
+[14:33:55] [progressListener/INFO] [minecraft/LoggerChunkProgressListener]: Подготовка области возрождения: 2%
+[14:33:56] [progressListener/INFO] [minecraft/LoggerChunkProgressListener]: Подготовка области возрождения: 2%
+[14:33:56] [progressListener/INFO] [minecraft/LoggerChunkProgressListener]: Подготовка области возрождения: 14%
+[14:33:57] [progressListener/INFO] [minecraft/LoggerChunkProgressListener]: Подготовка области возрождения: 18%
+[14:33:57] [progressListener/INFO] [minecraft/LoggerChunkProgressListener]: Подготовка области возрождения: 18%
+[14:33:58] [progressListener/INFO] [minecraft/LoggerChunkProgressListener]: Подготовка области возрождения: 38%
+[14:33:58] [progressListener/INFO] [minecraft/LoggerChunkProgressListener]: Подготовка области возрождения: 51%
+[14:33:59] [progressListener/INFO] [minecraft/LoggerChunkProgressListener]: Подготовка области возрождения: 51%
+[14:33:59] [progressListener/INFO] [minecraft/LoggerChunkProgressListener]: Time elapsed: 4377 ms
+[14:33:59] [Server thread/INFO] [ne.ne.ne.se.pe.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[14:33:59] [Server thread/INFO] [minecraft/IntegratedServer]: Changing view distance to 12, from 10
+[14:33:59] [Server thread/INFO] [minecraft/IntegratedServer]: Changing simulation distance to 12, from 0
+[14:33:59] [Render thread/INFO] [co.si.cr.Create/]: Created 157 recipes which will be injected into the game
+[14:33:59] [Render thread/INFO] [co.si.cr.Create/]: Created 0 tags which will be injected into the game
+[14:34:00] [Server thread/INFO] [minecraft/PlayerList]: Dev[local:E:12cc4a33] logged in with entity id 17 at (-84.5, 69.0, -11.5)
+[14:34:00] [Server thread/INFO] [minecraft/MinecraftServer]: Dev присоединился к игре
+[14:34:00] [Render thread/WARN] [flywheel/]: Flywheel backend fell back from 'flywheel:indirect' to 'flywheel:instancing'
+[14:34:00] [Render thread/INFO] [flywheel/]: Started 2 worker threads
+[14:34:00] [Render thread/INFO] [minecraft/AdvancementTree]: Loaded 2 advancements
+[14:34:03] [Server thread/INFO] [minecraft/MinecraftServer]: Dev получил достижение «[Алмазы!]»
+[14:34:03] [Render thread/INFO] [minecraft/ChatComponent]: [System] [CHAT] Dev получил достижение «[Алмазы!]»
+[14:34:03] [Render thread/INFO] [minecraft/AdvancementTree]: Loaded 26 advancements
+[14:34:05] [Render thread/INFO] [minecraft/AdvancementTree]: Loaded 28 advancements
+[14:34:07] [Render thread/INFO] [co.hb.po.te.StorageCrateClientSmoke/]: HBM CRATE CLIENT SMOKE PASSED: original GUIs, 36/54 slots, real network shift-click, moving Create GUI, nesting rejection and modified contents after disassembly
+[14:34:08] [Render thread/INFO] [minecraft/Minecraft]: Stopping!
+[14:34:08] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: Dev lost connection: Отключение
+[14:34:08] [Server thread/INFO] [minecraft/MinecraftServer]: Dev покинул игру
+[14:34:08] [Server thread/INFO] [minecraft/ServerCommonPacketListenerImpl]: Stopping singleplayer server as player logged out
+[14:34:08] [Server thread/INFO] [minecraft/MinecraftServer]: Stopping server
+[14:34:08] [Server thread/INFO] [minecraft/MinecraftServer]: Saving players
+[14:34:08] [Server thread/INFO] [minecraft/MinecraftServer]: Saving worlds
+[14:34:09] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[HBM stage 4 crates]'/minecraft:overworld
+[14:34:09] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[HBM stage 4 crates]'/minecraft:the_end
+[14:34:10] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[HBM stage 4 crates]'/minecraft:the_nether
+[14:34:10] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (hbm-stage4-smoke-1793439229591): All chunks are saved
+[14:34:10] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[14:34:10] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[14:34:10] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage: All dimensions are saved
+
+[Incubating] Problems report is available at: file://<workspace>/outputs/hbm-1.21.1/build/reports/problems/problems-report.html
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 10.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/9.2.1/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 57s
+11 actionable tasks: 5 executed, 6 up-to-date

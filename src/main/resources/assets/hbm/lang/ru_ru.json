@@ -13,5 +13,8 @@
   "block.hbm.ore_lead": "Свинцовая руда",
   "block.hbm.furnace_iron": "Железная печь",
   "container.hbm.furnace_iron": "Железная печь",
-  "tooltip.hbm.upgrades_pending": "Улучшения будут добавлены на следующем этапе"
+  "tooltip.hbm.upgrades_pending": "Улучшения будут добавлены на следующем этапе",
+  "block.hbm.crate_iron": "Железный ящик",
+  "block.hbm.crate_steel": "Стальной ящик",
+  "tooltip.hbm.crate_slots": "Слотов: %s"
 }

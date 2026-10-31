@@ -12,6 +12,9 @@ The material textures, iron-furnace texture and GUI are copied without modificat
 from that source. Iron-furnace OBJ vertex/UV/normal data are preserved; group
 selection and material bindings are adapted to the NeoForge OBJ loader.
 See `iron-furnace-provenance.json` and `tools/import_iron_furnace.py`.
+Iron/steel crate textures, GUIs and sounds are copied byte-for-byte from X5687;
+sound filenames are lowercased for modern resource identifiers.
+See `crate-provenance.json` and `tools/import_crates.py`.
 See `provenance.json` for checksums and `LICENSE` / `LICENSE.LESSER` for the
 upstream license. This derivative is distributed under LGPL-3.0-or-later.
 The original HBM mod and its developers do not endorse this port.
