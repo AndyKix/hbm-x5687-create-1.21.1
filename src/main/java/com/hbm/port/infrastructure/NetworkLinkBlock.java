@@ -36,7 +36,8 @@ public final class NetworkLinkBlock extends BaseEntityBlock {
             return type!=FluidKind.NONE&&level instanceof Level world&&world.getCapability(Capabilities.FluidHandler.BLOCK,target,side.getOpposite())!=null;
         }
         if(state.getBlock() instanceof NetworkLinkBlock link)return !link.fluid;
-        return state.getBlock() instanceof EnergySocketBlock&&EnergySocketBlock.isPort(state,side.getOpposite());
+        return state.getBlock() instanceof EnergySocketBlock&&EnergySocketBlock.isPort(state,side.getOpposite())
+                || level.getBlockEntity(target) instanceof HeNetworkNode&&!(state.getBlock() instanceof EnergySocketBlock);
     }
     private BlockState connections(BlockState state,LevelAccessor level,BlockPos pos){
         int mask=0;for(var side:Direction.values())if(connects(level,pos,side,fluid,state.getValue(FLUID)))mask|=bit(side);

@@ -8,6 +8,7 @@
     "hbm:fluid_duct_neo",
     "hbm:furnace_iron",
     "hbm:machine_battery_socket",
+    "hbm:machine_electric_furnace_off",
     "hbm:ore_alexandrite",
     "hbm:ore_depth_borax",
     "hbm:ore_depth_cinnebar",

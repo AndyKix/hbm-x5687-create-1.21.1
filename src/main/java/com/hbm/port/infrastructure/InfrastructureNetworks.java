@@ -35,12 +35,14 @@ public final class InfrastructureNetworks {
     public static void tick(ServerLevel level){
         var state=LEVELS.get(level);if(state==null)return;state.rebuildIfNeeded(level);
         for(var network:state.energy){
-            var accounts=new ArrayList<TransferPlanner.Account<EnergySocketBlockEntity>>();
-            for(var socket:network)if(live(level,socket))accounts.add(new TransferPlanner.Account<>(socket,socket.available(),socket.demand(),socket.priority));else state.dirty=true;
-            var plan=TransferPlanner.plan(accounts,level.getGameTime());var changed=new ArrayList<EnergySocketBlockEntity>();
+            var accounts=new ArrayList<TransferPlanner.Account<BlockEntity>>();
+            for(var be:network)if(live(level,be)){
+                var node=(HeNetworkNode)be;accounts.add(new TransferPlanner.Account<>(be,node.available(),node.demand(),node.networkPriority()));
+            }else state.dirty=true;
+            var plan=TransferPlanner.plan(accounts,level.getGameTime());var changed=new ArrayList<BlockEntity>();
             for(var account:accounts){
                 var socket=account.owner();long in=plan.incoming().getOrDefault(socket,0L),out=plan.outgoing().getOrDefault(socket,0L);
-                if(in!=0||out!=0){socket.commit(in,out);changed.add(socket);}
+                if(in!=0||out!=0){((HeNetworkNode)socket).commit(in,out);changed.add(socket);}
             }
             for(var socket:changed)socket.setChanged();
         }
@@ -69,7 +71,7 @@ public final class InfrastructureNetworks {
     private static final class State {
         final Map<BlockPos,BlockEntity> nodes=new TreeMap<>(POS);
         boolean dirty=true;
-        List<List<EnergySocketBlockEntity>> energy=List.of();
+        List<List<BlockEntity>> energy=List.of();
         List<FluidNetwork> fluids=List.of();
         Map<NetworkLinkBlockEntity,List<SteelBarrelBlockEntity>> pipeTanks=new IdentityHashMap<>();
         void rebuildIfNeeded(ServerLevel level){
@@ -85,9 +87,9 @@ public final class InfrastructureNetworks {
                 }).toList();
                 if(!loaded.isEmpty()){positions.put(be,loaded);for(var cell:loaded)cells.put(cell,be);}
             }
-            var visited=new HashSet<BlockPos>();var result=new ArrayList<List<EnergySocketBlockEntity>>();
+            var visited=new HashSet<BlockPos>();var result=new ArrayList<List<BlockEntity>>();
             for(var start:cells.keySet()){
-                if(!visited.add(start))continue;var queue=new ArrayDeque<BlockPos>();queue.add(start);var sockets=new LinkedHashSet<EnergySocketBlockEntity>();
+                if(!visited.add(start))continue;var queue=new ArrayDeque<BlockPos>();queue.add(start);var sockets=new LinkedHashSet<BlockEntity>();
                 while(!queue.isEmpty()){
                     var pos=queue.removeFirst();var owner=cells.get(pos);
                     if(owner instanceof EnergySocketBlockEntity socket)sockets.add(socket);
@@ -95,7 +97,11 @@ public final class InfrastructureNetworks {
                     for(var side:Direction.values()){
                         if(owner instanceof EnergySocketBlockEntity&&side.getAxis().isVertical())continue;
                         var target=pos.relative(side);var neighbor=cells.get(target);
-                        if(neighbor==null||neighbor instanceof EnergySocketBlockEntity&&side.getAxis().isVertical())continue;
+                        if(neighbor==null){
+                            if(nodes.get(target) instanceof HeNetworkNode&&!(nodes.get(target) instanceof EnergySocketBlockEntity))sockets.add(nodes.get(target));
+                            continue;
+                        }
+                        if(neighbor instanceof EnergySocketBlockEntity&&side.getAxis().isVertical())continue;
                         if(visited.add(target))queue.add(target);
                     }
                 }

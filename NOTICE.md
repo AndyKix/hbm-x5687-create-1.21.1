@@ -35,3 +35,7 @@ capabilities, menus and loaded-chunk lifecycle. Source textures/GUI are copied
 byte-for-byte; original OBJ groups are selected, origin/orientation translated
 and native materials/colors bound. See infrastructure-provenance.json,
 tools/import_infrastructure.py and STAGE6_MAPPING.md for exact scope and changes.
+
+The base electric furnace adapts TileEntityMachineElectricFurnace and its native
+GUI/automation to 1.21.1; original five block textures and GUI are copied unchanged.
+See electric-furnace-provenance.json and STAGE7_MAPPING.md for scope and differences.

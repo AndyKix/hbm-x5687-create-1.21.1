@@ -1,0 +1,13 @@
+{
+  "upstream_commit": "23ef33447280d83d44c1f7bcd3853fe59c0ec1fc",
+  "source_assets_sha256": {
+    "textures/blocks/machine_electric_furnace_front_on.png": "acb69c107e38ab749976a118415905ca13a5e8589815b3e5e69c509e11304b42",
+    "textures/blocks/machine_electric_furnace_front_off.png": "7dfbf6faa8423b019de0d210b969a13d493a785c186bd2a9933503989d39f54b",
+    "textures/blocks/machine_electric_furnace_side.png": "13282102bb8275e58b68d2679ce73ea602072b061ceadd099f961ef4c45e09b4",
+    "textures/blocks/machine_electric_furnace_top.png": "154c2cf958ebdc233039b582deff152fd6df3ccfa12ab03e2018101e5970a099",
+    "textures/blocks/machine_electric_furnace_bottom.png": "cdee5617e488542245eb1d4e536104ad2a14fb08d018ab73a8897c73293dafc7",
+    "textures/gui/GUIElectricFurnace.png": "c87ded82d7234f23f096b3d89638f13a5d2cccd42a74d3362675321c976083bd"
+  },
+  "scope": "Base electric furnace only. Merge old off/on block IDs into native lit property; upgrades, soot and dependent production recipe deferred.",
+  "source_recipe": "CraftingManager.java:248: BBB / WFW / RRR; B beryllium ingot, W cast copper plate, F furnace, R tungsten coil. Do not bypass missing coil production."
+}

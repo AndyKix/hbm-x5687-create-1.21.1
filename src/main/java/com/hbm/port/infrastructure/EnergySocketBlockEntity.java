@@ -13,7 +13,7 @@ import net.neoforged.neoforge.items.IItemHandler;
 import net.neoforged.neoforge.items.wrapper.SidedInvWrapper;
 import java.util.*;
 
-public final class EnergySocketBlockEntity extends BaseContainerBlockEntity implements WorldlyContainer,HeStorage {
+public final class EnergySocketBlockEntity extends BaseContainerBlockEntity implements WorldlyContainer,HeNetworkNode {
     private NonNullList<ItemStack> items=NonNullList.withSize(1,ItemStack.EMPTY);
     private final IItemHandler itemHandler=new SidedInvWrapper(this,Direction.DOWN);
     public int lowMode=0,highMode=2,priority=1;
@@ -76,10 +76,11 @@ public final class EnergySocketBlockEntity extends BaseContainerBlockEntity impl
         if(!simulate && accepted>0){commit(0,accepted);setChanged();}return accepted;
     }
     /** Network commits all accounts before any comparator/neighbour callbacks. */
-    void commit(long incoming,long outgoing){
+    public void commit(long incoming,long outgoing){
         resetBudget();var stack=items.getFirst();
         if(stack.getItem() instanceof BatteryItem item){item.setCharge(stack,stored()+incoming-outgoing);received+=incoming;provided+=outgoing;}
     }
+    public int networkPriority(){return priority;}
     public int comparator(){return (int)Math.round(15D*stored()/Math.max(1,capacity()));}
     void observeTick(){
         long power=stored();long average=previous/2+power/2+((previous&1)+(power&1))/2;

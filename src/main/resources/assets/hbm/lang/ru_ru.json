@@ -172,5 +172,7 @@
   "tooltip.hbm.tikite_processing_pending": "Эти перерабатывающие машины будут перенесены на следующих этапах",
   "container.hbm.battery_socket": "Аккумуляторная станция",
   "container.hbm.barrel_steel": "Стальная бочка",
-  "container.hbm.fluid_identifier": "Идентификатор жидкости"
+  "container.hbm.fluid_identifier": "Идентификатор жидкости",
+  "block.hbm.machine_electric_furnace_off": "Электропечь",
+  "container.hbm.electric_furnace": "Электропечь"
 }

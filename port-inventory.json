@@ -2,7 +2,7 @@
   "upstream_tag": "1.0.27_X5687",
   "upstream_commit": "23ef33447280d83d44c1f7bcd3853fe59c0ec1fc",
   "target": "Minecraft 1.21.1 / NeoForge",
-  "note": "Independent partial X5687 port: natural solid resources/direct recipes, geology, iron furnace/crates, long HE socket/cable foundation and water/lava barrels/ducts with native fluid handlers. Generators, production consumers, advanced fluids, hazards and complex products remain. Not a full port.",
+  "note": "Independent partial X5687 port: natural solid resources/direct recipes, geology, iron/electric base furnaces and crates, long HE socket/cable foundation and water/lava barrels/ducts with native fluid handlers. Generators, production consumers, advanced fluids, hazards and complex products remain. Not a full port.",
   "java_sources": [
     {
       "source": "api/hbm/block/IBlowable.java",
@@ -1748,7 +1748,9 @@
     },
     {
       "source": "com/hbm/blocks/machine/MachineElectricFurnace.java",
-      "status": "not_ported"
+      "status": "partial_native_stage7",
+      "scope": "Base HE electric furnace only; upgrades/pollution/production recipe deferred. See STAGE7_MAPPING.md.",
+      "modern_source": "src/main/java/com/hbm/port/machine/ElectricFurnaceBlockEntity.java"
     },
     {
       "source": "com/hbm/blocks/machine/MachineElectrolyser.java",
@@ -4848,7 +4850,9 @@
     },
     {
       "source": "com/hbm/inventory/container/ContainerElectricFurnace.java",
-      "status": "not_ported"
+      "status": "partial_native_stage7",
+      "scope": "Base HE electric furnace only; upgrades/pollution/production recipe deferred. See STAGE7_MAPPING.md.",
+      "modern_source": "src/main/java/com/hbm/port/machine/ElectricFurnaceBlockEntity.java"
     },
     {
       "source": "com/hbm/inventory/container/ContainerElectrolyser.java",
@@ -5764,7 +5768,9 @@
     },
     {
       "source": "com/hbm/inventory/gui/GUIMachineElectricFurnace.java",
-      "status": "not_ported"
+      "status": "partial_native_stage7",
+      "scope": "Base HE electric furnace only; upgrades/pollution/production recipe deferred. See STAGE7_MAPPING.md.",
+      "modern_source": "src/main/java/com/hbm/port/machine/ElectricFurnaceBlockEntity.java"
     },
     {
       "source": "com/hbm/inventory/gui/GUIMachineExcavator.java",
@@ -11876,7 +11882,9 @@
     },
     {
       "source": "com/hbm/tileentity/machine/TileEntityMachineElectricFurnace.java",
-      "status": "not_ported"
+      "status": "partial_native_stage7",
+      "scope": "Base HE electric furnace only; upgrades/pollution/production recipe deferred. See STAGE7_MAPPING.md.",
+      "modern_source": "src/main/java/com/hbm/port/machine/ElectricFurnaceBlockEntity.java"
     },
     {
       "source": "com/hbm/tileentity/machine/TileEntityMachineExcavator.java",
@@ -13691,5 +13699,6 @@
     ],
     "scope": "Initial HE and water/lava infrastructure only; See STAGE6_MAPPING.md for boundaries/modern fixes",
     "provenance": "infrastructure-provenance.json"
-  }
+  },
+  "electric_furnace_scope": "STAGE7_MAPPING.md"
 }

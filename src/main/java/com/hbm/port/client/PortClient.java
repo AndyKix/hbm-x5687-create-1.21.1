@@ -27,6 +27,7 @@ public final class PortClient {
                 com.hbm.port.infrastructure.InfrastructureContent.IDENTIFIER.get());
     }
     @SubscribeEvent public static void screens(RegisterMenuScreensEvent event) {
+        event.register(com.hbm.port.machine.ElectricFurnaceContent.MENU.get(), ElectricFurnaceScreen::new);
         event.register(com.hbm.port.infrastructure.InfrastructureContent.SOCKET_MENU.get(), EnergySocketScreen::new);
         event.register(com.hbm.port.infrastructure.InfrastructureContent.BARREL_MENU.get(), SteelBarrelScreen::new);
         event.register(com.hbm.port.infrastructure.InfrastructureContent.IDENTIFIER_MENU.get(), FluidIdentifierScreen::new);

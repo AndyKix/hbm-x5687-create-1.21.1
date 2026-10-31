@@ -172,5 +172,7 @@
   "tooltip.hbm.tikite_processing_pending": "These processing machines are planned for a later stage",
   "container.hbm.battery_socket": "Battery Socket",
   "container.hbm.barrel_steel": "Steel Barrel",
-  "container.hbm.fluid_identifier": "Fluid Identifier"
+  "container.hbm.fluid_identifier": "Fluid Identifier",
+  "block.hbm.machine_electric_furnace_off": "Electric Furnace",
+  "container.hbm.electric_furnace": "Electric Furnace"
 }
