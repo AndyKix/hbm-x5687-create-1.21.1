@@ -1,0 +1,2 @@
+# Preserve byte-identical CRLF animation metadata copied from official X5687.
+*.png.mcmeta -text whitespace=cr-at-eol
